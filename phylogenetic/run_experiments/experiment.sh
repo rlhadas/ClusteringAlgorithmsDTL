@@ -19,6 +19,7 @@ do
 	
 	TYPE=${DESCRIPTIONS[$index]}
 	index=$(let index+=1)
+	echo "Running: $TYPE"
 	
 	# Create output directory for files 
 	NOW=$(date +%Y-%m-%d:%H:%M:%S)
