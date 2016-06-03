@@ -1,0 +1,1 @@
+The folder contains the scripts for running experiments of k centers and k medoids on the tree of life data. 
