@@ -1,8 +1,5 @@
 import nni
 
-T = nni.test_conjecture(6, 1000)
-
-if T is None:
-    print "no counterexamples found"
-else:
-    print "counterexample found!"
+pg = lambda g : nni.pprint(dict(g))
+T12 = nni.test_conjecture(6, 1000)
+T100 = nni.test_conjecture(100, 1000)
