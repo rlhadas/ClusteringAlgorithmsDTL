@@ -33,10 +33,10 @@ do
 
 
 	# Run specified method on each file for the tree of life data 
-	INPUT_FILES=("$(echo ../TreeLifeData/*.newick)")
-	XYZ=${INPUT_FILES[@]:0:2}
+	#INPUT_FILES=("$(echo ../TreeLifeData/*.newick)")
+	INPUT_FILES=("../TreeLifeData/COG0001.newick" "../TreeLifeData/COG0002.newick")
 	cd $RUN_DIR
-	for INPUT in $XYZ
+	for INPUT in $INPUT_FILES
 	do
 		BASE_FILE=$(basename $INPUT)
 		echo "Currently working on file: $BASE_FILE"
