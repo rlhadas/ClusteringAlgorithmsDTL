@@ -55,12 +55,12 @@ def isize_factory(T):
         else:
             isize.table[args] = int(t1[0] == t2[0])
         return isize.table[args]
-    isize.table = defaultdict(int)
+    isize.table = {}
     return isize
 
-def reconciled(T, sizef):
+def overlap(T):
     """
-    determines whether a tree T is reconcilable and returns True/False
+    returns the overlap of T
     """
     pass
 
@@ -69,11 +69,11 @@ def nni_cost(T, sizef, (u, v, uswap, vswap)):
     returns cost of an NNI centered along edge (u,v) where
     branch rooted at uswap will be swapped with branch centered of vswap
     """
-    cu, cv = T[u][:], T[v][:]
-    cu.remove(uswap)
-    cv.remove(vswap)
-    ustay = cu[0]
-    vstay = cv[0]
+    chu, chv = T[u][:], T[v][:]
+    chu.remove(uswap)
+    chv.remove(vswap)
+    ustay = chu[0]
+    vstay = chv[0]
     utuw = sizef(u, ustay, u, uswap)
     vtvw = sizef(v, vstay, v, vswap)
     utvw = sizef(u, ustay, v, vswap)
@@ -106,6 +106,16 @@ def testNNI(T):
     """
     tests a tree to see if it satisfies the NNI conjecture
     """
-    pass
-
-
+    cost = overlap(T)
+    while cost > 0:
+        isize = isize_factory(T)
+        NNIs = {}
+        for nni in list_NNIs(T):
+            NNIs[nni] = nni_cost(T, isize, nni)
+        (best_nni, best_cost) = min(NNIs.items(), key = lambda (k,v) : v)
+        if best_cost >= 0:
+            return False
+        nni_swap(T,best_nni)
+        cost += best_cost
+    assert cost == 0
+    return True
