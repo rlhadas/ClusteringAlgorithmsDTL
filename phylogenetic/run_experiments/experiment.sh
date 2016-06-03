@@ -14,11 +14,21 @@ DESCRIPTIONS=("kmedoids_pointcollect_" "kmedoids_random_" "kcenters_")
 index=0
 START_LOC=$(pwd)
 
-for PYTHON_PATH in $SCRIPTS
+
+# for index in ${!array[*]}; do 
+#   echo "${array[$index]} is in ${array2[$index]}"
+# done
+
+
+#   echo "${array[$index]} is in ${array2[$index]}"
+# done
+
+
+for index in ${!SCRIPTS[*]}
 do
-	
+	PYTHON_PATH=${SCRIPTS[$index]}
 	TYPE=${DESCRIPTIONS[$index]}
-	index=$(let index+=1)
+	#index=$(let index+=1)
 	echo "Running: $TYPE"
 	echo "For file: $PYTHON_PATH"
 	
