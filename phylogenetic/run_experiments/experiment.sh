@@ -12,7 +12,7 @@ SCRIPTS=("../cluster/FromNewick.py" "../cluster/FromNewick_random.py" "../cluste
 DESCRIPTIONS=("kmedoids_pointcollect_" "kmedoids_random_" "kcenters_")
 
 START_LOC=$(pwd)
-INPUT_FILES=("$(echo ../TreeLifeData/*.newick)")
+INPUT_FILES=("$(echo ../TreeLifeData_small/*.newick)")
 
 
 for index in ${!SCRIPTS[*]}
