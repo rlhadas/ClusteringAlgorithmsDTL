@@ -18,7 +18,7 @@ for PYTHON_PATH in $SCRIPTS
 do
 	
 	TYPE=${DESCRIPTIONS[$index]}
-	index=$(( $index + 1 ))
+	index=$(let index+=1)
 	
 	# Create output directory for files 
 	NOW=$(date +%Y-%m-%d:%H:%M:%S)
