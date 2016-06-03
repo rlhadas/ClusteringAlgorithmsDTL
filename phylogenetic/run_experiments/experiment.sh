@@ -20,6 +20,7 @@ do
 	TYPE=${DESCRIPTIONS[$index]}
 	index=$(let index+=1)
 	echo "Running: $TYPE"
+	echo "For file: $PYTHON_PATH"
 	
 	# Create output directory for files 
 	NOW=$(date +%Y-%m-%d:%H:%M:%S)
@@ -33,7 +34,7 @@ do
 
 	# Run specified method on each file for the tree of life data 
 	INPUT_FILES=("$(echo ../TreeLifeData/*.newick)")
-	XYZ=("${INPUT_FILES[@]:1:2}")
+	XYZ=("${INPUT_FILES[@]:1:3}")
 	cd $RUN_DIR
 	for INPUT in $XYZ
 	do
