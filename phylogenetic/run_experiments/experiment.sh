@@ -5,11 +5,11 @@
 MAX_K=1
 
 # Full path of each python file with script
-SCRIPTS=("../cluster/FromNewick.py" "../cluster/FromNewick_random.py")
+SCRIPTS=("../cluster/FromNewick.py" "../cluster/FromNewick_random.py" "../cluster/k_centers.py")
 
 # Names for each type of run, must match element by element with Scripts 
 # For the naming of the output directory, leave underscore at the end 
-DESCRIPTIONS=("kmedoids_pointcollect_" "kmedoids_random_")
+DESCRIPTIONS=("kmedoids_pointcollect_" "kmedoids_random_" "kcenters_")
 
 index=0
 START_LOC=$(pwd)
@@ -32,8 +32,9 @@ do
 
 	# Run specified method on each file for the tree of life data 
 	INPUT_FILES=("$(echo ../TreeLifeData/*.newick)")
+	XYZ=("${INPUT_FILES[@]:1:2}")
 	cd $RUN_DIR
-	for INPUT in $INPUT_FILES
+	for INPUT in $XYZ
 	do
 		BASE_FILE=$(basename $INPUT)
 		echo "Currently working on file: $BASE_FILE"
