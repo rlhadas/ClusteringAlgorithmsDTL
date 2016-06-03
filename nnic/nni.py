@@ -15,6 +15,7 @@ random.seed(0)
 #
 ####
 
+
 def random_tree(n):
     """create a random tree with 2n leaves and n locus pairs"""
     U = [(i,False) for i in range(n)]+[(i,True) for i in range(n)]
@@ -80,8 +81,8 @@ def nni_cost(T, sizef, (u, v, uswap, vswap)):
     cost_dec = utvw + uwvt
     utvt = sizef(u, ustay, v, vstay)
     uwvw = sizef(u, uswap, v, vswap)
-    empty_b = sizef(v, u, u, v) > 0
-    empty_a = utuw + vtvw + utvt + uwvw > 0
+    empty_b = sizef(v, u, u, v) == 0
+    empty_a = utuw + vtvw + utvt + uwvw == 0
     dempty = empty_a-empty_b
     assert 1 >= dempty >= -1
     return cost_inc - cost_dec + dempty
@@ -100,7 +101,7 @@ def nni_swap(T, (u, v, uswap, vswap)):
     T[uswap].append(v)
     T[vswap].remove(v)
     T[vswap].append(u)
-
+    
 def iedgelist(T):
     """
     returns a list of internal edges in T w/ no duplicates
@@ -142,9 +143,7 @@ def testNNI(T):
     cost = overlap(T)
     while cost > 0:
         isize = isize_factory(T)
-        NNIs = {}
-        for nni in list_NNIs(T):
-            NNIs[nni] = nni_cost(T, isize, nni)
+        NNIs = {nni : nni_cost(T, isize, nni) for nni in list_NNIs(T)}
         (best_nni, best_cost) = min(NNIs.items(), key = lambda (k,v) : v)
         if best_cost >= 0:
             return False
@@ -153,12 +152,12 @@ def testNNI(T):
     assert cost == 0
     return True
 
-def test_conjecture(size, number):
+def test_conjecture(size, number, seed = 0):
+    random.seed(seed)
     for n in xrange(number):
         rt = random_tree(size)
         if not testNNI(rt):
             return rt
-
-#run tests
+        
 execfile('test.py')
         

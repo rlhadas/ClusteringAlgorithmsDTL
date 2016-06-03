@@ -1,5 +1,16 @@
 from copy import deepcopy
 
+def valid_tree(T):
+    """
+    determines whether a tree is valid
+    """
+    for u in T:
+        for v in T[u]:
+            if u not in T[v]:
+                print u, v
+                return False
+    return True
+
 T = random_tree(5)
 
 assert len(T) == 18
@@ -29,7 +40,7 @@ Tl = {(0, False) : [(6, None)],
       
       (6, None) : [(0, False), (1, False), (12, None)],
       (7, None) : [(2, False), (3, False), (12, None)],
-      (8, None) : [(2, True), (2, True), (13, None)],
+      (8, None) : [(2, True), (3, True), (13, None)],
       (9, None) : [(4, False), (5, False), (13, None)],
       (10, None) : [(4, True), (5, True), (14, None)],
       (11, None) : [(0, True), (1, True), (14, None)],
@@ -47,6 +58,10 @@ Ts = {(0, True) : [(2,None)],
       
       (2, None) : [(0, True), (1, True), (3, None)],
       (3, None) : [(0, False), (1, False), (2, None)]}
+
+assert valid_tree(T)
+assert valid_tree(Tl)
+assert valid_tree(Ts)
 
 assert overlap(Tl) == 15
 assert overlap(Ts) == 1
@@ -72,12 +87,12 @@ nni_swap(Ts2, nni0)
 
 assert overlap(Ts2) == 0
 
-assert Ts2[(0, True)] == [i(2)]
-assert Ts2[(0, False)] == [i(2)]
-assert Ts2[(1, True)] == [i(3)]
-assert Ts2[(1, False)] == [i(3)]
-assert sorted(Ts2[i(2)]) == [(0, False), (0, True), i(3)]
-assert sorted(Ts2[i(3)]) == [(1, False), (1, True), i(2)]
+assert Ts2[(0, True)] == [i(3)]
+assert Ts2[(0, False)] == [i(3)]
+assert Ts2[(1, True)] == [i(2)]
+assert Ts2[(1, False)] == [i(2)]
+assert sorted(Ts2[i(2)]) == [(1, False), (1, True), i(3)]
+assert sorted(Ts2[i(3)]) == [(0, False), (0, True), i(2)]
 
 for i in range(20):
     Tlc = deepcopy(Tl)
@@ -99,4 +114,4 @@ assert testNNI(deepcopy(Tl))
 assert testNNI(deepcopy(Ts))
 
 for i in range(2,6):
-    assert test_conjecture(i, 10)
+    assert test_conjecture(i, 10) is None
