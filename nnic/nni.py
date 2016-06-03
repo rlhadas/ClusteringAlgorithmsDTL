@@ -46,15 +46,15 @@ def isize_factory(T):
         if args in isize.table:
             return isize.table[args]
         elif notleaf(t1):
-            isize.table[args] = sum((isize(T, t1, ch, p2, t2) for ch in enumerate(T[t1]) if p1 != ch))
+            isize.table[args] = sum((isize(t1, ch, p2, t2)
+                                     for ch in enumerate(T[t1]) if p1 != ch))
         elif notleaf(t2):
-            isize.table[args] = isize(T, p2, t2, p1, t1)
+            isize.table[args] = isize(p2, t2, p1, t1)
         else:
             isize.table[args] = int(t1[0] == t2[0])
         return isize.table[args]
     isize.table = {}
     return isize
-
 
 def nni_cost(T, sizef, (u, v, uswap, vswap)):
     """
@@ -72,7 +72,7 @@ def nni_cost(T, sizef, (u, v, uswap, vswap)):
     uwvt = sizef(u, uswap, v, vstay)
     cost_inc = utuw + vtvw
     cost_dec = utvw + uwvt
-    utvt = sizef(u, ustay, v, vtsay)
+    utvt = sizef(u, ustay, v, vstay)
     uwvw = sizef(u, uswap, v, vswap)
     empty_b = sizef(v, u, u, v) > 0
     empty_a = utuw + vtvw + utvt + uwvw > 0
@@ -119,8 +119,8 @@ def list_NNIs(T):
     """
     nnis = []
     for (u,v) in iedgelist(T):
-        nnis.append(u,v,T[u][1],T[v][0])
-        nnis.append(u,v,T[u][1],T[v][1])
+        nnis.append((u,v,T[u][1],T[v][0]))
+        nnis.append((u,v,T[u][1],T[v][1]))
     return nnis
 
 def testNNI(T):
@@ -140,3 +140,11 @@ def testNNI(T):
         cost += best_cost
     assert cost == 0
     return True
+
+def test_conjecture(size, number):
+    for n in xrange(number):
+        rt = random_tree(size)
+        if not testNNI(rt):
+            return rt
+
+T = test_conjecture(12,1000)
