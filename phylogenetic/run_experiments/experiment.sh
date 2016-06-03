@@ -34,8 +34,7 @@ do
 
 	# Run specified method on each file for the tree of life data 
 	INPUT_FILES=("$(echo ../TreeLifeData/*.newick)")
-	XYZ=("${INPUT_FILES[@]:1:3}")
-	echo $XYZ
+	XYZ=${INPUT_FILES[@]:0:2}
 	cd $RUN_DIR
 	for INPUT in $XYZ
 	do
