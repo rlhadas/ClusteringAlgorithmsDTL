@@ -1,4 +1,4 @@
-import nni
+from copy import deepcopy
 
 T = random_tree(5)
 
@@ -6,7 +6,7 @@ assert len(T) == 18
 for x in range(5):
     assert (x,True) in T
     assert (x,False) in T
-for x in range(5,18):
+for x in range(5,13):
     assert (x,None) in T
 for k, v in T.items():
     if notleaf(k):
@@ -59,16 +59,44 @@ assert sorted(iedgelist(Tl)) == [(i(12), i(6)), (i(12), i(7)),
                                
 assert iedgelist(Ts) == [(i(3), i(2))]
 
-assert [] in list_NNIs(Tl)
-assert (i(3), i(2), (0, False), (1, True)) in list_NNIs(Ts)
-assert (i(3), i(2), (1, False), (0, True)) in list_NNIs(Ts)
+assert list_NNIs(Ts) == [(i(3), i(2), (1, False), (0, True)), 
+                         (i(3), i(2), (1, False), (1, True))]
 
-#nni_cost / overlap
-#nni_swap
-#list_NNIs
+assert (i(15), i(13), i(14), i(8)) in list_NNIs(Tl)
 
-assert testNNI(Tl)
-assert testNNI(Ts)
+Ts2 = deepcopy(Ts)
+nni0 = list_NNIs(Ts2)[0]
+
+assert nni_cost(Ts2, isize_factory(Ts2), nni0) == -1
+nni_swap(Ts2, nni0)
+
+assert overlap(Ts2) == 0
+
+assert Ts2[(0, True)] == [i(2)]
+assert Ts2[(0, False)] == [i(2)]
+assert Ts2[(1, True)] == [i(3)]
+assert Ts2[(1, False)] == [i(3)]
+assert sorted(Ts2[i(2)]) == [(0, False), (0, True), i(3)]
+assert sorted(Ts2[i(3)]) == [(1, False), (1, True), i(2)]
+
+for i in range(20):
+    Tlc = deepcopy(Tl)
+    n = random.choice(list_NNIs(Tlc))
+    c = nni_cost(Tlc, isize_factory(Tlc), n)
+    nni_swap(Tlc,n)
+    assert overlap(Tlc) == 15+c
+
+for i in range(20):
+    RT = random_tree(10)
+    o0 = overlap(RT)
+    n = random.choice(list_NNIs(RT))
+    c = nni_cost(RT, isize_factory(RT), n)
+    nni_swap(RT,n)
+    o1 = overlap(RT)
+    assert o0 + c == o1
+
+assert testNNI(deepcopy(Tl))
+assert testNNI(deepcopy(Ts))
 
 for i in range(2,6):
     assert test_conjecture(i, 10)
