@@ -2,7 +2,7 @@
 
 ## Before running, must see the following parameters:
 # maximum value for k, parameter from k centers and k medoids 
-MAX_K=1
+MAX_K=2
 
 # Full path of each python file with script
 SCRIPTS=("../cluster/FromNewick.py" "../cluster/FromNewick_random.py" "../cluster/k_centers.py")
@@ -11,9 +11,10 @@ SCRIPTS=("../cluster/FromNewick.py" "../cluster/FromNewick_random.py" "../cluste
 # For the naming of the output directory, leave underscore at the end 
 DESCRIPTIONS=("kmedoids_pointcollect_" "kmedoids_random_" "kcenters_")
 
-index=0
+#index=0
 START_LOC=$(pwd)
-
+#INPUT_FILES=("$(echo ../TreeLifeData/*.newick)")
+INPUT_FILES=("../TreeLifeData/COG0001.newick" "../TreeLifeData/COG0002.newick")
 
 # for index in ${!array[*]}; do 
 #   echo "${array[$index]} is in ${array2[$index]}"
@@ -43,8 +44,8 @@ do
 
 
 	# Run specified method on each file for the tree of life data 
-	#INPUT_FILES=("$(echo ../TreeLifeData/*.newick)")
-	INPUT_FILES=("../TreeLifeData/COG0001.newick" "../TreeLifeData/COG0002.newick")
+	
+	
 	cd $RUN_DIR
 	for INPUT in $INPUT_FILES
 	do
