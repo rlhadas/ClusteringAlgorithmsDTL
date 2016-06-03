@@ -140,3 +140,4 @@ def testNNI(T):
         cost += best_cost
     assert cost == 0
     return True
+
