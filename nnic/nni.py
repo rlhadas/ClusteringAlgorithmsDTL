@@ -34,7 +34,15 @@ def random_tree(n):
     return d
 
 def notleaf(t):
+    """determine if t is an internal node"""
     return t[1] is None
+
+def ch(T, t, ps):
+    """return the childen of t in T less parents ps"""
+    children = T[t][:]
+    for p in ps:
+        children.remove(p)
+    return children
 
 def isize_factory(T):
     def isize(p1, t1, p2, t2):
@@ -46,8 +54,8 @@ def isize_factory(T):
         if args in isize.table:
             return isize.table[args]
         elif notleaf(t1):
-            isize.table[args] = sum((isize(t1, ch, p2, t2)
-                                     for ch in enumerate(T[t1]) if p1 != ch))
+            isize.table[args] = sum((isize(t1, c, p2, t2)
+                                     for c in ch(T, t1, p1)))
         elif notleaf(t2):
             isize.table[args] = isize(p2, t2, p1, t1)
         else:
@@ -61,11 +69,8 @@ def nni_cost(T, sizef, (u, v, uswap, vswap)):
     returns cost of an NNI centered along edge (u,v) where
     branch rooted at uswap will be swapped with branch centered of vswap
     """
-    chu, chv = T[u][:], T[v][:]
-    chu.remove(uswap)
-    chv.remove(vswap)
-    ustay = chu[0]
-    vstay = chv[0]
+    ustay = ch(T, u, [v,uswap])
+    vstay = ch(T, v, [u,vswap])
     utuw = sizef(u, ustay, u, uswap)
     vtvw = sizef(v, vstay, v, vswap)
     utvw = sizef(u, ustay, v, vswap)
@@ -118,9 +123,11 @@ def list_NNIs(T):
     returns a list of all posible NNIs on tree T
     """
     nnis = []
-    for (u,v) in iedgelist(T):
-        nnis.append((u,v,T[u][1],T[v][0]))
-        nnis.append((u,v,T[u][1],T[v][1]))
+    for (u,v) in iedgelist(T): 
+        chu = ch(T,u,[v])
+        chv = ch(T,v,[u])
+        nnis.append((u,v,chu[1],chv[0]))
+        nnis.append((u,v,chu[1],chv[1]))
     return nnis
 
 def testNNI(T):

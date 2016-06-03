@@ -59,7 +59,11 @@ assert sorted(iedgelist(Tl)) == [(i(12), i(6)), (i(12), i(7)),
                                
 assert iedgelist(Ts) == [(i(3), i(2))]
 
-#nni_cost
+assert [] in list_NNIs(Tl)
+assert (i(3), i(2), (0, False), (1, True)) in list_NNIs(Ts)
+assert (i(3), i(2), (1, False), (0, True)) in list_NNIs(Ts)
+
+#nni_cost / overlap
 #nni_swap
 #list_NNIs
 
