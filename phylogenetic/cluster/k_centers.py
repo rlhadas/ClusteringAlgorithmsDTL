@@ -115,16 +115,16 @@ def run_test(fileName, max_k):
     print >> sys.stderr, 'Starting K-centers algorithm ... '
     # print >> sys.stderr, 'Printing Average and Maximum cluster radius at each step'
 
-    for i in xrange(2, max_k + 1):
+    for i in xrange(2, max_k + 2):
         d, newrep = maximize(graph,representatives)
         if not all(d_i > 0 for d_i in d):
             break
-        print i, min(d),
+        print i-1, min(d),
         representatives.append(newrep)
         dist_sum = 0
         n = 10
         for _ in xrange(n):
-            reps = [KMeans.get_template(graph) for _ in xrange(i)]
+            reps = [KMeans.get_template(graph) for _ in xrange(i-1)]
             dist_sum += min_d(maximize(graph,reps))
         print float(dist_sum) / n
 

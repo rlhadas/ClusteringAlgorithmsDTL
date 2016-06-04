@@ -2,7 +2,7 @@
 
 ## Before running, must see the following parameters:
 # maximum value for k, parameter from k centers and k medoids 
-MAX_K=1
+MAX_K=4
 
 # Full path of each python file with script
 SCRIPTS=("../cluster/FromNewick.py" "../cluster/FromNewick_random.py" "../cluster/k_centers.py")
@@ -11,14 +11,14 @@ SCRIPTS=("../cluster/FromNewick.py" "../cluster/FromNewick_random.py" "../cluste
 # For the naming of the output directory, leave underscore at the end 
 DESCRIPTIONS=("kmedoids_pointcollect_" "kmedoids_random_" "kcenters_")
 
-index=0
 START_LOC=$(pwd)
+INPUT_FILES=("$(echo ../TreeLifeData_small/*.newick)")
 
-for PYTHON_PATH in $SCRIPTS
+
+for index in ${!SCRIPTS[*]}
 do
-	
+	PYTHON_PATH=${SCRIPTS[$index]}
 	TYPE=${DESCRIPTIONS[$index]}
-	index=$(let index+=1)
 	echo "Running: $TYPE"
 	echo "For file: $PYTHON_PATH"
 	
@@ -33,10 +33,8 @@ do
 
 
 	# Run specified method on each file for the tree of life data 
-	INPUT_FILES=("$(echo ../TreeLifeData/*.newick)")
-	XYZ=${INPUT_FILES[@]:0:2}
 	cd $RUN_DIR
-	for INPUT in $XYZ
+	for INPUT in $INPUT_FILES
 	do
 		BASE_FILE=$(basename $INPUT)
 		echo "Currently working on file: $BASE_FILE"
