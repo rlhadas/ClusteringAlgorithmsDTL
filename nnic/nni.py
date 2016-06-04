@@ -146,7 +146,7 @@ def testNNI(T):
         NNIs = {nni : nni_cost(T, isize, nni) for nni in list_NNIs(T)}
         (best_nni, best_cost) = min(NNIs.items(), key = lambda (k,v) : v)
         if best_cost >= 0:
-            return False
+            return T
         nni_swap(T,best_nni)
         cost += best_cost
     assert cost == 0
@@ -156,8 +156,9 @@ def test_conjecture(size, number, seed = 0):
     random.seed(seed)
     for n in xrange(number):
         rt = random_tree(size)
-        if not testNNI(rt):
-            return rt
+        rtp = testNNI(rt)
+        if rtp is not True:
+            return rtp
         
 execfile('test.py')
         
