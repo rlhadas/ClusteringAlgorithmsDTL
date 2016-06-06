@@ -28,25 +28,26 @@ class OverlapProblem(Annealer):
     def consistent(self):
         """tests that state is consistent"""
         assert nni.overlap(self.state['tree']) == self.state['overlap']
+        print "success"
     #comment out this function to print
-    def update(self, step, T, E, acceptance, improvement):
-        pass
+    #def update(self, step, T, E, acceptance, improvement):
+    #    pass
 
-def fix(T, t = 2.0, s = 100):
+def fix(T, t = 0.1, s = 200):
     """wrapper for OverlapProblem"""
-    S,C =  OverlapProblem(T).solve(t, s)
+    S,C =  OverlapProblem(T).solve(t*len(T), s)
     return S['tree']
 
 def test_SA(size = 100):
     """tests OverlapProblem"""
     random.seed(1)
     T0 = nni.random_tree(size)
-    T1 = fix(T0.copy(), 2.0)
+    T1 = fix(T0.copy())
     print 'initial overlap : ', nni.overlap(T0)
     print 'final overlap : ', nni.overlap(T1)
     return T0, T1
 
-#T0, T1 = test_SA()
+T0, T1 = test_SA()
 
 def hybrid(T):
     cost = nni.overlap(T)
@@ -56,10 +57,12 @@ def hybrid(T):
         T = fix(T)
         newcost = nni.overlap(T)
         if newcost >= cost:
-            return False
+            print "failed"
+            return T
         cost = newcost
+        print cost
     return T
 
-random.seed(1)
-T0 = nni.random_tree(100)
-T1 = hybrid(nni.copy_tree(T0))
+#random.seed(1)
+#T0 = nni.random_tree(100)
+#T1 = hybrid(nni.copy_tree(T0))
