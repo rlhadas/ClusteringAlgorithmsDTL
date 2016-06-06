@@ -15,7 +15,6 @@ random.seed(0)
 #
 ####
 
-
 def random_tree(n):
     """create a random tree with 2n leaves and n locus pairs"""
     U = [(i,False) for i in range(n)]+[(i,True) for i in range(n)]
@@ -159,6 +158,6 @@ def test_conjecture(size, number, seed = 0):
         rtp = testNNI(rt)
         if rtp is not True:
             return rtp
-        
+
 execfile('test.py')
         

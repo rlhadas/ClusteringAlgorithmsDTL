@@ -1,6 +1,7 @@
 import nni
 import networkx as nx
 import matplotlib.pyplot as plt
+import random
 
 def d2nxg(T):
     """convert tree to networkx format"""
@@ -17,8 +18,28 @@ def draw(T):
     EL = {k : k[0] for k in T}
     nx.draw(G, pos)
     nx.draw_networkx_labels(G, pos, EL)
-    
-pg = lambda g : nni.pprint(dict(g))
+
+def count_fail(size):
+    print "count_fail called", size
+    c = 1
+    while nni.testNNI(nni.random_tree(size)) is True:
+        c += 1
+    return c
+
+def fail_freq(size, samples = 10, seed = 0):
+    random.seed(seed)
+    return float(samples)/sum(count_fail(size) for x in xrange(samples))
+
+'''
+sizes = [6, 7, 8, 9, 10, 15, 20, 25, 30, 50, 100, 200]
+frequencies = {}
+for x in sizes:
+    frequencies[x] = fail_freq(x)
+    print x, frequencies[x]
+'''
+
+pg = lambda g : nni.pprint(dict(g)) #print tree/graph
+
 T6 = nni.test_conjecture(6, 1000, 1)
 assert T6 is not None
 T60 = nni.test_conjecture(60, 1000)
