@@ -40,7 +40,16 @@ for x in sizes:
 
 pg = lambda g : nni.pprint(dict(g)) #print tree/graph
 
+'''
 T6 = nni.test_conjecture(6, 1000, 1)
 assert T6 is not None
 T60 = nni.test_conjecture(60, 1000)
 assert T60 is not None
+'''
+
+T6b = nni.test_beam(20, 100)
+assert T6b is not None
+assert nni.testNNI(T6b) is not True
+draw(T6b)
+plt.show()
+
