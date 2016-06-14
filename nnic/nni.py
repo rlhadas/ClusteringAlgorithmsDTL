@@ -15,6 +15,10 @@ random.seed(0)
 #
 ####
 
+def copy_tree(T):
+    """fast copying of a tree"""
+    return {k:v[:] for k,v in T.items()}
+
 def random_tree(n):
     """create a random tree with 2n leaves and n locus pairs"""
     U = [(i,False) for i in range(n)]+[(i,True) for i in range(n)]
@@ -156,6 +160,47 @@ def test_conjecture(size, number, seed = 0):
     for n in xrange(number):
         rt = random_tree(size)
         rtp = testNNI(rt)
+        if rtp is not True:
+            return rtp
+
+def beam_search(T, n = 20):
+    """
+    does a beam search on NNIs to reduce overlap to 0
+    """
+    olap = overlap(T)
+    best_trees = [(copy_tree(T),olap)for x in xrange(100)]
+    getscore = lambda lst : lst[-1]
+    gettree = lambda (x,y) : x
+    bestscore = lambda BT: min(BT, key = getscore)[1]
+    bestcost = bestscore(best_trees)
+    while bestcost > 0:
+        oldbest = best_trees[-1][0]
+        neighbors = []
+        for T, C in best_trees:
+            isize = isize_factory(T)
+            NNIs = {nni : nni_cost(T, isize, nni) for nni in list_NNIs(T)}
+            neighbors.extend([(T, nni, C + cost)
+                              for nni, cost in NNIs.items()])
+        neighbors.sort(key = getscore)
+        best_trees = neighbors[:10]
+        for i, (T, nni,c) in enumerate(best_trees):
+            nT = copy_tree(T)
+            best_trees[i] = (nT,c)
+            nni_swap(nT, nni)
+        newcost = bestscore(best_trees)
+        if newcost >= bestcost:
+            return oldbest
+        bestcost = newcost
+    assert bestscore(best_trees) == 0
+    return True
+
+def test_beam(size, number, seed = 0, n = 5):
+    """test beam search"""
+    random.seed(seed)
+    for i in xrange(number):
+        print i
+        rt = random_tree(size)
+        rtp = beam_search(rt, n)
         if rtp is not True:
             return rtp
 

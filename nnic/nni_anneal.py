@@ -4,10 +4,6 @@ import random
 
 #uses simulated annealing to pick NNIs to reduce the overlap of a tree to 0.
 
-def copy_tree(T):
-    """fast copying of a tree"""
-    return {k:v[:] for k,v in T.items()}
-
 class OverlapProblem(Annealer):
     """use simulated annealing for the overlap problem"""
     def __init__(self, tree):
@@ -16,7 +12,7 @@ class OverlapProblem(Annealer):
         Annealer.__init__(self, self.state)
         self.consistent()
     def copy_state(self, state):
-        return {'tree': copy_tree(state['tree']), 'overlap': state['overlap']}
+        return {'tree': nni.copy_tree(state['tree']), 'overlap': state['overlap']}
     def move(self):
         """executes a random NNI"""
         T = self.state['tree']
@@ -28,20 +24,45 @@ class OverlapProblem(Annealer):
         return self.state['overlap']
     def solve(self, time, steps):
         self.set_schedule(self.auto(minutes = time, steps = steps))
-        print '!!!!!!!!!!!!!'*1000
         return self.anneal()
     def consistent(self):
         """tests that state is consistent"""
         assert nni.overlap(self.state['tree']) == self.state['overlap']
+        print "success"
+    #comment out this function to print
+    #def update(self, step, T, E, acceptance, improvement):
+    #    pass
 
-def fix(T, t = 10.0, s = 1000):
+def fix(T, t = 0.1, s = 200):
     """wrapper for OverlapProblem"""
-    return OverlapProblem(T).solve(t, s)
+    S,C =  OverlapProblem(T).solve(t*len(T), s)
+    return S['tree']
 
-def test(size = 30):
+def test_SA(size = 100):
     """tests OverlapProblem"""
+    random.seed(1)
     T0 = nni.random_tree(size)
-    T1 = fix(T0.copy(), 10.0)
-    print 'initial cost : ', nni.overlap(T0)
-    print 'final cost : ', nni.overlap(T1)
+    T1 = fix(T0.copy())
+    print 'initial overlap : ', nni.overlap(T0)
+    print 'final overlap : ', nni.overlap(T1)
     return T0, T1
+
+T0, T1 = test_SA()
+
+def hybrid(T):
+    cost = nni.overlap(T)
+    print cost
+    while nni.testNNI(T) is not True:
+        print nni.overlap(T)
+        T = fix(T)
+        newcost = nni.overlap(T)
+        if newcost >= cost:
+            print "failed"
+            return T
+        cost = newcost
+        print cost
+    return T
+
+#random.seed(1)
+#T0 = nni.random_tree(100)
+#T1 = hybrid(nni.copy_tree(T0))
