@@ -1,0 +1,126 @@
+Loading reonciliation graph from cache
+Loading reonciliation graph from cache
+Loading reonciliation graph from cache
+Loading reonciliation graph from cache
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 458
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 645
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 668
+Early exit after 2 iterations
+Early exit after 1 iterations
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 846
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 458
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 645
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 606
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 668
+Early exit after 2 iterations
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 606
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 846
+Early exit after 2 iterations
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 458
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 645
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 668
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 606
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 846
+Early exit after 2 iterations
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 458
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 645
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 668
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 846
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 606
+Early exit after 2 iterations
+
+../TreeLifeData_small/COG0044.newick
+1 39.166667 39.166667 40.85
+2 33.268166 32.968216 35.9032931858
+3 32.261642 31.992405 33.2185343424
+4 31.373328 31.051003
+../TreeLifeData_small/COG0035.newick
+1 43.352941 43.352941 45.4549019608
+2 34.706529 33.752987 38.4265548407
+3 32.178977 31.442176 34.1679155603
+4 31.217056 30.313930
+../TreeLifeData_small/COG0038.newick
+1 45.433333 45.433333 47.8733333333
+2 39.127886 38.534245 41.8905114294
+3 37.668121 37.278544 38.828507487
+4 36.843094 36.270715
+../TreeLifeData_small/COG0048.newick
+1 48.375000 48.375000 53.1444444444
+2 43.057690 41.232857 46.5346516927
+3 42.114422 40.464983 43.0207741631
+4 41.188158 39.739307
+../TreeLifeData_small/COG0008.newick
+1 48.452381 48.452381 64.0571428571
+2 42.080218 41.624058 56.0673673115
+3 37.623855 36.967454 48.8219455295
+4 36.174679 35.209810

@@ -1,0 +1,28 @@
+Loading reonciliation graph from cache
+Loading reonciliation graph from cache
+Loading reonciliation graph from cache
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K-centers algorithm ... 
+Found cluster representatives using point-collecting
+Starting K-centers algorithm ... 
+Found cluster representatives using point-collecting
+Starting K-centers algorithm ... 
+Found cluster representatives using point-collecting
+Starting K-centers algorithm ... 
+../TreeLifeData_small/COG0033.newick
+1 14 15.5
+2 9 12.8
+3 8 10.3
+4 6 8.7
+../TreeLifeData_small/COG0032.newick
+../TreeLifeData_small/COG0034.newick
+1 58 62.8
+2 40 50.0
+3 36 47.6
+4 36 41.4
+../TreeLifeData_small/COG0035.newick
+1 79 80.8
+2 53 64.9
+3 52 60.1
+4 47 57.2

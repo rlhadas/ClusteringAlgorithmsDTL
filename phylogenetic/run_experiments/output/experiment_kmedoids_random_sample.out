@@ -1,0 +1,704 @@
+Loading reonciliation graph from cache
+Loading reonciliation graph from cache
+Loading reonciliation graph from cache
+Loading reonciliation graph from cache
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 248
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 406
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 385
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 248
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 446
+Early exit after 1 iterations
+Early exit after 2 iterations
+Early exit after 2 iterations
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 248
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+Early exit after 1 iterations
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 526
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 406
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 248
+Early exit after 2 iterations
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 248
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 385
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 248
+Early exit after 2 iterations
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 248
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 248
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 446
+Early exit after 1 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 248
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 248
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 248
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 526
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 406
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 248
+Early exit after 2 iterations
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 248
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 248
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 248
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 248
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 248
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 248
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 248
+Early exit after 3 iterations
+Early exit after 2 iterations
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 248
+Early exit after 3 iterations
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 385
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 406
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 526
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 406
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 406
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 406
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 406
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 446
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 406
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 406
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 406
+Early exit after 2 iterations
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 385
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 406
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 406
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 406
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 406
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 406
+Early exit after 1 iterations
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 406
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 406
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 526
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 406
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 406
+Early exit after 1 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 385
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 385
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 385
+Early exit after 2 iterations
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 385
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 526
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 526
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 526
+Early exit after 3 iterations
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 385
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 385
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 526
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 385
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 446
+Early exit after 3 iterations
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 385
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 526
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 526
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 526
+Early exit after 2 iterations
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 385
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 385
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 526
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 385
+Early exit after 2 iterations
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 385
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 526
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 526
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 526
+Early exit after 3 iterations
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 526
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 385
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 385
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 385
+Early exit after 3 iterations
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 385
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 526
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 526
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 526
+Early exit after 2 iterations
+Early exit after 2 iterations
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 526
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 446
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 446
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 446
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 446
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 446
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 446
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 446
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 446
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 446
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 446
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 446
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 446
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 446
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 446
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 446
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 446
+Early exit after 2 iterations
+Loading reonciliation graph from cache
+Loading reonciliation graph from cache
+Loading reonciliation graph from cache
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Loading reonciliation graph from cache
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 94
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 94
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 94
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+Early exit after 1 iterations
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 94
+Early exit after 1 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 94
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 491
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 94
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 94
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 492
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 94
+Early exit after 1 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 94
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 94
+Early exit after 1 iterations
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 94
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 94
+Early exit after 1 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 94
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 94
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 94
+Early exit after 1 iterations
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 94
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 94
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 94
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 94
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 94
+Early exit after 1 iterations
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 846
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 491
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 492
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 672
+Early exit after 2 iterations
+Early exit after 2 iterations
+Early exit after 4 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 672
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 846
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 492
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 491
+Early exit after 2 iterations
+Early exit after 2 iterations
+Early exit after 3 iterations
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 492
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 491
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 492
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 492
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 492
+Early exit after 2 iterations
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 492
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 491
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 491
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 491
+Early exit after 2 iterations
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 846
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 492
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 492
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 492
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 491
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 672
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 492
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 492
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 492
+Early exit after 2 iterations
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 492
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 491
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 491
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 492
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 491
+Early exit after 2 iterations
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 492
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 492
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 492
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 491
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 492
+Early exit after 2 iterations
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 491
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 491
+Early exit after 2 iterations
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 491
+Early exit after 2 iterations
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 491
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 491
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 491
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 491
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 491
+Early exit after 2 iterations
