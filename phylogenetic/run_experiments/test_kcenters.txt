@@ -1,0 +1,414 @@
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {./cache/COG0565.newick.graph}...
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K-centers algorithm ... 
+../TreeLifeData/COG0565.newick
+{('n27', 'm133'): [['T', ('n35', 'm133'), ('n28', 'm139'), 0.5], 6.0], ('n76', 'm155'): [['T', ('n86', 'm155'), ('n77', 'm82'), 0.18181818181818182], ['L', ('n76', 'm156'), (None, None), 0.09090909090909091], ['S', ('n77', 'm156'), ('n86', 'm161'), 0.5454545454545454], 18.0], ('n87', 'm157'): [['L', ('n87', 'm158'), (None, None), 0.36363636363636365], 1.0], ('n44', 'm115'): [['S', ('n50', 'm116'), ('n45', 'm119'), 1.0], 3.0], ('n54', 'm127'): [['C', (None, None), (None, None), 1.0], 0], ('n17', 'm8'): [['S', ('n19', 'm9'), ('n18', 'm10'), 1.0], 0], ('n56', 'm77'): [['S', ('n60', 'm78'), ('n57', 'm83'), 1.0], 1.0], ('n90', 'm163'): [['L', ('n90', 'm169'), (None, None), 1.0], 7.0], ('n10', 'm13'): [['C', (None, None), (None, None), 1.0], 0], ('n19', 'm9'): [['C', (None, None), (None, None), 1.0], 0], ('n80', 'm142'): [['S', ('n82', 'm143'), ('n81', 'm144'), 2.8181818181818183], 0], ('n20', 'm75'): [['S', ('n21', 'm76'), ('n76', 'm149'), 1.0], 47.0], ('n94', 'm168'): [['C', (None, None), (None, None), 1.0], 0], ('n0', 'm2'): [['S', ('n8', 'm3'), ('n1', 'm18'), 1.0], 61.0], ('n5', 'm22'): [['C', (None, None), (None, None), 1.0], 0], ('n78', 'm140'): [['T', ('n79', 'm140'), ('n84', 'm159'), 0.18181818181818182], 3.0], ('n16', 'm8'): [['T', ('n17', 'm8'), ('n20', 'm75'), 1.0], 50.0], ('n93', 'm167'): [['T', ('n95', 'm167'), ('n94', 'm168'), 1.0], 3.0], ('n12', 'm6'): [['S', ('n13', 'm7'), ('n16', 'm8'), 1.0], 53.0], ('n78', 'm159'): [['T', ('n84', 'm159'), ('n79', 'm140'), 0.5454545454545454], 3.0], ('n13', 'm7'): [['T', ('n15', 'm7'), ('n14', 'm16'), 1.0], 3.0], ('n88', 'm161'): [['S', ('n89', 'm162'), ('n90', 'm163'), 1.0], 7.0], ('n35', 'm133'): [['T', ('n36', 'm133'), ('n39', 'm131'), 0.5], 3.0], ('n95', 'm167'): [['C', (None, None), (None, None), 1.0], 0], ('n79', 'm140'): [['S', ('n83', 'm141'), ('n80', 'm142'), 1.1818181818181819], 0], ('n33', 'm141'): [['C', (None, None), (None, None), 1.0], 0], ('n39', 'm131'): [['C', (None, None), (None, None), 1.0], 0], ('n66', 'm111'): [['T', ('n70', 'm111'), ('n67', 'm106'), 0.5], 3.0], ('n43', 'm123'): [['C', (None, None), (None, None), 1.0], 0], ('n38', 'm134'): [['C', (None, None), (None, None), 1.0], 0], ('n85', 'm82'): [['C', (None, None), (None, None), 1.0], 0], ('n12', 'm5'): [['L', ('n12', 'm6'), (None, None), 1.0], 54.0], ('n90', 'm169'): [['S', ('n91', 'm170'), ('n98', 'm171'), 1.0], 6.0], ('n49', 'm114'): [['C', (None, None), (None, None), 1.0], 0], ('n77', 'm159'): [['T', ('n78', 'm159'), ('n85', 'm82'), 0.18181818181818182], 6.0], ('n40', 'm136'): [['L', ('n40', 'm137'), (None, None), 1.0], 1.0], ('n18', 'm10'): [['C', (None, None), (None, None), 1.0], 0], ('n66', 'm106'): [['T', ('n67', 'm106'), ('n70', 'm111'), 0.5], 3.0], ('n3', 'm21'): [['S', ('n5', 'm22'), ('n4', 'm23'), 1.0], 0], ('n21', 'm76'): [['S', ('n22', 'm77'), ('n63', 'm86'), 1.0], 28.0], ('n78', 'm156'): [['T', ('n84', 'm156'), ('n79', 'm140'), 0.09090909090909091], ['L', ('n78', 'm157'), (None, None), 0.18181818181818182], 5.0], ('n50', 'm116'): [['S', ('n52', 'm117'), ('n51', 'm118'), 1.0], 0], ('n77', 'm156'): [['T', ('n78', 'm156'), ('n85', 'm82'), 0.2727272727272727], ['L', ('n77', 'm157'), (None, None), 0.2727272727272727], 8.0], ('n73', 'm104'): [['C', (None, None), (None, None), 1.0], 0], ('n65', 'm109'): [['S', ('n71', 'm110'), ('n66', 'm111'), 0.5], 3.0], ('n28', 'm139'): [['S', ('n29', 'm140'), ('n34', 'm145'), 1.0], 0], ('n6', 'm19'): [['C', (None, None), (None, None), 1.0], 0], ('n87', 'm156'): [['L', ('n87', 'm157'), (None, None), 0.36363636363636365], 2.0], ('n8', 'm3'): [['S', ('n9', 'm4'), ('n12', 'm5'), 1.0], 57.0], ('n4', 'm23'): [['C', (None, None), (None, None), 1.0], 0], ('n86', 'm161'): [['T', ('n88', 'm161'), ('n87', 'm158'), 0.5454545454545454], 10.0], ('n75', 'm100'): [['C', (None, None), (None, None), 1.0], 0], ('n59', 'm84'): [['C', (None, None), (None, None), 1.0], 0], ('n61', 'm79'): [['C', (None, None), (None, None), 1.0], 0], ('n71', 'm110'): [['C', (None, None), (None, None), 1.0], 0], ('n14', 'm16'): [['C', (None, None), (None, None), 1.0], 0], ('n36', 'm133'): [['S', ('n38', 'm134'), ('n37', 'm135'), 1.0], 0], ('n63', 'm99'): [['S', ('n75', 'm100'), ('n64', 'm101'), 1.0], 4.0], ('n74', 'm103'): [['C', (None, None), (None, None), 1.0], 0], ('n32', 'm143'): [['C', (None, None), (None, None), 1.0], 0], ('n69', 'm107'): [['C', (None, None), (None, None), 1.0], 0], ('n31', 'm144'): [['C', (None, None), (None, None), 1.0], 0], ('n40', 'm132'): [['L', ('n40', 'm136'), (None, None), 0.5], 2.0], ('n26', 'm132'): [['S', ('n27', 'm133'), ('n40', 'm136'), 0.5], 7.0], ('n63', 'm86'): [['L', ('n63', 'm94'), (None, None), 1.0], 7.0], ('n58', 'm85'): [['C', (None, None), (None, None), 1.0], 0], ('n55', 'm126'): [['C', (None, None), (None, None), 1.0], 0], ('n68', 'm108'): [['C', (None, None), (None, None), 1.0], 0], ('n76', 'm156'): [['L', ('n76', 'm157'), (None, None), 0.09090909090909091], 17.0], ('n62', 'm80'): [['L', ('n62', 'm81'), (None, None), 1.0], 1.0], ('n89', 'm162'): [['C', (None, None), (None, None), 1.0], 0], ('n35', 'm131'): [['T', ('n39', 'm131'), ('n36', 'm133'), 0.5], 3.0], ('n40', 'm137'): [['C', (None, None), (None, None), 1.0], 0], ('n3', 'm20'): [['L', ('n3', 'm21'), (None, None), 1.0], 1.0], ('n27', 'm131'): [['T', ('n35', 'm131'), ('n28', 'm139'), 0.5], 6.0], ('n25', 'm128'): [['S', ('n41', 'm129'), ('n26', 'm130'), 1.0], 11.0], ('n82', 'm143'): [['C', (None, None), (None, None), 6.090909090909091], 0], ('n41', 'm129'): [['T', ('n42', 'm129'), ('n43', 'm123'), 1.0], 3.0], ('n37', 'm135'): [['C', (None, None), (None, None), 1.0], 0], ('n77', 'm157'): [['T', ('n78', 'm157'), ('n85', 'm82'), 0.18181818181818182], ['L', ('n77', 'm159'), (None, None), 0.09090909090909091], 7.0], ('n84', 'm156'): [['L', ('n84', 'm157'), (None, None), 0.09090909090909091], 2.0], ('n62', 'm81'): [['C', (None, None), (None, None), 1.0], 0], ('n23', 'm124'): [['S', ('n53', 'm125'), ('n24', 'm128'), 1.0], 17.0], ('n96', 'm166'): [['C', (None, None), (None, None), 1.0], 0], ('n53', 'm125'): [['S', ('n55', 'm126'), ('n54', 'm127'), 1.0], 0], ('n29', 'm140'): [['S', ('n33', 'm141'), ('n30', 'm142'), 1.0], 0], ('n47', 'm121'): [['C', (None, None), (None, None), 1.0], 0], ('n76', 'm149'): [['T', ('n86', 'm149'), ('n77', 'm82'), 0.18181818181818182], ['L', ('n76', 'm155'), (None, None), 0.8181818181818182], 19.0], ('n24', 'm128'): [['T', ('n25', 'm128'), ('n44', 'm115'), 1.0], 17.0], ('n87', 'm158'): [['C', (None, None), (None, None), 1.0], 0], ('n67', 'm106'): [['S', ('n69', 'm107'), ('n68', 'm108'), 1.0], 0], ('n52', 'm117'): [['C', (None, None), (None, None), 1.0], 0], ('n11', 'm4'): [['C', (None, None), (None, None), 1.0], 0], ('n9', 'm4'): [['T', ('n11', 'm4'), ('n10', 'm13'), 1.0], 3.0], ('n42', 'm129'): [['C', (None, None), (None, None), 1.0], 0], ('n86', 'm158'): [['T', ('n87', 'm158'), ('n88', 'm161'), 0.09090909090909091], 10.0], ('n48', 'm120'): [['C', (None, None), (None, None), 1.0], 0], ('n83', 'm141'): [['C', (None, None), (None, None), 2.8181818181818183], 0], ('n64', 'm101'): [['S', ('n72', 'm102'), ('n65', 'm105'), 1.0], 4.0], ('n97', 'm170'): [['C', (None, None), (None, None), 1.0], 0], ('n57', 'm83'): [['S', ('n59', 'm84'), ('n58', 'm85'), 1.0], 0], ('n92', 'm165'): [['S', ('n96', 'm166'), ('n93', 'm167'), 1.0], 3.0], ('n86', 'm155'): [['S', ('n87', 'm156'), ('n88', 'm161'), 0.36363636363636365], 9.0], ('n1', 'm18'): [['T', ('n2', 'm18'), ('n7', 'm15'), 1.0], 4.0], ('n15', 'm7'): [['C', (None, None), (None, None), 1.0], 0], ('n98', 'm171'): [['C', (None, None), (None, None), 1.0], 0], ('n45', 'm119'): [['T', ('n46', 'm119'), ('n49', 'm114'), 1.0], 3.0], ('n46', 'm119'): [['S', ('n48', 'm120'), ('n47', 'm121'), 1.0], 0], ('n60', 'm78'): [['S', ('n61', 'm79'), ('n62', 'm80'), 1.0], 1.0], ('n34', 'm145'): [['C', (None, None), (None, None), 1.0], 0], ('n84', 'm159'): [['C', (None, None), (None, None), 1.1818181818181819], 0], ('n26', 'm130'): [['L', ('n26', 'm132'), (None, None), 0.5], ['S', ('n27', 'm131'), ('n40', 'm132'), 0.5], 8.0], ('n22', 'm77'): [['T', ('n56', 'm77'), ('n23', 'm124'), 1.0], 21.0], ('n71', 'm109'): [['L', ('n71', 'm110'), (None, None), 0.5], 1.0], ('n81', 'm144'): [['C', (None, None), (None, None), 6.090909090909091], 0], ('n72', 'm102'): [['S', ('n74', 'm103'), ('n73', 'm104'), 1.0], 0], ('n65', 'm105'): [['L', ('n65', 'm109'), (None, None), 0.5], ['S', ('n66', 'm106'), ('n71', 'm109'), 0.5], 4.0], ('n70', 'm111'): [['C', (None, None), (None, None), 1.0], 0], ('n7', 'm15'): [['C', (None, None), (None, None), 1.0], 0], ('n77', 'm82'): [['T', ('n85', 'm82'), ('n78', 'm159'), 0.18181818181818182], ['T', ('n85', 'm82'), ('n78', 'm140'), 0.18181818181818182], 6.0], ('n51', 'm118'): [['C', (None, None), (None, None), 1.0], 0], ('n84', 'm157'): [['L', ('n84', 'm159'), (None, None), 0.2727272727272727], 1.0], ('n91', 'm170'): [['T', ('n97', 'm170'), ('n92', 'm165'), 1.0], 6.0], ('n63', 'm94'): [['L', ('n63', 'm95'), (None, None), 1.0], 6.0], ('n86', 'm149'): [['L', ('n86', 'm155'), (None, None), 0.18181818181818182], 10.0], ('n63', 'm95'): [['L', ('n63', 'm99'), (None, None), 1.0], 5.0], ('n2', 'm18'): [['S', ('n6', 'm19'), ('n3', 'm20'), 1.0], 1.0], ('n78', 'm157'): [['T', ('n84', 'm157'), ('n79', 'm140'), 0.18181818181818182], ['L', ('n78', 'm159'), (None, None), 0.18181818181818182], 4.0], ('n76', 'm157'): [['S', ('n86', 'm158'), ('n77', 'm159'), 0.09090909090909091], 16.0], ('n30', 'm142'): [['S', ('n32', 'm143'), ('n31', 'm144'), 1.0], 0]}
+44.0
+1 28 27.4
+2 18 21.6
+3 16 19.4
+4 14 18.0
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K-centers algorithm ... 
+../TreeLifeData/COG0565.newick
+graph roots: 
+[<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>]
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+1 28 27.4
+2 18 22.2
+3 16 18.6
+4 14 17.2
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+../TreeLifeData/COG0565.newick
+graph roots: 
+[<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>]
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+Traceback (most recent call last):
+  File "k_centers.py", line 155, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_centers.py", line 122, in run_test
+    for y in x:
+TypeError: 'Node' object is not iterable
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K-centers algorithm ... 
+../TreeLifeData/COG0565.newick
+graph roots: 
+[<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>]
+<class 'ReconGraph.Node'>
+1 28 27.8
+2 18 24.0
+3 16 19.8
+4 14 17.6
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K-centers algorithm ... 
+../TreeLifeData/COG0565.newick
+graph roots: 
+[<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>]
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+1 28 <Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+28.0
+2 18 <Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+22.6
+3 16 <Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+19.8
+4 14 <Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+16.8
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+../TreeLifeData/COG0565.newick
+graph roots: 
+[<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>]
+Traceback (most recent call last):
+  File "k_centers.py", line 154, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_centers.py", line 122, in run_test
+    print graph[x]
+TypeError: 'ReconGraph' object has no attribute '__getitem__'
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+../TreeLifeData/COG0565.newick
+graph roots: 
+[<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>]
+Traceback (most recent call last):
+  File "k_centers.py", line 154, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_centers.py", line 122, in run_test
+    print DictGraph[x]
+KeyError: <Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K-centers algorithm ... 
+../TreeLifeData/COG0565.newick
+graph roots: 
+[<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>]
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+1 28 <Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+27.6
+2 18 <Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+20.6
+3 16 <Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+19.0
+4 14 <Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+17.8
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+../TreeLifeData/COG0565.newick
+graph roots: 
+[<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>]
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+Traceback (most recent call last):
+  File "k_centers.py", line 155, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_centers.py", line 123, in run_test
+    print DictGraph[x]
+KeyError: <Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K-centers algorithm ... 
+../TreeLifeData/COG0565.newick
+graph roots: 
+[<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>]
+('n0', 'm2')
+[['S', ('n8', 'm3'), ('n1', 'm18'), 0], 61.0]
+1 28 <Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+27.8
+2 18 <Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+21.0
+3 16 <Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+19.8
+4 14 <Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+17.4

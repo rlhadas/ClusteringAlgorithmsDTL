@@ -17,8 +17,10 @@ import random
 import operator
 from collections import defaultdict
 import itertools
+#import RandomGenerator
 
 flatten = lambda l: reduce(operator.add, l)
+recon_threshold = 1000 
 
 def pareto_front(valuelist):
     not_less = lambda v1,v2: not all(x <= y for (x,y) in zip(v1,v2)) or v1 == v2
@@ -81,6 +83,8 @@ def run_test(fileName, max_k):
     T = 3.
     L = 1.
 
+    print fileName
+
     host, paras, phi = newickFormatReader.getInput(fileName)
 
     if not os.path.exists(cache_dir):
@@ -95,6 +99,9 @@ def run_test(fileName, max_k):
         print >> sys.stderr, 'Doing so now and caching it in {%s}...' % cache_location
 
         DictGraph, numRecon = DP.DP(host, paras, phi, D, T, L)
+        print "DictGraph: ", DictGraph
+        print "\n\nnum recon: ", numRecon
+
 
         f = open(cache_location, 'w+')
         f.write(repr(DictGraph))
@@ -112,22 +119,28 @@ def run_test(fileName, max_k):
     graph = ReconGraph.ReconGraph(DictGraph)
     representatives = [ReconGraph.dictRecToSetRec(graph, dictReps[0])]
 
+
     print >> sys.stderr, 'Starting K-centers algorithm ... '
     # print >> sys.stderr, 'Printing Average and Maximum cluster radius at each step'
 
     for i in xrange(2, max_k + 2):
         d, newrep = maximize(graph,representatives)
+        print "distance vector:", d
         if not all(d_i > 0 for d_i in d):
+            print "Distance vector is all 0s", d 
             break
+
         print i-1, min(d),
         representatives.append(newrep)
         dist_sum = 0
         n = 10
         for _ in xrange(n):
-            reps = [KMeans.get_template(graph) for _ in xrange(i-1)]
+            reps = [KMeans.get_weighted_template(graph) for _ in xrange(i-1)]
             dist_sum += min_d(maximize(graph,reps))
         print float(dist_sum) / n
 
+
+    print  >> sys.stderr, "Finished k centers algorithm ..."
 def doFile(fileName):
     try:
         run_test(fileName, max_k)
