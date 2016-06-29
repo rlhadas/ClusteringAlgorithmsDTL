@@ -49,7 +49,7 @@ import operator
 import sys
 from collections import defaultdict
 import itertools
-
+#import RandomGenerator 
 flatten = lambda l: reduce(operator.add, l)
 
 maximize_value_lists = set([])
@@ -376,6 +376,107 @@ def get_template(graph):
         else:
             stack.append(random.choice(n.children))
     return events
+
+def get_weighted_template(graph):
+    ''' Given a reconciliation graph, returns a random reconciliation in
+    event-set form '''
+    #stack = 
+    # graph = dict
+    # key:value = node pair :[x, y]
+    # x = event , y = garbage value , last value of x is our likelihood value 
+    # e.g. ('n0', 'm8'): [['S', ('n2', 'm9'), ('n1', 'm10'), 1.0], 0]
+    ## Verifying and choosing roots 
+    print "graph.roots: ", graph.roots
+    rootCount = len(graph.roots)
+    mappings = graph.map_node_map
+    
+    if rootCount == 1:
+        choice = graph.roots[0]
+    else: 
+        choice = None 
+        rootValList = []
+        totalLikelihood = 0 
+
+        for currentRoot in graph.roots:
+            rootNode = currentRoot.mapping
+            likelihood = mappings[rootNode][0][-1]
+            totalLikelihood += likelihood
+            rootValList.append((rootNode, likelihood))
+
+        # Round to 1 decimal place to accommodate float errors 
+        roundedLikelihood = round(totalLikelihood, 1)
+    
+        if roundedLikelihood == 0:
+            print "DEBUG: Cannot get new information, making a random choice among roots: ", graph.roots 
+            choice = random.choice(graph.roots)
+            sys.exit()
+        elif roundedLikelihood != 1.0:
+            print "DEBUG: Total likelihood of roots does not sum to 1.0, instead: ", totalLikelihood
+            sys.exit()
+        else:
+            print "DEBUG: Choosing root based on a weighted random."
+            randVal = random.random()
+            accumlatedValue = 0
+            for rootNode, likelihood in rootValList:
+                accumlatedValue += likelihood
+                if randVal <= accumlatedValue:
+                    choice = rootNode 
+                    break
+    
+    events = set([])
+    stack = [choice]
+
+    while len(stack) > 0:
+        #print "CURRENT STACK \n\t: ", stack 
+        n = stack.pop()
+        if not n.isMap():
+            events.add(n)
+            for c in n.children:
+                stack.append(c)
+        else:
+            # For map nodes 
+            print "THE CHILDREN: ", n.children 
+            numChildren = len(n.children)
+            choice = None
+            if numChildren == 1:
+                choice = n.children[0]
+            else:
+                newTotal = 0
+                print "n: ", n 
+                print "n's mappings: ", n.mapping
+                print "inner result: ", mappings[n.mapping]
+                print "n's children: ", n.children
+                for childNode in n.children:
+
+                    #print "hit the regular case!"
+
+                    ## Fix this case: 
+                    #print "mappings: ", mappings
+                    
+                    
+                    print "child node: ", childNode
+                    likelihood = mappings[n.mapping][0][-1]
+
+                    if likelihood > 1.0:
+                        print "child node: likelihood greater than 1, exiting"
+                        sys.exit()
+                    else:
+                        newTotal += likelihood
+
+                randVal = random.random()
+                accumlatedValue = 0
+                print "acculamatig values for the regular case."
+                for child in n.children:
+                    likelihood = mappings[child][0][-1]
+                    weightedLikelihood = likelihood / float(newTotal)
+                    accumlatedValue += weightedLikelihood
+                    if randVal <= accumlatedValue:
+                        choice = child
+                        break
+            stack.append(choice)
+    return events
+
+   
 
 def k_means_quality(graph, steps, k, seed):
     Ts = k_means(graph, steps, k, seed)

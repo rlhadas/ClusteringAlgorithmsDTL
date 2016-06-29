@@ -17,8 +17,10 @@ import random
 import operator
 from collections import defaultdict
 import itertools
+#import RandomGenerator
 
 flatten = lambda l: reduce(operator.add, l)
+recon_threshold = 1000 
 
 def pareto_front(valuelist):
     not_less = lambda v1,v2: not all(x <= y for (x,y) in zip(v1,v2)) or v1 == v2
@@ -81,6 +83,8 @@ def run_test(fileName, max_k):
     T = 3.
     L = 1.
 
+    print fileName
+
     host, paras, phi = newickFormatReader.getInput(fileName)
 
     if not os.path.exists(cache_dir):
@@ -89,45 +93,98 @@ def run_test(fileName, max_k):
         f.write('This directory holds a cache of reconciliation graph for the TreeLife data set')
         f.close()
 
-    cache_location = '%s/%s.graph' % (cache_dir, os.path.split(fileName)[1])
-    if not os.path.isfile(cache_location):
-        print >> sys.stderr, 'A reconciliation graph has not been built yet for this newick file'
-        print >> sys.stderr, 'Doing so now and caching it in {%s}...' % cache_location
+    # cache_location = '%s/%s.graph' % (cache_dir, os.path.split(fileName)[1])
+    # if not os.path.isfile(cache_location):
+    #     print >> sys.stderr, 'A reconciliation graph has not been built yet for this newick file'
+    #     print >> sys.stderr, 'Doing so now and caching it in {%s}...' % cache_location
 
-        DictGraph, numRecon = DP.DP(host, paras, phi, D, T, L)
+    #     DictGraph, numRecon = DP.DP(host, paras, phi, D, T, L)
+    #     #print "DictGraph: ", DictGraph
+    #     #print "\n\nnum recon: ", numRecon
+    #     f = open(cache_location, 'w+')
+    #     f.write(repr(DictGraph))
+    #     f.close()
 
-        f = open(cache_location, 'w+')
-        f.write(repr(DictGraph))
-        f.close()
+    # print >> sys.stderr, 'Loading reonciliation graph from cache'
+    # f = open(cache_location)
+    # DictGraph = eval(f.read())
+    # f.close()
 
-    print >> sys.stderr, 'Loading reonciliation graph from cache'
-    f = open(cache_location)
-    DictGraph = eval(f.read())
-    f.close()
+
+    DictGraph, numRecon = DP.DP(host, paras, phi, D, T, L)
+    # found = False 
+    # for key in DictGraph.keys():
+    #     children = DictGraph[key]
+    #     #print "children: ", children 
+    #     for child in children[:-1]:
+    #         #print "child: ", child 
+    #         if child[-1] > 1:
+    #             print "FOUND: ", key, child 
+    #             #print "\nFrom: ", DictGraph
+    #             found = True 
+    #             #sys.exit()
+    # if not(found):
+    #     print "NOT FOUND."
+    
 
     scoresList, dictReps = Greedy.Greedy(DictGraph, paras)
 
     print >> sys.stderr, 'Found cluster representatives using point-collecting'
 
+   
     graph = ReconGraph.ReconGraph(DictGraph)
+    print graph.roots
+
+
+    sys.exit()
+
+    
+    #print "map before: "
+    # A = graph.map_node_map 
+    # found = False 
+    # for key in A:
+    #     children = A[key]
+    #     #print "children: ", children 
+    #     for child in children[:-1]:
+    #         #print "child: ", child 
+    #         if child[-1] !=0:
+    #             print "FOUND: ", key, child 
+    #             #print "\nFrom: ", DictGraph
+    #             found = True 
+    #             #sys.exit()
+    # if not(found):
+    #     print "NOT FOUND. NON ZERO"
+
     representatives = [ReconGraph.dictRecToSetRec(graph, dictReps[0])]
+
+    # print "map after: "
+    # print graph.map_node_map 
+
+    
+    
+ 
 
     print >> sys.stderr, 'Starting K-centers algorithm ... '
     # print >> sys.stderr, 'Printing Average and Maximum cluster radius at each step'
 
     for i in xrange(2, max_k + 2):
         d, newrep = maximize(graph,representatives)
+        print "distance vector:", d
         if not all(d_i > 0 for d_i in d):
+            print "Distance vector is all 0s", d 
             break
+
         print i-1, min(d),
         representatives.append(newrep)
         dist_sum = 0
         n = 10
         for _ in xrange(n):
-            reps = [KMeans.get_template(graph) for _ in xrange(i-1)]
+            reps = [KMeans.get_weighted_template(graph) for _ in xrange(i-1)]
             dist_sum += min_d(maximize(graph,reps))
         print float(dist_sum) / n
 
+
+    print  >> sys.stderr, "Finished k centers algorithm ..."
 def doFile(fileName):
     try:
         run_test(fileName, max_k)

@@ -18,6 +18,8 @@ import newickFormatReader
 import Greedy
 import copy
 import DrawDTL
+import sys 
+from collections import deque
 
 Infinity = float('inf')
 
@@ -67,6 +69,7 @@ def DP(hostTree, parasiteTree, phi, D, T, L):
     # Following logic taken from tech report
     for ep in postorder(parasiteTree, "pTop"):
         for eh in postorder(hostTree, "hTop"):
+
             _,vp,ep1,ep2 = parasiteTree[ep]
             _,vh,eh1,eh2 = hostTree[eh]
             eventsDict[(vp, vh)] = []
@@ -222,6 +225,12 @@ def DP(hostTree, parasiteTree, phi, D, T, L):
             #finds Minimum Cost for O
                 O[(ep, eh)] = min(C[(ep, eh)], O[(ep, eh1)], O[(ep, eh2)])
 
+            #print "Current score: ", Score[(ep, eh)]
+        
+
+
+        # print "\nep: ", ep 
+        # print "\nScore: ", Score 
         # Compute bestSwitch values
         bestSwitch[(ep, "hTop")] = Infinity
         bestSwitchLocations[(vp, hostTree["hTop"][1])] = [(None,None)]
@@ -285,10 +294,35 @@ def DP(hostTree, parasiteTree, phi, D, T, L):
     return newDTL, numRecon
 
 
-def preorderDTLsort(DTL, ParasiteRoot):
-    """This takes in a DTL dictionary and parasite root and returns a sorted list, orderedKeysL, that is ordered
-    by level from largest to smallest, where level 0 is the root and the highest level has tips."""
+def newPreorderSort(DTLDict, roots):
+    parentsList = {(None,None):set()}
+    for v in DTLDict:
+        parentsList[v] = set()
+    for v, eventList in DTLDict.iteritems():
+        for _, child1, child2, _ in eventList[:-1]:
+            parentsList[child1].add(v)
+            parentsList[child2].add(v)
 
+    visited = set(roots + [(None,None)])
+    queue = deque(roots)
+    preorderList = []
+    while queue:
+        v = queue.popleft()
+        preorderList.append(v)
+        # print v, DTLDict[v][:-1]
+        for _, child1, child2, _ in DTLDict[v][:-1]:
+            parentsList[child1].discard(v)
+            parentsList[child2].discard(v)
+            if not parentsList[child1] and not child1 in visited:
+                queue.append(child1)
+                visited.add(child1)
+            if not parentsList[child2] and not child2 in visited:
+                queue.append(child2)
+                visited.add(child2)
+
+    return preorderList
+
+<<<<<<< HEAD
     keysL = Greedy.orderDTL(DTL, ParasiteRoot)
     # Greedy.orderDTL(DTL, ParasiteRoot) takes in a DTL graph and the ParasiteRoot. It outputs a list, keysL, that contains tuples. Each tuple has two elements. The first is a mapping node of the form (p, h), where p is a parasite node and h is  a host node. The second element is a level representing the depth of that mapping node within the tree."""
     orderedKeysL = []
@@ -321,13 +355,21 @@ def preorderCheck(preOrderList):
         else:
             preDict[currentRoot] = (currentLevel,x)
     return newList
+=======
+>>>>>>> FixPreoder
 
 def addScores(treeMin, DTLDict, ScoreDict):
     """Takes the list of reconciliation roots, the DTL reconciliation graph, 
     a dictionary of parent nodes, and a dictionary of score values, and 
     returns the DTL with the normalized frequency scores calculated."""
+
+    # vertices => one vertex pls help
+    # Dictionary has mapping nodes  with event node children 
+    # 
+
     newDTL = copy.deepcopy(DTLDict)
     parentsDict = {}
+<<<<<<< HEAD
     preOrder1 = preorderDTLsort(DTLDict, treeMin[0][0])
     preOrder2 = preorderCheck(preOrder1)
 
@@ -356,6 +398,36 @@ def addScores(treeMin, DTLDict, ScoreDict):
     #         event[-1] = event[-1]/normalize
 
     return newDTL, normalize, parentsDict
+=======
+
+    preorderList = newPreorderSort(DTLDict, treeMin)
+
+    for vertices in preorderList:
+        if vertices in treeMin:
+            parentsDict[vertices] = ScoreDict[vertices]
+        for n in range(len(DTLDict[vertices])-1):
+            _,child1,child2,oldScore = DTLDict[vertices][n]
+            newDTL[vertices][n][3] = parentsDict[vertices] * \
+            (oldScore / ScoreDict[vertices])
+            if child1!= (None, None):
+                if child1 in parentsDict:
+                    parentsDict[child1] += newDTL[vertices][n][3]
+                else: 
+                    parentsDict[child1] = newDTL[vertices][n][3] 
+            if child2!=(None, None):
+                if child2 in parentsDict:
+                    parentsDict[child2] += newDTL[vertices][n][3]
+                else: 
+                    parentsDict[child2] = newDTL[vertices][n][3]
+    
+    normalize = newDTL[preorderList[-1]][0][-1]
+
+    for key in newDTL:
+        # Again, last value is garbage 
+        for event in newDTL[key][:-1]:
+            event[-1] = event[-1]/normalize
+    return newDTL, normalize
+>>>>>>> FixPreoder
 
 def findBestRoots(Parasite, MinimumDict):
     """Takes Parasite Tree and a dictionary of minimum reconciliation costs

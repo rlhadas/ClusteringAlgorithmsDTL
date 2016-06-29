@@ -7,6 +7,8 @@
 # vertex-based DP algorithm. The main function in this file is called Greedy
 # and the remaining functions are helper functions that are used by Greedy.
 
+import copy 
+
 def findRoot(Tree):
     """This function takes in a parasiteTree and returns a string with the 
     name of the root vertex of the tree"""
@@ -213,7 +215,7 @@ def Greedy(DTL, ParasiteTree):
     the optimal reconciliations. This function runs till all the scores have 
     been collected from the DTL graph."""
     scores = [] #list of reconciliation scores
-    currentDTL = DTL
+    currentDTL = copy.deepcopy(DTL)
     counter = 0
     rec = [] #list of reconciliations
     collected = True
