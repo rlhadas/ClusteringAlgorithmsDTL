@@ -18,6 +18,7 @@ import newickFormatReader
 import Greedy
 import copy
 import DrawDTL
+import sys 
 
 Infinity = float('inf')
 
@@ -71,6 +72,7 @@ def DP(hostTree, parasiteTree, phi, D, T, L):
     # Following logic taken from tech report
     for ep in postorder(parasiteTree, "pTop"):
         for eh in postorder(hostTree, "hTop"):
+
             _,vp,ep1,ep2 = parasiteTree[ep]
             _,vh,eh1,eh2 = hostTree[eh]
             eventsDict[(vp, vh)] = []
@@ -245,6 +247,12 @@ def DP(hostTree, parasiteTree, phi, D, T, L):
             #finds Minimum Cost for O
                 O[(ep, eh)] = min(C[(ep, eh)], O[(ep, eh1)], O[(ep, eh2)])
 
+            #print "Current score: ", Score[(ep, eh)]
+        
+
+
+        # print "\nep: ", ep 
+        # print "\nScore: ", Score 
         # Compute bestSwitch values
         bestSwitch[(ep, "hTop")] = Infinity
         bestSwitchLocations[(vp, hostTree["hTop"][1])] = [(None,None)]
@@ -325,6 +333,8 @@ def preorderDTLsort(DTL, ParasiteRoot):
         levelCounter += 1
     
     lastLevel = orderedKeysL[-1][1]
+    print "incoming: ", DTL
+    print "outgoing: ", orderedKeysL 
     return orderedKeysL
 
 def preorderCheck(preOrderList):
@@ -345,38 +355,94 @@ def preorderCheck(preOrderList):
                 newList[location] = (None, None)
         else:
             preDict[currentRoot] = (currentLevel,x)
+    print newList 
     return newList
 
 def addScores(treeMin, DTLDict, ScoreDict):
     """Takes the list of reconciliation roots, the DTL reconciliation graph, 
     a dictionary of parent nodes, and a dictionary of score values, and 
     returns the DTL with the normalized frequency scores calculated."""
+
+    # vertices => one vertex pls help
+    # Dictionary has mapping nodes  with event node children 
+    # 
+
     newDTL = copy.deepcopy(DTLDict)
     parentsDict = {}
     preOrder1 = preorderDTLsort(DTLDict, treeMin[0][0])
+    sys.exit()
     preOrder2 = preorderCheck(preOrder1)
     for root in preOrder2:
+        #print "current DTL", newDTL
         if root != (None, None):
             vertices = root[0]
+
+            # Check to see if we are actually at a root 
+            #print "where are we? ", root[1]
             if root[1] == 0:
                 parentsDict[vertices] = ScoreDict[vertices]
+
+            # Print out all the leaves
+            #if root[1] == 16:
+                #print vertices
+
+                #print "all reachable vertices from the root: ", DTLDict[vertices]
+            # LAST is garbage  value used in the dp construction   
+            #print "LAST ELEMENT???: ", DTLDict[vertices][-1]
             for n in range(len(DTLDict[vertices])-1):
                 _,child1,child2,oldScore = DTLDict[vertices][n]
+
+                # # DEBUG!!!!
+                # print "\nIteration: ", n 
+                # print "vertices: ", vertices
+                # print "child 1: ", child1
+                # print "child 2: ", child2
+                # print "oldScore: ", oldScore
+                # print "calculated value: ", parentsDict[vertices] * \
+                # (oldScore / ScoreDict[vertices])
+                # print "newDTL after change: ", newDTL[vertices]
+                # print "DTLDict: ", DTLDict[vertices]
+                # print "parentsDict: ", parentsDict[vertices]
+                # print "ScoreDict", ScoreDict[vertices]
+
                 newDTL[vertices][n][3] = parentsDict[vertices] * \
                 (oldScore / ScoreDict[vertices])
+
                 if child1!= (None, None):
                     if child1 in parentsDict:
-                        parentsDict[DTLDict[vertices][n][1]] += \
-                        newDTL[vertices][n][3]
+                        print "before parents -- child 1: ", parentsDict[child1]
+                        parentsDict[child1] += newDTL[vertices][n][3]
                     else: 
                         parentsDict[child1] = newDTL[vertices][n][3] 
                 if child2!=(None, None):
                     if child2 in parentsDict:
+                        print "before parents -- child 2: ", parentsDict[child2]
                         parentsDict[child2] += newDTL[vertices][n][3]
                     else: 
                         parentsDict[child2] = newDTL[vertices][n][3]
+
+           
+
+    print "key value: ", preOrder2[-1][0]
+    print "newDTL[preOrder2[-1][0]]: ", newDTL[preOrder2[-1][0]]
+
     normalize = newDTL[preOrder2[-1][0]][0][-1]
+
+
+    print "total recon count", normalize
+
+    # Check against roots sum 
+    # for x in preOrder2:
+    #     if x[1] == 0:
+    #         print x 
+    #         rootVal = newDTL[x[0]][0][-1]
+    #         #rootSum += rootVal
+    #         print "root value: ", x, rootVal
+    
+    
+    # Adjust all values in the DTL
     for key in newDTL:
+        # Again, last value is garbage 
         for event in newDTL[key][:-1]:
             event[-1] = event[-1]/normalize
     return newDTL, normalize

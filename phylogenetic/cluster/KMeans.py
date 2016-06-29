@@ -409,6 +409,7 @@ def get_weighted_template(graph):
         if roundedLikelihood == 0:
             print "DEBUG: Cannot get new information, making a random choice among roots: ", graph.roots 
             choice = random.choice(graph.roots)
+            sys.exit()
         elif roundedLikelihood != 1.0:
             print "DEBUG: Total likelihood of roots does not sum to 1.0, instead: ", totalLikelihood
             sys.exit()
@@ -426,7 +427,7 @@ def get_weighted_template(graph):
     stack = [choice]
 
     while len(stack) > 0:
-        print "CURRENT STACK \n\t: ", stack 
+        #print "CURRENT STACK \n\t: ", stack 
         n = stack.pop()
         if not n.isMap():
             events.add(n)
@@ -444,12 +445,18 @@ def get_weighted_template(graph):
                 print "n: ", n 
                 print "n's mappings: ", n.mapping
                 print "inner result: ", mappings[n.mapping]
+                print "n's children: ", n.children
                 for childNode in n.children:
-                    print "hit the regular case!"
+
+                    #print "hit the regular case!"
 
                     ## Fix this case: 
-                    likelihood = mappings[childNode][0][-1]
+                    #print "mappings: ", mappings
                     
+                    
+                    print "child node: ", childNode
+                    likelihood = mappings[n.mapping][0][-1]
+
                     if likelihood > 1.0:
                         print "child node: likelihood greater than 1, exiting"
                         sys.exit()

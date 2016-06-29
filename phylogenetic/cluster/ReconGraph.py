@@ -145,6 +145,7 @@ class ReconGraphPostorder(object):
             return self.next()
 
 def dictRecToSetRec(graph, dictRec):
+
     '''
     Given
         dictRec - a single reconciliation in dictionary form
