@@ -59,7 +59,7 @@ def connect(Turtle,Start,End,rad):
     Turtle.pendown()
     Turtle.ht()
 
-def drawNodes(treeMin, eventDict, depth, nodeDict):
+def drawNodes(treeMin, eventDict, ScoreDict, eventDict2, ScoreDict2, depth, nodeDict):
     """Takes as input
         treeMin   - a list of the starting nodes of the best reconciliations
         eventDict - the DTL format dictionary
@@ -67,11 +67,12 @@ def drawNodes(treeMin, eventDict, depth, nodeDict):
         nodeDict  - a dictionary of nodes and their coordinates.
     This function recursively draws the nodes of the DTL format dictionary, then
     connects them using the connect function aboves"""
+    print "drawing"
     numTips = 0
     for key in eventDict.keys():
         if eventDict[key][0][0] == "C":
             numTips+=1
-    width = numTips * 200
+    width = numTips * 100
     DISPLACE = width/2
     dip = 15
     if len(eventDict)<25:
@@ -90,7 +91,7 @@ def drawNodes(treeMin, eventDict, depth, nodeDict):
                         connect(turtle.Turtle(), nodeDict[key][item+1], nodeDict[thing][0], radius)
         return
 
-    difference = ((len(eventDict))*2)/numTips
+    difference = ((len(eventDict))*2)/numTips * 18
 
     numSols = len(treeMin)
     turtle.speed(0)
@@ -99,7 +100,8 @@ def drawNodes(treeMin, eventDict, depth, nodeDict):
     newtreeMin = []
     for x in range(len(treeMin)):
         if not treeMin[x] in nodeDict:
-            nodeDict[treeMin[x]] = [((x+1)*width/(numSols + 1)-DISPLACE, depth + radius)]
+            v = treeMin[x]
+            nodeDict[v] = [((x+1)*width/(numSols + 1)-DISPLACE, depth + radius)]
             turtle.penup()
             turtle.setpos((x+1)*width/(numSols+1)-DISPLACE, depth)
             turtle.pendown()
@@ -109,14 +111,23 @@ def drawNodes(treeMin, eventDict, depth, nodeDict):
             turtle.forward(radius)
             turtle.pendown()
             turtle.right(130)
-            turtle.write(treeMin[x], font = ("arial", 12, "normal"))
-            for y in eventDict[treeMin[x]]:
-                if type(y)== list:
-                    eventList.append((y[0], treeMin[x]))
-                    if y[1] !=(None, None) and not y[1] in newtreeMin:
-                        newtreeMin.append(y[1])
-                    if y[2] !=(None, None) and not y[2] in newtreeMin:
-                        newtreeMin.append(y[2])
+            turtle.write((v,ScoreDict[v],ScoreDict2[v]), font = ("arial", 14, "normal"))
+
+            for n in range(len(eventDict[v])-1):
+                y = eventDict[v][n]
+                eventList.append((y[0], v, y[3], eventDict2[v][n][3]))
+                if y[1] !=(None, None) and not y[1] in newtreeMin:
+                    newtreeMin.append(y[1])
+                if y[2] !=(None, None) and not y[2] in newtreeMin:
+                    newtreeMin.append(y[2])
+            # for y in eventDict[v]:
+            #     if type(y)== list:
+            #         eventList.append((y[0], v))
+            #         if y[1] !=(None, None) and not y[1] in newtreeMin:
+            #             newtreeMin.append(y[1])
+            #         if y[2] !=(None, None) and not y[2] in newtreeMin:
+            #             newtreeMin.append(y[2])
+
     numEvents = len(eventList)
     for event in range(len(eventList)):
         turtle.penup()
@@ -129,6 +140,7 @@ def drawNodes(treeMin, eventDict, depth, nodeDict):
         turtle.forward(radius)
         turtle.pendown()
         turtle.right(95)
-        turtle.write(eventList[event][0], font = ("arial", 12, "normal"))
+        eventType, v, oldScore, newScore = eventList[event]
+        turtle.write((eventType, oldScore, newScore), font = ("arial", 14, "normal"))
         turtle.ht()
-    drawNodes(newtreeMin, eventDict, depth - 2*difference, nodeDict)
+    drawNodes(newtreeMin, eventDict, ScoreDict, eventDict2, ScoreDict2, depth - 2*difference, nodeDict)
