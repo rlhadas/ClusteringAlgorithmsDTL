@@ -1,6 +1,0 @@
-../TreeLifeData/COG0122.newick
-key value:  ('n74', 'm44')
-newDTL[preOrder2[-1][0]]:  [['C', (None, None), (None, None), 12.0], 0]
-total recon count 12.0
-(('n0', 'm5'), 0)
-root value:  (('n0', 'm5'), 0) 12.0

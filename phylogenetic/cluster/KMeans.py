@@ -383,7 +383,6 @@ def get_weighted_template(graph):
     # graph = dict with key:value = node pair :[x, y]
     # x = event , y = garbage value , last value of x is our likelihood value 
     # e.g. ('n0', 'm8'): [['S', ('n2', 'm9'), ('n1', 'm10'), 1.0], 0]
-
     mappings = graph.map_node_map    
 
     ## Choosing a Root 
@@ -431,7 +430,6 @@ def get_weighted_template(graph):
             for c in n.children:
                 stack.append(c)
         else:
-             
             if len(n.children) == 1:
                 choice = n.children[0]
             else:

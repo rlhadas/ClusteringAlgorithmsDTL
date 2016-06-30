@@ -1,5 +1,0 @@
-Start time: 2016-06-20:16:46:41
-Current files: ../TreeLifeData_small/COG0500.newick,../TreeLifeData_small/COG0501.newick,../TreeLifeData_small/COG0502.newick,../TreeLifeData_small/COG0503.newick,../TreeLifeData_small/COG0504.newick
-Current files: ../TreeLifeData_small/COG0505.newick,../TreeLifeData_small/COG0506.newick,../TreeLifeData_small/COG0507.newick,../TreeLifeData_small/COG0508.newick,../TreeLifeData_small/COG0509.newick
-Current files: ../TreeLifeData_small/COG0510.newick,../TreeLifeData_small/COG0511.newick,../TreeLifeData_small/COG0512.newick,../TreeLifeData_small/COG0513.newick,../TreeLifeData_small/COG0514.newick
-Current files: ../TreeLifeData_small/COG0515.newick,../TreeLifeData_small/COG0516.newick,../TreeLifeData_small/COG0517.newick,../TreeLifeData_small/COG0518.newick,../TreeLifeData_small/COG0519.newick

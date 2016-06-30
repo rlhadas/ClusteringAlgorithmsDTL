@@ -19,7 +19,7 @@ def run_test(fileName, max_k):
     T = 3.
     L = 1.
 
-    print fileName 
+    print >> sys.stderr, "FILE: ", fileName
 
     host, paras, phi = newickFormatReader.getInput(fileName)
 

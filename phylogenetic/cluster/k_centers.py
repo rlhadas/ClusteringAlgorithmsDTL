@@ -6,7 +6,6 @@ sys.path.append('../')
 import os
 from multiprocessing import Pool
 import DP
-import DP_topo
 import Greedy
 import KMeans
 import newickFormatReader
@@ -21,6 +20,7 @@ import itertools
 
 flatten = lambda l: reduce(operator.add, l)
 recon_threshold = 1000 
+
 
 def pareto_front(valuelist):
     not_less = lambda v1,v2: not all(x <= y for (x,y) in zip(v1,v2)) or v1 == v2
@@ -80,6 +80,7 @@ def run_test(fileName, max_k):
     T = 3.
     L = 1.
 
+    print >> sys.stderr, "FILE: ", fileName
     host, paras, phi = newickFormatReader.getInput(fileName)
 
     if not os.path.exists(cache_dir):
@@ -109,6 +110,7 @@ def run_test(fileName, max_k):
     representatives = [ReconGraph.dictRecToSetRec(graph, dictReps[0])]
 
     print >> sys.stderr, 'Starting K-centers algorithm ... '
+    print fileName
     for i in xrange(2, max_k + 2):
         d, newrep = maximize(graph,representatives)
         if not all(d_i > 0 for d_i in d):
@@ -131,7 +133,7 @@ def doFile(fileName):
     except:
         pass
 
-# Remember to uncomment 
+
 if __name__ == '__main__':
     fileNames = sys.argv[1]
     max_k = int(sys.argv[2])

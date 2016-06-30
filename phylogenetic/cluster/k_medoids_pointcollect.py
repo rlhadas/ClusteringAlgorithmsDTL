@@ -24,8 +24,7 @@ def run_test(fileName, max_k):
     T = 3.
     L = 1.
     
-    time.sleep(1)
-    print "\n",fileName
+    print >> sys.stderr, "FILE: ", fileName
 
     host, paras, phi = newickFormatReader.getInput(fileName)
 
@@ -72,7 +71,7 @@ def run_test(fileName, max_k):
         dist_sum = 0
         n = 10
         for _ in xrange(n):
-            reps = [KMeans.get_template(graph) for _ in xrange(i)]
+            reps = [KMeans.get_weighted_template(graph) for _ in xrange(i)]
             average, maximum = KMeans.cluster_quality(graph, reps)
             dist_sum += average
             gc.collect()
@@ -86,7 +85,7 @@ def doFile(fileName):
 
 fileNames = sys.argv[1]
 max_k = int(sys.argv[2])
-num_processors = 5
+num_processors = 1
 if num_processors > 1:
     p = Pool(num_processors)
     p.map(doFile, fileNames.split(','))

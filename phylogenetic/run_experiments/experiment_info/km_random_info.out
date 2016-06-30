@@ -48,3 +48,7 @@ Early exit after 2 iterations
 K means starting with k = 3, seed = 2
 Size of graph: 355
 Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 355
+Early exit after 3 iterations
