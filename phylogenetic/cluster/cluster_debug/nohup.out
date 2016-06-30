@@ -1,0 +1,112 @@
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K-centers algorithm ... 
+../TreeLifeData/COG0565.newick
+graph roots: 
+[<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>]
+('n0', 'm2')
+[['S', ('n8', 'm3'), ('n1', 'm18'), 0], 61.0]
+1 28 <Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+27.6
+2 18 <Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+19.6
+3 16 <Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+19.8
+4 14 <Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+<Node type: map-node, mapping: ('n0', 'm2'), #child: 1, #parent: 0>
+19.0

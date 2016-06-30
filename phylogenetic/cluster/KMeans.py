@@ -380,99 +380,81 @@ def get_template(graph):
 def get_weighted_template(graph):
     ''' Given a reconciliation graph, returns a random reconciliation in
     event-set form '''
-    #stack = 
-    # graph = dict
-    # key:value = node pair :[x, y]
+    # graph = dict with key:value = node pair :[x, y]
     # x = event , y = garbage value , last value of x is our likelihood value 
     # e.g. ('n0', 'm8'): [['S', ('n2', 'm9'), ('n1', 'm10'), 1.0], 0]
-    ## Verifying and choosing roots 
-    print "graph.roots: ", graph.roots
-    rootCount = len(graph.roots)
-    mappings = graph.map_node_map
-    
-    if rootCount == 1:
+
+    mappings = graph.map_node_map    
+
+    ## Choosing a Root 
+    if len(graph.roots) == 1:
         choice = graph.roots[0]
     else: 
         choice = None 
-        rootValList = []
+        rootChoices = []
         totalLikelihood = 0 
 
-        for currentRoot in graph.roots:
-            rootNode = currentRoot.mapping
-            likelihood = mappings[rootNode][0][-1]
+        for root in graph.roots:
+            rootMapNode = root.mapping
+            # mappings[rootMapNode] is a 2 item list with the corresponding node
+            # containing event type, child1, child2, and likelihood, and a 
+            # leftover value from the DP
+            likelihood = mappings[rootMapNode][0][-1]
             totalLikelihood += likelihood
-            rootValList.append((rootNode, likelihood))
-
+            rootChoices.append((root, likelihood))
+        
         # Round to 1 decimal place to accommodate float errors 
         roundedLikelihood = round(totalLikelihood, 1)
-    
         if roundedLikelihood == 0:
             print "DEBUG: Cannot get new information, making a random choice among roots: ", graph.roots 
             choice = random.choice(graph.roots)
-            sys.exit()
+            
         elif roundedLikelihood != 1.0:
-            print "DEBUG: Total likelihood of roots does not sum to 1.0, instead: ", totalLikelihood
+            print "DEBUG | ERROR: Total likelihood of roots does not sum to 1.0, instead: ", totalLikelihood
             sys.exit()
         else:
-            print "DEBUG: Choosing root based on a weighted random."
             randVal = random.random()
             accumlatedValue = 0
-            for rootNode, likelihood in rootValList:
+            for root, likelihood in rootChoices:
                 accumlatedValue += likelihood
                 if randVal <= accumlatedValue:
-                    choice = rootNode 
+                    choice = root 
                     break
     
     events = set([])
     stack = [choice]
 
     while len(stack) > 0:
-        #print "CURRENT STACK \n\t: ", stack 
         n = stack.pop()
         if not n.isMap():
             events.add(n)
             for c in n.children:
                 stack.append(c)
         else:
-            # For map nodes 
-            print "THE CHILDREN: ", n.children 
-            numChildren = len(n.children)
-            choice = None
-            if numChildren == 1:
+             
+            if len(n.children) == 1:
                 choice = n.children[0]
             else:
-                newTotal = 0
-                print "n: ", n 
-                print "n's mappings: ", n.mapping
-                print "inner result: ", mappings[n.mapping]
-                print "n's children: ", n.children
-                for childNode in n.children:
+                totalLikelihood = 0 
+                childChoices = []
+                choice = None 
 
-                    #print "hit the regular case!"
-
-                    ## Fix this case: 
-                    #print "mappings: ", mappings
-                    
-                    
-                    print "child node: ", childNode
-                    likelihood = mappings[n.mapping][0][-1]
-
-                    if likelihood > 1.0:
-                        print "child node: likelihood greater than 1, exiting"
-                        sys.exit()
-                    else:
-                        newTotal += likelihood
+                childList = mappings[n.mapping][:-1]
+                for i in range(len(n.children)):
+                    child = n.children[i]
+                    likelihood = childList[i][-1]
+                    totalLikelihood += likelihood
+                    childChoices.append((child, likelihood))
 
                 randVal = random.random()
                 accumlatedValue = 0
-                print "acculamatig values for the regular case."
-                for child in n.children:
-                    likelihood = mappings[child][0][-1]
-                    weightedLikelihood = likelihood / float(newTotal)
+                for child, likelihood in childChoices:    
+                    weightedLikelihood = likelihood / float(totalLikelihood)
                     accumlatedValue += weightedLikelihood
+
                     if randVal <= accumlatedValue:
-                        choice = child
-                        break
+                        choice = child 
+                        break 
             stack.append(choice)
     return events
 

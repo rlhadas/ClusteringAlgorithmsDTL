@@ -6,6 +6,7 @@ sys.path.append('../')
 import os
 from multiprocessing import Pool
 import DP
+import DP_topo
 import Greedy
 import KMeans
 import newickFormatReader
@@ -17,7 +18,6 @@ import random
 import operator
 from collections import defaultdict
 import itertools
-#import RandomGenerator
 
 flatten = lambda l: reduce(operator.add, l)
 recon_threshold = 1000 
@@ -55,7 +55,6 @@ def maximize(graph, templates):
 
     # Populate DP tables for the entire graph
     for n in graph.postorder():
-
         child_values = [pareto_values[c] for c in n.children]
 
         if n.isLeaf():
@@ -67,8 +66,6 @@ def maximize(graph, templates):
 
         if len(child_values) > 1:
             pareto_values[n] = pareto_front(pareto_values[n])
-
-        # print n, pareto_values[n]
 
     root_values = flatten([pareto_values[n] for n in graph.roots])
     root_values = [([x + len(t) for x,t in zip(value,templates)],eventset) \
@@ -83,8 +80,6 @@ def run_test(fileName, max_k):
     T = 3.
     L = 1.
 
-    print fileName
-
     host, paras, phi = newickFormatReader.getInput(fileName)
 
     if not os.path.exists(cache_dir):
@@ -93,85 +88,31 @@ def run_test(fileName, max_k):
         f.write('This directory holds a cache of reconciliation graph for the TreeLife data set')
         f.close()
 
-    # cache_location = '%s/%s.graph' % (cache_dir, os.path.split(fileName)[1])
-    # if not os.path.isfile(cache_location):
-    #     print >> sys.stderr, 'A reconciliation graph has not been built yet for this newick file'
-    #     print >> sys.stderr, 'Doing so now and caching it in {%s}...' % cache_location
+    cache_location = '%s/%s.graph' % (cache_dir, os.path.split(fileName)[1])
+    if not os.path.isfile(cache_location):
+        print >> sys.stderr, 'A reconciliation graph has not been built yet for this newick file'
+        print >> sys.stderr, 'Doing so now and caching it in {%s}...' % cache_location
 
-    #     DictGraph, numRecon = DP.DP(host, paras, phi, D, T, L)
-    #     #print "DictGraph: ", DictGraph
-    #     #print "\n\nnum recon: ", numRecon
-    #     f = open(cache_location, 'w+')
-    #     f.write(repr(DictGraph))
-    #     f.close()
+        DictGraph, numRecon = DP.DP(host, paras, phi, D, T, L)
+        f = open(cache_location, 'w+')
+        f.write(repr(DictGraph))
+        f.close()
 
-    # print >> sys.stderr, 'Loading reonciliation graph from cache'
-    # f = open(cache_location)
-    # DictGraph = eval(f.read())
-    # f.close()
+    print >> sys.stderr, 'Loading reonciliation graph from cache'
+    f = open(cache_location)
+    DictGraph = eval(f.read())
+    f.close()
 
-
-    DictGraph, numRecon = DP.DP(host, paras, phi, D, T, L)
-    # found = False 
-    # for key in DictGraph.keys():
-    #     children = DictGraph[key]
-    #     #print "children: ", children 
-    #     for child in children[:-1]:
-    #         #print "child: ", child 
-    #         if child[-1] > 1:
-    #             print "FOUND: ", key, child 
-    #             #print "\nFrom: ", DictGraph
-    #             found = True 
-    #             #sys.exit()
-    # if not(found):
-    #     print "NOT FOUND."
-    
 
     scoresList, dictReps = Greedy.Greedy(DictGraph, paras)
-
-    print >> sys.stderr, 'Found cluster representatives using point-collecting'
-
-   
     graph = ReconGraph.ReconGraph(DictGraph)
-    print graph.roots
-
-
-    sys.exit()
-
-    
-    #print "map before: "
-    # A = graph.map_node_map 
-    # found = False 
-    # for key in A:
-    #     children = A[key]
-    #     #print "children: ", children 
-    #     for child in children[:-1]:
-    #         #print "child: ", child 
-    #         if child[-1] !=0:
-    #             print "FOUND: ", key, child 
-    #             #print "\nFrom: ", DictGraph
-    #             found = True 
-    #             #sys.exit()
-    # if not(found):
-    #     print "NOT FOUND. NON ZERO"
-
     representatives = [ReconGraph.dictRecToSetRec(graph, dictReps[0])]
 
-    # print "map after: "
-    # print graph.map_node_map 
-
-    
-    
- 
-
     print >> sys.stderr, 'Starting K-centers algorithm ... '
-    # print >> sys.stderr, 'Printing Average and Maximum cluster radius at each step'
-
     for i in xrange(2, max_k + 2):
         d, newrep = maximize(graph,representatives)
-        print "distance vector:", d
         if not all(d_i > 0 for d_i in d):
-            print "Distance vector is all 0s", d 
+            print >> sys.stderr, "Distance vector contains 0", d 
             break
 
         print i-1, min(d),
@@ -183,7 +124,6 @@ def run_test(fileName, max_k):
             dist_sum += min_d(maximize(graph,reps))
         print float(dist_sum) / n
 
-
     print  >> sys.stderr, "Finished k centers algorithm ..."
 def doFile(fileName):
     try:
@@ -191,6 +131,7 @@ def doFile(fileName):
     except:
         pass
 
+# Remember to uncomment 
 if __name__ == '__main__':
     fileNames = sys.argv[1]
     max_k = int(sys.argv[2])
