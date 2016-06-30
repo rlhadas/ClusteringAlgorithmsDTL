@@ -5,33 +5,26 @@ Be in this directory
 
 ## Run Commands 
 
-[1] 35602 DONE 
 nohup nice -n 1 bash test.sh ../cluster/k_centers.py ../run_experiments/experiment_info/kcenters_result.out >> experiment_info/kcenters_info.out &
 
-[1] 35977
 nohup nice -n 1 bash test.sh ../cluster/k_medoids_random.py ../run_experiments/experiment_info/km_random_result.out >> experiment_info/km_random_info.out &
 
-[2] 35995
 nohup nice -n 1 bash test.sh ../cluster/k_medoids_pointcollect.py ../run_experiments/experiment_info/km_pc_result.out >> experiment_info/km_pc_info.out &
 
 
+## OUTPUT 
+1] 37742
+16:09 [jsung@knuth:~/Documents/SummerResearch2016/phylogenetic/run_experiments]
+212 % nohup: ignoring input and redirecting stderr to stdout
+nohup nohup nice -n 1 bash test.sh ../cluster/k_medoids_random.py ../run_experiments/experiment_info/km_random_result.out >> experiment_info/km_random_info.out &
 
-# Resetting the files 
-rm experiment_info/kcenters_info.out
-rm experiment_info/kcenters_result.out
-touch experiment_info/kcenters_info.out
-touch experiment_info/kcenters_result.out
+[2] 37750
+16:09 [jsung@knuth:~/Documents/SummerResearch2016/phylogenetic/run_experiments]
+213 % nohup nice -n 1 bash test.sh ../cluster/k_medoids_pointcollect.py ../run_experiments/experiment_info/km_pc_result.out >> experiment_info/km_pc_info.out &
 
-rm experiment_info/km_random_info.out
-rm experiment_info/km_random_result.out
-touch experiment_info/km_random_info.out
-touch experiment_info/km_random_result.out
-
-rm experiment_info/km_pc_info.out
-rm experiment_info/km_pc_result.out
-touch experiment_info/km_pc_info.out
-touch experiment_info/km_pc_result.out
-
+[3] 37772
+16:09 [jsung@knuth:~/Documents/SummerResearch2016/phylogenetic/run_experiments]
+214 % nohup: ignoring input and redirecting stderr to stdout
 
 ## Checking commands 
 cat experiment_info/kcenters_info.out

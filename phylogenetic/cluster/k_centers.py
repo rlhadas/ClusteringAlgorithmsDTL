@@ -81,6 +81,8 @@ def run_test(fileName, max_k):
     L = 1.
 
     print >> sys.stderr, "FILE: ", fileName
+    print fileName
+
     host, paras, phi = newickFormatReader.getInput(fileName)
 
     if not os.path.exists(cache_dir):
@@ -110,7 +112,6 @@ def run_test(fileName, max_k):
     representatives = [ReconGraph.dictRecToSetRec(graph, dictReps[0])]
 
     print >> sys.stderr, 'Starting K-centers algorithm ... '
-    print fileName
     for i in xrange(2, max_k + 2):
         d, newrep = maximize(graph,representatives)
         if not all(d_i > 0 for d_i in d):

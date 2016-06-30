@@ -1,22 +1,46 @@
-Start time: 2016-06-30:15:34:37
-FILE:  ../TreeLifeData/COG0646.newick
+Start time: 2016-06-30:16:09:12
+FILE:  ../TreeLifeData/COG3833.newick
 Loading reonciliation graph from cache
 Found cluster representatives using point-collecting
 Starting K Means algorithm ... 
 Printing Average and Maximum cluster radius at each step
 ===========================
 K means starting with k = 1, seed = 0
-Size of graph: 355
-Early exit after 2 iterations
+Size of graph: 140
+Early exit after 1 iterations
 ===========================
 K means starting with k = 2, seed = 0
-Size of graph: 355
-Early exit after 2 iterations
+Size of graph: 140
+Early exit after 1 iterations
 ===========================
 K means starting with k = 3, seed = 0
-Size of graph: 355
-Early exit after 2 iterations
+Size of graph: 140
+Early exit after 1 iterations
 ===========================
 K means starting with k = 4, seed = 0
-Size of graph: 355
+Size of graph: 140
 Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG3785.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 48
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 48
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 48
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 48
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG0531.newick
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {./cache/COG0531.newick.graph}...
