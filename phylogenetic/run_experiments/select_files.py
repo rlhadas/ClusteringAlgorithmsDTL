@@ -1,26 +1,24 @@
 ## File to select Tree of Life Files to fun 
+import os, random
 
-
-
-import random 
-from string import Template 
-
-
-DATA_DIR = "../TreeLifeData"
-
-
-## Choose random files 
-ENDCAP = 5665
-num_results = 100
+NUM_RESULTS = 100 
+DATA_DIR = "../TreeLifeData/"
 result_list = []
-for i in range(num_results):
-	 result = random.choice(range(1, ENDCAP))
-	 result_list.append(result)
-print result_list
 
+# Choose random files 
+for i in range(NUM_RESULTS):
+	duplicate = True
+	while duplicate:
+		result = random.choice(os.listdir(DATA_DIR))
+		if result not in result_list:
+			duplicate = False
+			result_list.append(DATA_DIR+result)
 
-# Create list of 
-# [2430, 920, 4311, 5567, 2984, 2535, 266, 2473, 3854, 2082, 4988, 791, 879, 3914, 5583, 1966, 1187, 3879, 4691, 265, 1594, 4182, 5189, 1122, 5414, 1031, 2255, 3955, 5315, 3124, 3710, 3359, 2201, 3829, 3306, 524, 5370, 5579, 1239, 1751, 2318, 5078, 2556, 3985, 4247, 3661, 2201, 651, 3151, 455, 208, 1414, 1417, 1405, 2183, 1601, 1826, 1670, 118, 2725, 3792, 5336, 2709, 3797, 717, 1880, 2655, 1920, 3814, 4521, 1424, 5265, 3285, 5482, 2679, 2032, 4614, 2430, 4372, 3746, 2883, 4139, 3652, 5097, 3504, 11, 2458, 850, 2408, 4868, 2259, 1734, 4630, 214, 4786, 5151, 5138, 3845, 1171, 1595]
+print ' '.join(result_list)
+
+#print "../TreeLifeData/COG2814.newick"
+#../TreeLifeData/COG2251.newick ../TreeLifeData/COG1657.newick"
+# ../TreeLifeData/COG1607.newick ../TreeLifeData/COG3026.newick ../TreeLifeData/COG2138.newick ../TreeLifeData/COG4833.newick ../TreeLifeData/COG1297.newick ../TreeLifeData/COG5177.newick ../TreeLifeData/COG0580.newick ../TreeLifeData/COG4848.newick ../TreeLifeData/COG1102.newick ../TreeLifeData/COG0530.newick ../TreeLifeData/COG1001.newick ../TreeLifeData/COG5325.newick ../TreeLifeData/COG1944.newick ../TreeLifeData/COG3788.newick ../TreeLifeData/COG2116.newick ../TreeLifeData/COG2362.newick ../TreeLifeData/COG0595.newick ../TreeLifeData/COG3700.newick ../TreeLifeData/COG1094.newick ../TreeLifeData/COG3889.newick ../TreeLifeData/COG1889.newick ../TreeLifeData/COG1609.newick ../TreeLifeData/COG1968.newick ../TreeLifeData/COG3057.newick ../TreeLifeData/COG3684.newick ../TreeLifeData/COG5267.newick ../TreeLifeData/COG1225.newick ../TreeLifeData/COG4294.newick ../TreeLifeData/COG0595.newick ../TreeLifeData/COG1794.newick ../TreeLifeData/COG3504.newick ../TreeLifeData/COG1737.newick ../TreeLifeData/COG3022.newick ../TreeLifeData/COG2810.newick ../TreeLifeData/COG1169.newick ../TreeLifeData/COG3636.newick ../TreeLifeData/COG0224.newick ../TreeLifeData/COG0105.newick ../TreeLifeData/COG4939.newick ../TreeLifeData/COG3944.newick ../TreeLifeData/COG1408.newick ../TreeLifeData/COG1679.newick ../TreeLifeData/COG4835.newick ../TreeLifeData/COG3353.newick ../TreeLifeData/COG1575.newick ../TreeLifeData/COG1552.newick ../TreeLifeData/COG1195.newick ../TreeLifeData/COG0766.newick ../TreeLifeData/COG1308.newick ../TreeLifeData/COG0030.newick ../TreeLifeData/COG3021.newick ../TreeLifeData/COG1881.newick ../TreeLifeData/COG3456.newick ../TreeLifeData/COG1412.newick ../TreeLifeData/COG3746.newick ../TreeLifeData/COG0668.newick ../TreeLifeData/COG2265.newick ../TreeLifeData/COG1273.newick ../TreeLifeData/COG3546.newick ../TreeLifeData/COG2225.newick ../TreeLifeData/COG5535.newick ../TreeLifeData/COG1441.newick ../TreeLifeData/COG1040.newick ../TreeLifeData/COG4549.newick ../TreeLifeData/COG3154.newick ../TreeLifeData/COG1663.newick ../TreeLifeData/COG4944.newick ../TreeLifeData/COG1184.newick ../TreeLifeData/COG5187.newick ../TreeLifeData/COG0364.newick ../TreeLifeData/COG1387.newick ../TreeLifeData/COG1630.newick ../TreeLifeData/COG2034.newick ../TreeLifeData/COG3769.newick ../TreeLifeData/COG4024.newick ../TreeLifeData/COG0622.newick ../TreeLifeData/COG4968.newick ../TreeLifeData/COG1871.newick ../TreeLifeData/COG5423.newick ../TreeLifeData/COG4239.newick ../TreeLifeData/COG5147.newick ../TreeLifeData/COG1551.newick ../TreeLifeData/COG4314.newick ../TreeLifeData/COG0054.newick ../TreeLifeData/COG2427.newick ../TreeLifeData/COG2223.newick ../TreeLifeData/COG2853.newick ../TreeLifeData/COG1256.newick ../TreeLifeData/COG3467.newick ../TreeLifeData/COG0683.newick ../TreeLifeData/COG3023.newick ../TreeLifeData/COG3215.newick ../TreeLifeData/COG1983.newick ../TreeLifeData/COG1437.newick ../TreeLifeData/COG2453.newick ../TreeLifeData/COG4990.newick ../TreeLifeData/COG1671.newick"
 
 
 

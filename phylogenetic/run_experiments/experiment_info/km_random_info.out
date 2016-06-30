@@ -1,0 +1,50 @@
+Start time: 2016-06-30:15:34:19
+FILE:  ../TreeLifeData/COG0646.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 355
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 355
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 355
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 355
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 355
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 355
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 355
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 355
+Early exit after 1 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 355
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 355
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 355
+Early exit after 2 iterations

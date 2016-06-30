@@ -1,0 +1,27 @@
+## For k centers 
+[4] 63755
+nohup nice -n 1 python k_centers.py ../TreeLifeData_small/COG0031.newick,../TreeLifeData_small/COG0032.newick,../TreeLifeData_small/COG0033.newick,../TreeLifeData_small/COG0034.newick,../TreeLifeData_small/COG0035.newick 4 > ../run_experiments/kcenters_batch6.txt & 
+
+## Fixing up k medoids, by writing them separately 
+[1] 5596
+nohup python k_medoids_pointcollect.py ../TreeLifeData_small/COG0008.newick,../TreeLifeData_small/COG0035.newick,../TreeLifeData_small/COG0038.newick,../TreeLifeData_small/COG0044.newick,../TreeLifeData_small/COG0048.newick 4 >> ../run_experiments/leftover_m_1.txt & 
+
+nohup python k_medoids_pointcollect.py ../TreeLifeData_small/COG0056.newick,../TreeLifeData_small/COG0061.newick,../TreeLifeData_small/COG0071.newick,../TreeLifeData_small/COG0078.newick,../TreeLifeData_small/COG0081.newick 4 >> ../run_experiments/leftover_m_2.txt & 
+
+[2] 5646
+nohup python k_medoids_pointcollect_1.py ../TreeLifeData_small/COG0093.newick 4 >> ../run_experiments/leftover_m_3.txt & 
+
+[3] 5654
+nohup python k_medoids_pointcollect_1.py ../TreeLifeData_small/COG0100.newick 4 >> ../run_experiments/leftover_m_4.txt & 
+
+[1] 20259
+nohup python k_medoids_pointcollect.py ../TreeLifeData_small/COG0056.newick,../TreeLifeData_small/COG0061.newick,../TreeLifeData_small/COG0071.newick,../TreeLifeData_small/COG0078.newick,../TreeLifeData_small/COG0081.newick 4 >> ../run_experiments/leftover_m_2.txt & 
+
+# [1] 53303
+nohup python k_centers.py ../TreeLifeData/COG0565.newick 4 >> ../run_experiments/test_kcenters.txt & 
+
+nohup python k_centers.py ../TreeLifeData/COG0565.newick 4 >> ../run_experiments/test_kcenters.txt & 
+nohup python k_centers.py ../TreeLifeData/COG0566.newick 4 >> ../run_experiments/test_kcenters2.txt & 
+
+
+python k_centers.py ../TreeLifeData/COG0566.newick 4
