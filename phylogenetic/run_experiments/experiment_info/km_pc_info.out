@@ -44,3 +44,2722 @@ Early exit after 1 iterations
 FILE:  ../TreeLifeData/COG0531.newick
 A reconciliation graph has not been built yet for this newick file
 Doing so now and caching it in {./cache/COG0531.newick.graph}...
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 2453
+Reconciliation count by constant: 67429434366742451191808
+Reconciliation count by roots   : 67429434366742442803200
+Should be equal
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 70, in run_test
+    KMeans.k_means(graph, 10, i, 0, representatives[:i])
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 234, in k_means
+    end_reps = step_many(k_means_step, graph, reps, steps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 196, in step_many
+    new_reps = step_fn(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 175, in k_means_step
+    value_maps = node_value_maps_symmetric(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 167, in node_value_maps_symmetric
+    assert False
+AssertionError
+FILE:  ../TreeLifeData/COG1428.newick
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {./cache/COG1428.newick.graph}...
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 189
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 189
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 189
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 189
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG5218.newick
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {./cache/COG5218.newick.graph}...
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 22
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 22
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 22
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 22
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG1781.newick
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {./cache/COG1781.newick.graph}...
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 117
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 117
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 117
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 117
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG1321.newick
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {./cache/COG1321.newick.graph}...
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 269
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 269
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 269
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 269
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG0713.newick
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {./cache/COG0713.newick.graph}...
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 414
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 414
+Early exit after 4 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 414
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 414
+Early exit after 3 iterations
+FILE:  ../TreeLifeData/COG3108.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 110
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 110
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 110
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 110
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG1031.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 42
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 42
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 42
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 42
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG0821.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 405
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 405
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 405
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 405
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0386.newick
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {./cache/COG0386.newick.graph}...
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 447
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 447
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 447
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 447
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG1578.newick
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {./cache/COG1578.newick.graph}...
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 66
+Reconciliation count by constant: 8
+Reconciliation count by roots   : 2
+Should be equal
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 70, in run_test
+    KMeans.k_means(graph, 10, i, 0, representatives[:i])
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 234, in k_means
+    end_reps = step_many(k_means_step, graph, reps, steps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 196, in step_many
+    new_reps = step_fn(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 175, in k_means_step
+    value_maps = node_value_maps_symmetric(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 167, in node_value_maps_symmetric
+    assert False
+AssertionError
+FILE:  ../TreeLifeData/COG1682.newick
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {./cache/COG1682.newick.graph}...
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 366
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 366
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 366
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 366
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 70, in run_test
+    KMeans.k_means(graph, 10, i, 0, representatives[:i])
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 234, in k_means
+    end_reps = step_many(k_means_step, graph, reps, steps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 196, in step_many
+    new_reps = step_fn(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 175, in k_means_step
+    value_maps = node_value_maps_symmetric(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 137, in node_value_maps_symmetric
+    counts = sparse_counts_n(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/StratifiedCounts.py", line 157, in sparse_counts_n
+    return counts_n(graph, template_event_set_s, SparseNDistanceFunction)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/StratifiedCounts.py", line 152, in counts_n
+    return _counts_n(graph, template_event_set_s, subcount_table, supercount_table)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/StratifiedCounts.py", line 146, in _counts_n
+    subcount_table[n].convolve(supercount_table[n]).shift(offsets)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/DistanceFunction.py", line 194, in shift
+    result.map[_vec_sum(pt, i_s)] = self.map[pt]
+MemoryError
+FILE:  ../TreeLifeData/COG5653.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 61
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 61
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 61
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 61
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG0698.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 324
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 324
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 324
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 324
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG0644.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 609
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 609
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 609
+Early exit after 2 iterations
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 70, in run_test
+    KMeans.k_means(graph, 10, i, 0, representatives[:i])
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 224, in k_means
+    start_average, start_maximum = cluster_quality(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 478, in cluster_quality
+    ds = reconciliations_at_each_distance_from_representatives(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 113, in reconciliations_at_each_distance_from_representatives
+    counts = sparse_counts_n(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/StratifiedCounts.py", line 157, in sparse_counts_n
+    return counts_n(graph, template_event_set_s, SparseNDistanceFunction)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/StratifiedCounts.py", line 152, in counts_n
+    return _counts_n(graph, template_event_set_s, subcount_table, supercount_table)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/StratifiedCounts.py", line 146, in _counts_n
+    subcount_table[n].convolve(supercount_table[n]).shift(offsets)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/DistanceFunction.py", line 194, in shift
+    result.map[_vec_sum(pt, i_s)] = self.map[pt]
+MemoryError
+FILE:  ../TreeLifeData/COG4027.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 16
+Reconciliation count by constant: 2
+Reconciliation count by roots   : 1
+Should be equal
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 70, in run_test
+    KMeans.k_means(graph, 10, i, 0, representatives[:i])
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 234, in k_means
+    end_reps = step_many(k_means_step, graph, reps, steps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 196, in step_many
+    new_reps = step_fn(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 175, in k_means_step
+    value_maps = node_value_maps_symmetric(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 167, in node_value_maps_symmetric
+    assert False
+AssertionError
+FILE:  ../TreeLifeData/COG2014.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 23
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 23
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 23
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 23
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG1197.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 317
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 317
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 317
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 317
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG1826.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 539
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 539
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 539
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 539
+Early exit after 2 iterations
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 76, in run_test
+    average, maximum = KMeans.cluster_quality(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 478, in cluster_quality
+    ds = reconciliations_at_each_distance_from_representatives(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 113, in reconciliations_at_each_distance_from_representatives
+    counts = sparse_counts_n(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/StratifiedCounts.py", line 157, in sparse_counts_n
+    return counts_n(graph, template_event_set_s, SparseNDistanceFunction)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/StratifiedCounts.py", line 152, in counts_n
+    return _counts_n(graph, template_event_set_s, subcount_table, supercount_table)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/StratifiedCounts.py", line 146, in _counts_n
+    subcount_table[n].convolve(supercount_table[n]).shift(offsets)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/DistanceFunction.py", line 194, in shift
+    result.map[_vec_sum(pt, i_s)] = self.map[pt]
+MemoryError
+FILE:  ../TreeLifeData/COG1928.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 70
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 70
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 70
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 70
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG1933.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 52
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 52
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 52
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 52
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG5323.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 33
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 33
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 33
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 33
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG1862.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 311
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 311
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 311
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 311
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG4095.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 70
+Reconciliation count by constant: 3
+Reconciliation count by roots   : 1
+Should be equal
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 70, in run_test
+    KMeans.k_means(graph, 10, i, 0, representatives[:i])
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 234, in k_means
+    end_reps = step_many(k_means_step, graph, reps, steps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 196, in step_many
+    new_reps = step_fn(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 175, in k_means_step
+    value_maps = node_value_maps_symmetric(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 167, in node_value_maps_symmetric
+    assert False
+AssertionError
+FILE:  ../TreeLifeData/COG0364.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 419
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 419
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 419
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 419
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG1492.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 357
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 357
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 357
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 357
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0766.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 430
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 430
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 430
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 430
+Early exit after 3 iterations
+FILE:  ../TreeLifeData/COG5663.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 8
+Reconciliation count by constant: 2
+Reconciliation count by roots   : 1
+Should be equal
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 70, in run_test
+    KMeans.k_means(graph, 10, i, 0, representatives[:i])
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 234, in k_means
+    end_reps = step_many(k_means_step, graph, reps, steps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 196, in step_many
+    new_reps = step_fn(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 175, in k_means_step
+    value_maps = node_value_maps_symmetric(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 167, in node_value_maps_symmetric
+    assert False
+AssertionError
+FILE:  ../TreeLifeData/COG4695.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 149
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 149
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 149
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 149
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG5525.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 76
+Reconciliation count by constant: 19
+Reconciliation count by roots   : 7
+Should be equal
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 70, in run_test
+    KMeans.k_means(graph, 10, i, 0, representatives[:i])
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 234, in k_means
+    end_reps = step_many(k_means_step, graph, reps, steps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 196, in step_many
+    new_reps = step_fn(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 175, in k_means_step
+    value_maps = node_value_maps_symmetric(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 167, in node_value_maps_symmetric
+    assert False
+AssertionError
+FILE:  ../TreeLifeData/COG3201.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 97
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 97
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 97
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 97
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG3459.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 38
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 38
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 38
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 38
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG2264.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 310
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 310
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 310
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 310
+Early exit after 3 iterations
+FILE:  ../TreeLifeData/COG0459.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 47
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 47
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 47
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 47
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG2607.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 87
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 87
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 87
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 87
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG5412.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 49
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 49
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 49
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 49
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG3204.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 47
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 47
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 47
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 47
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG0835.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 838
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 838
+Early exit after 2 iterations
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 70, in run_test
+    KMeans.k_means(graph, 10, i, 0, representatives[:i])
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 224, in k_means
+    start_average, start_maximum = cluster_quality(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 478, in cluster_quality
+    ds = reconciliations_at_each_distance_from_representatives(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 113, in reconciliations_at_each_distance_from_representatives
+    counts = sparse_counts_n(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/StratifiedCounts.py", line 157, in sparse_counts_n
+    return counts_n(graph, template_event_set_s, SparseNDistanceFunction)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/StratifiedCounts.py", line 152, in counts_n
+    return _counts_n(graph, template_event_set_s, subcount_table, supercount_table)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/StratifiedCounts.py", line 146, in _counts_n
+    subcount_table[n].convolve(supercount_table[n]).shift(offsets)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/DistanceFunction.py", line 194, in shift
+    result.map[_vec_sum(pt, i_s)] = self.map[pt]
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/DistanceFunction.py", line 20, in _vec_sum
+    return tuple(a + b for a, b in zip(v1, v2))
+MemoryError
+FILE:  ../TreeLifeData/COG3168.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 42
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 42
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 42
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 42
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG5418.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 16
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 16
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 16
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 16
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG4353.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 14
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 14
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 14
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 14
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG2933.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 42
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 42
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 42
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 42
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG2956.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 69
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 69
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 69
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 69
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0500.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 6298
+Reconciliation count by constant: 907797462941521103230530972303263028851305346408274958506783695241604124114944
+Reconciliation count by roots   : 907797462941521753920583445243840579393651032056678971177620286000332800000000
+Should be equal
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 70, in run_test
+    KMeans.k_means(graph, 10, i, 0, representatives[:i])
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 234, in k_means
+    end_reps = step_many(k_means_step, graph, reps, steps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 196, in step_many
+    new_reps = step_fn(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 175, in k_means_step
+    value_maps = node_value_maps_symmetric(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 167, in node_value_maps_symmetric
+    assert False
+AssertionError
+FILE:  ../TreeLifeData/COG5564.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 59
+Reconciliation count by constant: 4
+Reconciliation count by roots   : 2
+Should be equal
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 70, in run_test
+    KMeans.k_means(graph, 10, i, 0, representatives[:i])
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 234, in k_means
+    end_reps = step_many(k_means_step, graph, reps, steps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 196, in step_many
+    new_reps = step_fn(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 175, in k_means_step
+    value_maps = node_value_maps_symmetric(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 167, in node_value_maps_symmetric
+    assert False
+AssertionError
+FILE:  ../TreeLifeData/COG1117.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 490
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 490
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 490
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 490
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG5451.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 28
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 28
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 28
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 28
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG5543.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 26
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 26
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 26
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 26
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG4667.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 89
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 89
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 89
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 89
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG1738.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 220
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 220
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 220
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 220
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG2020.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 347
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 347
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 347
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 347
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG4981.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 27
+Reconciliation count by constant: 4
+Reconciliation count by roots   : 2
+Should be equal
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 70, in run_test
+    KMeans.k_means(graph, 10, i, 0, representatives[:i])
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 234, in k_means
+    end_reps = step_many(k_means_step, graph, reps, steps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 196, in step_many
+    new_reps = step_fn(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 175, in k_means_step
+    value_maps = node_value_maps_symmetric(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 167, in node_value_maps_symmetric
+    assert False
+AssertionError
+FILE:  ../TreeLifeData/COG3449.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 129
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 129
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 129
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 129
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG4783.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 129
+Reconciliation count by constant: 10
+Reconciliation count by roots   : 2
+Should be equal
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 70, in run_test
+    KMeans.k_means(graph, 10, i, 0, representatives[:i])
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 234, in k_means
+    end_reps = step_many(k_means_step, graph, reps, steps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 196, in step_many
+    new_reps = step_fn(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 175, in k_means_step
+    value_maps = node_value_maps_symmetric(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 167, in node_value_maps_symmetric
+    assert False
+AssertionError
+FILE:  ../TreeLifeData/COG2910.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 105
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 105
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 105
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 105
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG5314.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 47
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 47
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 47
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 47
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG5360.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 26
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 26
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 26
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 26
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG2821.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 134
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 134
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 134
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 134
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG1462.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 100
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 100
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 100
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 100
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG5462.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 25
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 25
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 25
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 25
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0404.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 636
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 636
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 636
+Early exit after 2 iterations
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 70, in run_test
+    KMeans.k_means(graph, 10, i, 0, representatives[:i])
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 224, in k_means
+    start_average, start_maximum = cluster_quality(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 478, in cluster_quality
+    ds = reconciliations_at_each_distance_from_representatives(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 113, in reconciliations_at_each_distance_from_representatives
+    counts = sparse_counts_n(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/StratifiedCounts.py", line 157, in sparse_counts_n
+    return counts_n(graph, template_event_set_s, SparseNDistanceFunction)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/StratifiedCounts.py", line 152, in counts_n
+    return _counts_n(graph, template_event_set_s, subcount_table, supercount_table)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/StratifiedCounts.py", line 146, in _counts_n
+    subcount_table[n].convolve(supercount_table[n]).shift(offsets)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/DistanceFunction.py", line 194, in shift
+    result.map[_vec_sum(pt, i_s)] = self.map[pt]
+MemoryError
+FILE:  ../TreeLifeData/COG4764.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 50
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 50
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 50
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 50
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0476.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 101
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 101
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 101
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 101
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG4485.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 36
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 36
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 36
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 36
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG5253.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 233
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 233
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 233
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 233
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG1395.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 49
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 49
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 49
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 49
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG2201.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 287
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 287
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 287
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 287
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG5071.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 62
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 62
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 62
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 62
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG1749.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 282
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 282
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 282
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 282
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG4224.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 51
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 51
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 51
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 51
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0478.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 107
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 107
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 107
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 107
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG0454.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 40
+Reconciliation count by constant: 9
+Reconciliation count by roots   : 1
+Should be equal
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 70, in run_test
+    KMeans.k_means(graph, 10, i, 0, representatives[:i])
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 234, in k_means
+    end_reps = step_many(k_means_step, graph, reps, steps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 196, in step_many
+    new_reps = step_fn(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 175, in k_means_step
+    value_maps = node_value_maps_symmetric(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 167, in node_value_maps_symmetric
+    assert False
+AssertionError
+FILE:  ../TreeLifeData/COG2926.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 36
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 36
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 36
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 36
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG0471.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 541
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 541
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 541
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 541
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG4918.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 18
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 18
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 18
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 18
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG5487.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 8
+Reconciliation count by constant: 2
+Reconciliation count by roots   : 1
+Should be equal
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 70, in run_test
+    KMeans.k_means(graph, 10, i, 0, representatives[:i])
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 234, in k_means
+    end_reps = step_many(k_means_step, graph, reps, steps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 196, in step_many
+    new_reps = step_fn(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 175, in k_means_step
+    value_maps = node_value_maps_symmetric(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 167, in node_value_maps_symmetric
+    assert False
+AssertionError
+FILE:  ../TreeLifeData/COG2106.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 75
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 75
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 75
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 75
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG2999.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 24
+Reconciliation count by constant: 2
+Reconciliation count by roots   : 1
+Should be equal
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 70, in run_test
+    KMeans.k_means(graph, 10, i, 0, representatives[:i])
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 234, in k_means
+    end_reps = step_many(k_means_step, graph, reps, steps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 196, in step_many
+    new_reps = step_fn(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 175, in k_means_step
+    value_maps = node_value_maps_symmetric(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 167, in node_value_maps_symmetric
+    assert False
+AssertionError
+FILE:  ../TreeLifeData/COG1300.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 109
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 109
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 109
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 109
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG1239.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 177
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 177
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 177
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 177
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG1587.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 446
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 446
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 446
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 446
+Early exit after 3 iterations
+FILE:  ../TreeLifeData/COG1926.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 110
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 110
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 110
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 110
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG5243.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 68
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 68
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 68
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 68
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG1478.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 58
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 58
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 58
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 58
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG5539.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 106
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 106
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 106
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 106
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG3630.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 36
+Reconciliation count by constant: 3
+Reconciliation count by roots   : 1
+Should be equal
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 70, in run_test
+    KMeans.k_means(graph, 10, i, 0, representatives[:i])
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 234, in k_means
+    end_reps = step_many(k_means_step, graph, reps, steps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 196, in step_many
+    new_reps = step_fn(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 175, in k_means_step
+    value_maps = node_value_maps_symmetric(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 167, in node_value_maps_symmetric
+    assert False
+AssertionError
+FILE:  ../TreeLifeData/COG3165.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 58
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 58
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 58
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 58
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG3920.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 759
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 759
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 759
+Early exit after 4 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 759
+Early exit after 4 iterations
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 76, in run_test
+    average, maximum = KMeans.cluster_quality(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 478, in cluster_quality
+    ds = reconciliations_at_each_distance_from_representatives(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 113, in reconciliations_at_each_distance_from_representatives
+    counts = sparse_counts_n(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/StratifiedCounts.py", line 157, in sparse_counts_n
+    return counts_n(graph, template_event_set_s, SparseNDistanceFunction)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/StratifiedCounts.py", line 152, in counts_n
+    return _counts_n(graph, template_event_set_s, subcount_table, supercount_table)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/StratifiedCounts.py", line 146, in _counts_n
+    subcount_table[n].convolve(supercount_table[n]).shift(offsets)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/DistanceFunction.py", line 194, in shift
+    result.map[_vec_sum(pt, i_s)] = self.map[pt]
+MemoryError
+FILE:  ../TreeLifeData/COG4961.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 153
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 153
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 153
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 153
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0850.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 157
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 157
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 157
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 157
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG0634.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 417
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 417
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 417
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 417
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0294.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 12
+Reconciliation count by constant: 2
+Reconciliation count by roots   : 1
+Should be equal
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 70, in run_test
+    KMeans.k_means(graph, 10, i, 0, representatives[:i])
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 234, in k_means
+    end_reps = step_many(k_means_step, graph, reps, steps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 196, in step_many
+    new_reps = step_fn(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 175, in k_means_step
+    value_maps = node_value_maps_symmetric(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 167, in node_value_maps_symmetric
+    assert False
+AssertionError
+FILE:  ../TreeLifeData/COG1291.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 459
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 459
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 459
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 459
+Early exit after 3 iterations
+FILE:  ../TreeLifeData/COG5305.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 43
+Reconciliation count by constant: 4
+Reconciliation count by roots   : 2
+Should be equal
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 70, in run_test
+    KMeans.k_means(graph, 10, i, 0, representatives[:i])
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 234, in k_means
+    end_reps = step_many(k_means_step, graph, reps, steps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 196, in step_many
+    new_reps = step_fn(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 175, in k_means_step
+    value_maps = node_value_maps_symmetric(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 167, in node_value_maps_symmetric
+    assert False
+AssertionError
+FILE:  ../TreeLifeData/COG4044.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 20
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 20
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 20
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 20
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG1344.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 745
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 745
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 745
+Early exit after 4 iterations
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 70, in run_test
+    KMeans.k_means(graph, 10, i, 0, representatives[:i])
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 224, in k_means
+    start_average, start_maximum = cluster_quality(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 478, in cluster_quality
+    ds = reconciliations_at_each_distance_from_representatives(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 113, in reconciliations_at_each_distance_from_representatives
+    counts = sparse_counts_n(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/StratifiedCounts.py", line 157, in sparse_counts_n
+    return counts_n(graph, template_event_set_s, SparseNDistanceFunction)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/StratifiedCounts.py", line 152, in counts_n
+    return _counts_n(graph, template_event_set_s, subcount_table, supercount_table)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/StratifiedCounts.py", line 146, in _counts_n
+    subcount_table[n].convolve(supercount_table[n]).shift(offsets)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/DistanceFunction.py", line 194, in shift
+    result.map[_vec_sum(pt, i_s)] = self.map[pt]
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/DistanceFunction.py", line 20, in _vec_sum
+    return tuple(a + b for a, b in zip(v1, v2))
+MemoryError
+FILE:  ../TreeLifeData/COG3323.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 65
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 65
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 65
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 65
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0614.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 1050
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 1050
+Early exit after 4 iterations
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 70, in run_test
+    KMeans.k_means(graph, 10, i, 0, representatives[:i])
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 224, in k_means
+    start_average, start_maximum = cluster_quality(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 478, in cluster_quality
+    ds = reconciliations_at_each_distance_from_representatives(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 113, in reconciliations_at_each_distance_from_representatives
+    counts = sparse_counts_n(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/StratifiedCounts.py", line 157, in sparse_counts_n
+    return counts_n(graph, template_event_set_s, SparseNDistanceFunction)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/StratifiedCounts.py", line 152, in counts_n
+    return _counts_n(graph, template_event_set_s, subcount_table, supercount_table)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/StratifiedCounts.py", line 146, in _counts_n
+    subcount_table[n].convolve(supercount_table[n]).shift(offsets)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/DistanceFunction.py", line 194, in shift
+    result.map[_vec_sum(pt, i_s)] = self.map[pt]
+MemoryError
+FILE:  ../TreeLifeData/COG4824.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 28
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 28
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 28
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 28
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG1944.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 126
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 126
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 126
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 126
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG2521.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 38
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 38
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 38
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 38
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG3162.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 104
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 104
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 104
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 104
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG3568.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 290
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 290
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 290
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 290
+Early exit after 3 iterations
+FILE:  ../TreeLifeData/COG0033.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 212
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 212
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 212
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 212
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG3861.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 52
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 52
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 52
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 52
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG1555.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 255
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 255
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 255
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 255
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG4158.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 48
+Reconciliation count by constant: 4
+Reconciliation count by roots   : 1
+Should be equal
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 70, in run_test
+    KMeans.k_means(graph, 10, i, 0, representatives[:i])
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 234, in k_means
+    end_reps = step_many(k_means_step, graph, reps, steps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 196, in step_many
+    new_reps = step_fn(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 175, in k_means_step
+    value_maps = node_value_maps_symmetric(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 167, in node_value_maps_symmetric
+    assert False
+AssertionError
+FILE:  ../TreeLifeData/COG3638.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 158
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 158
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 158
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 158
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG3541.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 47
+Reconciliation count by constant: 5
+Reconciliation count by roots   : 1
+Should be equal
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 70, in run_test
+    KMeans.k_means(graph, 10, i, 0, representatives[:i])
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 234, in k_means
+    end_reps = step_many(k_means_step, graph, reps, steps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 196, in step_many
+    new_reps = step_fn(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 175, in k_means_step
+    value_maps = node_value_maps_symmetric(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 167, in node_value_maps_symmetric
+    assert False
+AssertionError
+FILE:  ../TreeLifeData/COG2069.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 32
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 32
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 32
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 32
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG4013.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 10
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 10
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 10
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 10
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG4517.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 20
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 20
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 20
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 20
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG3206.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 334
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 334
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 334
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 334
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG3636.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 48
+Reconciliation count by constant: 2
+Reconciliation count by roots   : 1
+Should be equal
+Traceback (most recent call last):
+  File "k_medoids_pointcollect.py", line 94, in <module>
+    [run_test(fileName, max_k) for fileName in fileNames.split(',')]
+  File "k_medoids_pointcollect.py", line 70, in run_test
+    KMeans.k_means(graph, 10, i, 0, representatives[:i])
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 234, in k_means
+    end_reps = step_many(k_means_step, graph, reps, steps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 196, in step_many
+    new_reps = step_fn(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 175, in k_means_step
+    value_maps = node_value_maps_symmetric(graph, reps)
+  File "/mnt/home/jsung/Documents/SummerResearch2016/phylogenetic/cluster/KMeans.py", line 167, in node_value_maps_symmetric
+    assert False
+AssertionError
+FILE:  ../TreeLifeData/COG2850.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 66
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 66
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 66
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 66
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG5469.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 35
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 35
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 35
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 35
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG4633.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 14
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 14
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 14
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 14
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG2813.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 193
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 193
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 193
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 193
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG0235.newick
+Loading reonciliation graph from cache
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 701
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 701
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 701
+Early exit after 2 iterations
