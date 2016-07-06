@@ -1,0 +1,2138 @@
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3824.newick 4.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2703.newick 48.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3589.newick 3.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4545.newick 3.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5362.newick 8.0
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0292.newick 15552.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3334.newick 12.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3599.newick 7.0
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0616.newick 1520640.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2402.newick 3.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1838.newick 16.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4052.newick 1.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5379.newick 5.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3028.newick 4.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4662.newick 24.0
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1304.newick 98496.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3642.newick 1.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3184.newick 2.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5491.newick 6.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5517.newick 2.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1572.newick 1.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4109.newick 1.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4227.newick 16.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4464.newick 10.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3656.newick 40.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3339.newick 4.0
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1247.newick 2592.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3272.newick 16.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG0693.newick 19.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2217.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG2217.newick 5124390912.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0100.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0100.newick 10616832.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0821.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0821.newick 119808.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2451.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2451.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3146.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3146.newick 16.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5437.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5437.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5560.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5560.newick 24.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1162.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1162.newick 832.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2216.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG2216.newick 165.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4017.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4017.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1471.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1471.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1944.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1944.newick 160.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4314.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4314.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1657.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1657.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3404.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3404.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0256.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0256.newick 6144.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4006.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4006.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4819.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4819.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5275.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5275.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5558.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5558.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3864.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3864.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0770.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG0770.newick 64.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1498.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1498.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2456.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2456.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0059.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0059.newick 4608.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3962.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1700.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1700.newick 5.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3960.newick 20.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3336.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2301.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG2301.newick 30080.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4655.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4655.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2264.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG2264.newick 480.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1808.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1808.newick 432.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1332.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1332.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0071.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0071.newick 1548288.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4043.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4043.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1018.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1018.newick 4391829504.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3505.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG3505.newick 464.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3088.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3088.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0630.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0630.newick 2304.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4670.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4670.newick 16.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1916.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1916.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0123.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0123.newick 53248.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3871.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3871.newick 12.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4471.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4471.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4466.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4466.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5051.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5051.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4100.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4100.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4925.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4925.newick 20.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4065.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4065.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3839.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG3839.newick 5.38252488475e+15
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0736.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0736.newick 3456.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2010.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2010.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4654.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4654.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5497.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5497.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4769.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4769.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5145.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5145.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4586.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4586.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1622.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1622.newick 2.0
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1232.newick 144.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3152.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG3152.newick 540.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4354.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4354.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4174.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4174.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5307.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5307.newick 24.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3228.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3228.newick 36.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5279.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5279.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3089.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3089.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1284.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1284.newick 1456.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3469.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3469.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3804.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3804.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1073.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1073.newick 4.24707253862e+13
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5268.newick 9.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0354.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG0354.newick 64.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3296.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3296.newick 5.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4158.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4158.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4075.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4075.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3421.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3421.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1175.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1175.newick 66.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4639.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4639.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1451.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1451.newick 71808.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1305.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1305.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4762.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4762.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1042.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1042.newick 624.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3219.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3219.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1733.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1733.newick 762642432.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4694.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4694.newick 5.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3935.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3935.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1844.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1844.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1603.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1603.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2089.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG2089.newick 1440.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG0676.newick 72.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2334.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG2334.newick 840.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0017.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0017.newick 3072.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2759.newick 30.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0754.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG0754.newick 16.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4066.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4066.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0104.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0104.newick 6144.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4737.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4737.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1048.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1048.newick 768.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5247.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5247.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2137.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2137.newick 32.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1570.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1570.newick 160.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4659.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4659.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1135.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1135.newick 256.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1283.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1283.newick 1280.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4657.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4657.newick 12.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1495.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1495.newick 64.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5431.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5431.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3701.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3701.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5339.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5339.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5305.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5305.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4461.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4461.newick 24.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4976.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4976.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0429.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG0429.newick 64.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2372.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2372.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4537.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4537.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2136.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2136.newick 14.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0064.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0064.newick 576.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4171.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4171.newick 1.0
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG4631.newick 192.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4627.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4627.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0233.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0233.newick 768.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5190.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5190.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3106.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3106.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5034.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5034.newick 20.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1703.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1703.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1699.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1699.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0315.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0315.newick 77760.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5345.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5345.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5649.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5649.newick 16.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3039.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3039.newick 18.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4902.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3649.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3649.newick 5.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4873.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4873.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3019.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3019.newick 16.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3904.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3904.newick 6.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1351.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1351.newick 16.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4123.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4123.newick 12.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2872.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2872.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4333.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4333.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3368.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3368.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2920.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2920.newick 24.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1598.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1598.newick 18.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3087.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3087.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3820.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3820.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0383.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG0383.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5092.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5092.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2841.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2841.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4339.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4339.newick 9.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2812.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG2812.newick 20736.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0232.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG0232.newick 36.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3464.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3464.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5409.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5409.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3165.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3165.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0677.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0677.newick 3072.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1326.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1326.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0298.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0298.newick 384.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1221.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1221.newick 48.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1331.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1331.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2431.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2431.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0555.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG0555.newick 48.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5545.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5545.newick 12.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5609.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5609.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5188.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5188.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5461.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5461.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0168.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0168.newick 108864.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3016.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3016.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4041.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4041.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1567.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1567.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4982.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4982.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5059.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG5059.newick 1051066368.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1817.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1817.newick 7.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0337.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0337.newick 207360.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1297.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1297.newick 18.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0321.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0321.newick 2400.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4983.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4983.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3903.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3903.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3814.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3814.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5052.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5052.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5419.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5419.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0238.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0238.newick 6144.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5185.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5185.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2156.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG2156.newick 240.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1371.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1371.newick 2.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3155.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4965.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG4965.newick 384.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5165.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5165.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1709.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1709.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3741.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3741.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2005.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2005.newick 36.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4139.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4139.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1418.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1418.newick 504.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5044.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5044.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1433.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1433.newick 150.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2039.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2039.newick 32.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3395.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3395.newick 72.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1222.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1222.newick 49152.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0130.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG0130.newick 64.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3440.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3440.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1483.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1483.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3560.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3560.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1531.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1531.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4424.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4424.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1979.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1979.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3126.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3126.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3283.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3283.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2218.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2218.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2710.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG2710.newick 8448000.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4010.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4010.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2169.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG2169.newick 243.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0491.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG0491.newick 14.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1457.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1457.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3590.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3590.newick 72.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2404.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2404.newick 15.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0856.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG0856.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2445.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2445.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5000.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5000.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4700.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4700.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2937.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2937.newick 44.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3748.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3748.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4218.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4218.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4692.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4692.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3225.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3225.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3965.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3965.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5146.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5146.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2766.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2766.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2131.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2131.newick 32.0
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0572.newick 36864.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3707.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3707.newick 24.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3116.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3116.newick 6.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0190.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0190.newick 2875392.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3875.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3875.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0144.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0144.newick 62208.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1716.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1716.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0291.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0291.newick 1728.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4226.newick 7.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5155.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5155.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0251.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0251.newick 1700.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1254.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2241.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2241.newick 88.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2332.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2332.newick 48.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4968.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4968.newick 12.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4813.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4813.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3036.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3036.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3952.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3952.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4328.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4328.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5597.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5597.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4706.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4706.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5619.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5619.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2810.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2810.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1619.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1619.newick 360.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0569.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0569.newick 98304.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1989.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1989.newick 96.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3326.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3326.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3456.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3456.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5595.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5595.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4742.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4742.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2316.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2316.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1098.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1098.newick 24.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4446.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4446.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0124.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0124.newick 2304.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5141.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5141.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2939.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2939.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1806.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1806.newick 24.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4952.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4952.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1680.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1680.newick 24.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0368.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0368.newick 1056.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1655.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1655.newick 2.0
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0564.newick 497664.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5222.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5222.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2113.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG2113.newick 2880.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5351.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5351.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4399.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4399.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2868.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2868.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0299.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0299.newick 1024.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4963.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG4963.newick 144.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0126.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0126.newick 9216.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4069.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4069.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2180.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2180.newick 6.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0266.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0266.newick 1152.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3742.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3742.newick 5.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0634.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0634.newick 153600.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2337.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG2337.newick 384.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0640.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG0640.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1501.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1501.newick 672.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3955.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3955.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4320.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4320.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1430.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1430.newick 15.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0162.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0162.newick 1152.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0690.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0690.newick 384.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0312.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0312.newick 20736.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0201.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0201.newick 9216.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4588.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4588.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3297.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3297.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1986.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1986.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2142.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2142.newick 18.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1690.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1690.newick 384.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4604.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4604.newick 20.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5117.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5117.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5404.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5404.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1660.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1660.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1599.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1599.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1651.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1651.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5223.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5223.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4223.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4223.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0097.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0097.newick 26880.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0406.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG0406.newick 96.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2204.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG2204.newick 11041505280.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1198.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1198.newick 128.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1813.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1813.newick 12.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2239.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG2239.newick 576.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1673.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1673.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5108.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5108.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3262.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3262.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3568.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG3568.newick 188.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3619.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3619.newick 12.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3427.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3427.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3415.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3415.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3594.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3594.newick 12.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2250.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2250.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2914.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2914.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1507.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1507.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1252.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1252.newick 6137856.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3284.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3284.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0750.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0750.newick 288.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1132.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1132.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1998.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1998.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4263.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4263.newick 5.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4396.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4396.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2249.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG2249.newick 16896.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5272.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG5272.newick 3456.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3693.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3693.newick 6.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3737.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3737.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0284.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0284.newick 3888.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2254.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2254.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2044.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2044.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1939.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1939.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2130.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2130.newick 18.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1172.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1172.newick 1881169920.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1344.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1344.newick 585792.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0082.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0082.newick 2304.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3027.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG3027.newick 112.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1493.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1493.newick 24.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3055.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3055.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1067.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1067.newick 40.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4713.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4713.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2904.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2904.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5007.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5007.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1717.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1717.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1947.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1947.newick 576.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5104.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5104.newick 9.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4583.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4583.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4402.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4402.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0843.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0843.newick 96768.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1327.newick 48.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3077.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3077.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3181.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG3181.newick 576.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3911.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3911.newick 6.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3782.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3782.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1727.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1727.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3673.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3673.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1033.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1033.newick 60.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0791.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0791.newick 8758886400.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0729.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG0729.newick 30.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3785.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5131.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5131.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3315.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG3315.newick 720.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1463.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1463.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3402.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3402.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4771.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG4771.newick 896.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1368.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1368.newick 1152.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4302.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4302.newick 92.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3776.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3776.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4420.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4420.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0280.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0280.newick 28901376.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0803.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0803.newick 1411200.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0466.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0466.newick 576.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0607.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0607.newick 6.90392370512e+18
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0122.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG0122.newick 12.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0738.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0738.newick 992.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2906.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2906.newick 2.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1569.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0303.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0303.newick 1536.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0392.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0392.newick 3072.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0836.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0836.newick 3456.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0665.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG0665.newick 4.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2718.newick 16.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3168.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3168.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5338.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5338.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0475.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0475.newick 13271040.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4392.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4392.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4044.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4044.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1662.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1662.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0523.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0523.newick 294912.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0601.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0601.newick 8.2216747008e+14
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4046.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4046.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4792.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4792.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5611.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5611.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4768.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4768.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1286.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1286.newick 180.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3684.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3684.newick 10.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4421.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4421.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0002.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0002.newick 18816.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4054.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4054.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3630.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3630.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3580.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3580.newick 12.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1705.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1705.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1720.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1720.newick 72.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5418.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5418.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4569.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4569.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5585.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5585.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4757.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4757.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3556.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3556.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0622.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0622.newick 480.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0159.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0159.newick 92160.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2207.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2207.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5133.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5133.newick 4.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4276.newick 12.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3718.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3718.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0529.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0529.newick 384.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1251.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1251.newick 18.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0714.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0714.newick 5760.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1798.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1798.newick 16.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4230.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4230.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1972.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1972.newick 384.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3280.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3280.newick 24.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3096.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3096.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2165.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2165.newick 1.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5323.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4318.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4318.newick 6.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3251.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3251.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4288.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4288.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3731.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3731.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3685.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3685.newick 12.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3740.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3740.newick 6.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3570.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3570.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5494.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5494.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3237.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3237.newick 80.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5647.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5647.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0211.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0211.newick 5238.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1692.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1692.newick 96.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0011.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0011.newick 192.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2358.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG2358.newick 5328.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4239.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4239.newick 5.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4558.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4558.newick 12.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4088.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4088.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1101.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1101.newick 12.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3436.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3436.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5196.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5196.newick 9.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0657.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0657.newick 1.8560876544e+11
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2421.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2421.newick 48.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3676.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3676.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1298.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1298.newick 24.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1764.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1764.newick 5832.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0702.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG0702.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4644.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4644.newick 5.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3234.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3234.newick 5.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1260.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1260.newick 96.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2088.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2088.newick 48.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4821.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4821.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4577.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4577.newick 10.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1832.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1832.newick 12.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3195.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3195.newick 16.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4259.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4259.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4816.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4816.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2220.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG2220.newick 53125632.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3363.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3363.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0058.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0058.newick 768.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4553.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4553.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4093.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4093.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3565.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3565.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5486.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5486.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5425.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5425.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1385.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1385.newick 5120.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4476.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4476.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4551.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4551.newick 7.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4334.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4334.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3765.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3765.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1439.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1439.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3031.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3031.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2274.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG2274.newick 216576.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4454.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4454.newick 12.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0604.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG0604.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0156.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0156.newick 1228800.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3781.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3781.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1794.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1794.newick 168.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4947.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4947.newick 2.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4650.newick 9.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1526.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1526.newick 12.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3265.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3265.newick 36.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1290.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1290.newick 18.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0394.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0394.newick 1966080.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2946.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2946.newick 5.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4292.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4292.newick 12.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4063.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4063.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5553.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5553.newick 4.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3324.newick 36.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4756.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4756.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2850.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2850.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4710.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4710.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2935.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2935.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0446.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG0446.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3711.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG3711.newick 384.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0757.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG0757.newick 66.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2981.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4964.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4964.newick 18.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4908.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4908.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4565.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4565.newick 18.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3777.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3777.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2078.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2078.newick 24.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5566.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5566.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1732.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1732.newick 3420.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2860.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG2860.newick 224.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1865.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1865.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5248.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5248.newick 2.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4401.newick 24.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4989.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4989.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2096.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2096.newick 48.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG2427.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG2427.newick 4.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5412.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5412.newick 6.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1173.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1173.newick 1.29926135808e+12
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3370.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3370.newick 2.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3756.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3756.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0861.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG0861.newick 7864320.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4920.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4920.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1663.newick.graph}...
+Loading reonciliation graph from cache
+TRUE: 	../../TreeLifeData/COG1663.newick 192.0
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4214.newick 16.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1873.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1873.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG1513.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG1513.newick 8.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG3232.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG3232.newick 80.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG5428.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG5428.newick 3.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG4009.newick.graph}...
+Loading reonciliation graph from cache
+FALSE:	../../TreeLifeData/COG4009.newick 1.0
+A reconciliation graph has not been built yet for this newick file
+Doing so now and caching it in {../cache/COG0500.newick.graph}...
