@@ -22,7 +22,7 @@ This directory contains scripts and result files that are used to calculated the
 These files replace the original `FromNewick.py` file that was here, which created reconciliation graphs and calculcated reconciliation counts. The k centers algorithm as described in the paper (Summer 2016 in Share LaTex). Run as `python pythonFile newickFile maxK`. 
 
 * `phylogenetic/cluster/KMeans.py`
-Implemented a function `get_weighted_template()` that returns a randomly chosen node that is weighted by frequency as opposed to true random choice. Used in `phylogenetic/cluster/k_centers.py`, `phylogenetic/cluster/k_medoids_pointcollect.py`, `phylogenetic/cluster/k_medoids_random.py`. 
+Implemented a function `get_weighted_template()` that returns a randomly chosen node that is weighted by frequency as opposed to true random choice. Used in `phylogenetic/cluster/k_centers.py`, `phylogenetic/cluster/k_medoids_pointcollect.py`, `phylogenetic/cluster/k_medoids_random.py`
 
 * `phylogenetic/cluster/calc_recon.py`
 Create cache files for graphs and reconciliation counts for the files in `TreeLifeData/` directory. 
@@ -34,11 +34,11 @@ Create cache files for graphs and reconciliation counts for the files in `TreeLi
 * `phylogenetic/DP.py`
 The way that the preorder check was done is updated to check for same map nodes across different depth levels -- preorderCheck(preOrderList). Minor formatting (naming) and readability refactoring in addScores(treeMin, DTLDict, ScoreDict), no functional changes.
 
-* `phylogenetic/cluster/cache`
+* `phylogenetic/cluster/cache` 
 More reconciliation graphs constructed during experiment running. Also, added a corresponding set of `.count` files that hold the associated number of reconciliations. 
 
 
-* Not Changed
+## Not Changed
 * `phylogenetic/*`
 * `phylogenetic/TreeLifeData/`
 * `phylogenetic/newickData/`
