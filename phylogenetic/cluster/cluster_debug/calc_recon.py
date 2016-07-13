@@ -11,6 +11,9 @@ import time
 recon_threshold = 100
 DATA_DIR = "../../TreeLifeData/"
 fileList = [DATA_DIR + str(x) for x in os.listdir(DATA_DIR)]
+# Cutting off previously processed 
+# Finite end game 
+fileList = fileList[555:800]
 max_k = 4
 
 def run_test(fileName, max_k):

@@ -1,7 +1,0 @@
-START --  2016-06-29 21:18:16
-True --  ../TreeLifeData/COG0266.newick  |  #Recon:  1152.0  |  Over 1?  False
-True --  ../TreeLifeData/COG3854.newick  |  #Recon:  2.0  |  Over 1?  False
-True --  ../TreeLifeData/COG2082.newick  |  #Recon:  216.0  |  Over 1?  False
-2016-06-29 21:19:59
-NO FILE --  ../TreeLifeData/COG2535.newick
-NO FILE --  ../TreeLifeData/COG2473.newick

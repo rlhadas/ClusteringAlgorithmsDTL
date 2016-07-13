@@ -124,14 +124,31 @@ def run_test(fileName, max_k):
         print >> sys.stderr, 'Reconciliation Count: ', numRecon
 
 
-    ## Debug info
-    print >> sys.stderr, "Graph roots: ", graph.roots
 
-
-    
     scoresList, dictReps = Greedy.Greedy(DictGraph, paras)
     graph = ReconGraph.ReconGraph(DictGraph)
     representatives = [ReconGraph.dictRecToSetRec(graph, dictReps[0])]
+
+    ## Debug info
+    ## Modifies the graph 
+    ## Checking for the case when there is an error in likelihood 
+    print >> sys.stderr, "== Checking for likelihoods over 1 =="
+    found = False 
+    for key in DictGraph.keys():
+        children = DictGraph[key]
+        for child in children[:-1]:
+            if child[-1] > 1:
+                # Attempt to round to fix large float math errors
+                roundedValue = round(child[-1])
+                if roundedValue != 1.0:
+                    print >> sys.stderr, "ERR FOUND: ", key, child 
+                    found = True 
+                
+    if not(found):
+        print >> sys.stderr, "NO ERR(s)"
+    print >> sys.stderr, "== End of over 1 checks. =="
+
+
 
     print >> sys.stderr, 'Starting K-centers algorithm ... '
     for i in xrange(2, max_k + 2):
@@ -150,6 +167,8 @@ def run_test(fileName, max_k):
         print float(dist_sum) / n
 
     print  >> sys.stderr, "Finished k centers algorithm ..."
+
+
 
 def doFile(fileName):
     try:
