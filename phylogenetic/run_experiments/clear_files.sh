@@ -4,6 +4,8 @@
 # Change into experiment directory
 cd /home/jsung/Documents/SummerResearch2016/phylogenetic/run_experiments
 
+
+
 # Resetting the files 
 rm experiment_info/kcenters_info.out
 rm experiment_info/kcenters_result.out

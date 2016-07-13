@@ -1,8 +1,8 @@
 import csv 
 
 
-INPUT_FILE = "km_pc.txt"
-OUTPUT_FILE = "km_pc_ready.csv"
+INPUT_FILE = "km_pc_2.txt"
+OUTPUT_FILE = "km_pc_ready_2.csv"
 
 
 # IN

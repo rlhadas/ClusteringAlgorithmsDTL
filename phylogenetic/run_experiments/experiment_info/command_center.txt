@@ -1,17 +1,15 @@
-
 ## INFO
 Be in this directory
 /home/jsung/Documents/SummerResearch2016/phylogenetic/run_experiments
 
 ## Run Commands 
 
-[1] 37742
+[1] 41282
 nohup nice -n 1 bash test.sh ../cluster/k_centers.py ../run_experiments/experiment_info/kcenters_result.out >> experiment_info/kcenters_info.out &
 
-[2] 37750
 nohup nice -n 1 bash test.sh ../cluster/k_medoids_random.py ../run_experiments/experiment_info/km_random_result.out >> experiment_info/km_random_info.out &
 
-[3] 37772
+
 nohup nice -n 1 bash test.sh ../cluster/k_medoids_pointcollect.py ../run_experiments/experiment_info/km_pc_result.out >> experiment_info/km_pc_info.out &
 
 ## Checking commands 
@@ -25,29 +23,7 @@ cat experiment_info/km_pc_info.out
 cat experiment_info/km_pc_result.out
 
 
-## New contig bach
-touch experiment_info/kcenters_info_CONGTIG.out
-touch experiment_info/kcenters_result_CONGTIG.out
-touch experiment_info/km_random_info_CONGTIG.out
-touch experiment_info/km_random_result_CONGTIG.out
-touch experiment_info/km_pc_info_CONGTIG.out
-touch experiment_info/km_pc_result_CONGTIG.out
-
-
-## Run commands 
-[1] 23442
-nohup nice -n 1 bash test.sh ../cluster/k_centers.py ../run_experiments/experiment_info/kcenters_result_CONTIG.out >> experiment_info/kcenters_info_CONTIG.out &
-
-[2] 23443
-nohup nice -n 1 bash test.sh ../cluster/k_medoids_random.py ../run_experiments/experiment_info/km_random_result_CONTIG.out >> experiment_info/km_random_info_CONTIG.out &
-
-[3] 23444
-nohup nice -n 1 bash test.sh ../cluster/k_medoids_pointcollect.py ../run_experiments/experiment_info/km_pc_result_CONTIG.out >> experiment_info/km_pc_info_CONTIG.out &
-
-## Checking in on 2nd batch:
-cat experiment_info/kcenters_info_CONTIG.out
-cat experiment_info/kcenters_result_CONTIG.out
-cat experiment_info/km_random_info_CONTIG.out
-cat experiment_info/km_random_result_CONTIG.out
-cat experiment_info/km_pc_info_CONTIG.out
-cat experiment_info/km_pc_result_CONTIG.out
+## Counting the recon
+nohup nice -n 1 python calc_recon.py >> record.txt &
+STOPPED AT COG0500, start again 
+See files_to_process for a full list 

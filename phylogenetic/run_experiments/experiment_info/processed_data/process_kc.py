@@ -1,9 +1,10 @@
 import csv 
 
 
-INPUT_FILE = "k_centers.txt"
-OUTPUT_FILE = "kc_ready.csv"
+INPUT_FILE = "kc_5.txt"
+OUTPUT_FILE = "kc_ready5.csv"
 
+## Processes files for use in google sheets 
 
 # IN
 # FILE

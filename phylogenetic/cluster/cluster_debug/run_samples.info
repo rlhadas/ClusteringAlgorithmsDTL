@@ -1,6 +1,0 @@
-7:41 [jsung@knuth:~/Documents/SummerResearch2016/phylogenetic/cluster]
-17 % nohup nice -n 1 python run_samples.py > cluster_debug/sample_all_2.txt &
-[1] 21813
-7:42 [jsung@knuth:~/Documents/SummerResearch2016/phylogenetic/cluster]
-18 % nohup: ignoring input and redirecting stderr to stdout
-

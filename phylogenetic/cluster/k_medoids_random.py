@@ -13,6 +13,9 @@ import copy
 import ReconGraph
 import random
 
+recon_threshold = 100 
+
+
 def run_test(fileName, max_k):
     cache_dir = './cache'
     D = 2.
@@ -32,20 +35,36 @@ def run_test(fileName, max_k):
         f.close()
 
     cache_location = '%s/%s.graph' % (cache_dir, os.path.split(fileName)[1])
-    if not os.path.isfile(cache_location):
+    recon_count_location = '%s/%s.count' % (cache_dir, os.path.split(fileName)[1])
+    if not(os.path.isfile(cache_location)) or not(os.path.isfile(recon_count_location)):
         print >> sys.stderr, 'A reconciliation graph has not been built yet for this newick file'
         print >> sys.stderr, 'Doing so now and caching it in {%s}...' % cache_location
 
         DictGraph, numRecon = DP.DP(host, paras, phi, D, T, L)
-
         f = open(cache_location, 'w+')
+        g = open(recon_count_location, 'w+')
         f.write(repr(DictGraph))
+        g.write(str(numRecon))
         f.close()
+        g.close()
 
     print >> sys.stderr, 'Loading reonciliation graph from cache'
     f = open(cache_location)
+    g = open(recon_count_location)
     DictGraph = eval(f.read())
+    numRecon = float(g.read())
     f.close()
+    g.close()
+
+    ## Only consider running algorithm for reconciliations with more than 
+    # threshold MPRs
+    if (numRecon < recon_threshold):
+        print >> sys.stderr, 'Too few reconciliations: ', numRecon
+        return 
+    else:
+        print >> sys.stderr, 'Reconciliation Count: ', numRecon
+
+
 
     scoresList, dictReps = Greedy.Greedy(DictGraph, paras)
 

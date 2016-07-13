@@ -1,7 +1,7 @@
 ## File to select Tree of Life Files to fun 
 import os, random
 
-NUM_RESULTS = 150 
+NUM_RESULTS = 1000
 DATA_DIR = "../TreeLifeData/"
 result_list = []
 

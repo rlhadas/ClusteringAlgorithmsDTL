@@ -247,12 +247,9 @@ def DP(hostTree, parasiteTree, phi, D, T, L):
             #finds Minimum Cost for O
                 O[(ep, eh)] = min(C[(ep, eh)], O[(ep, eh1)], O[(ep, eh2)])
 
-            #print "Current score: ", Score[(ep, eh)]
         
 
 
-        # print "\nep: ", ep 
-        # print "\nScore: ", Score 
         # Compute bestSwitch values
         bestSwitch[(ep, "hTop")] = Infinity
         bestSwitchLocations[(vp, hostTree["hTop"][1])] = [(None,None)]
@@ -359,6 +356,7 @@ def preorderCheck(preOrderList):
     # b instance. This is safe: ensures that all possible parents of a node will 
     # be handled before a node to prevent considering duplicates in the
     # addScores function. 
+    # Correction by Jean Sung, July 2016
     finalList = []
     for item in newList:
         node = item[0]
@@ -390,13 +388,10 @@ def addScores(treeMin, DTLDict, ScoreDict):
         if root != (None, None):
             vertex = root[0]
 
-            # Check to see if we are actually at a root 
-            #print "where are we? ", root[1]
             if root[1] == 0:
                 parentsDict[vertex] = ScoreDict[vertex]
 
             # LAST is garbage  value used in the dp construction   
-            #print "LAST ELEMENT???: ", DTLDict[vertex][-1]
             for n in range(len(DTLDict[vertex])-1):
                 _,child1,child2,oldScore = DTLDict[vertex][n]
 
@@ -405,13 +400,11 @@ def addScores(treeMin, DTLDict, ScoreDict):
 
                 if child1!= (None, None):
                     if child1 in parentsDict:
-                        #print "before parents -- child 1: ", parentsDict[child1]
                         parentsDict[child1] += newDTL[vertex][n][3]
                     else: 
                         parentsDict[child1] = newDTL[vertex][n][3] 
                 if child2!=(None, None):
                     if child2 in parentsDict:
-                        #print "before parents -- child 2: ", parentsDict[child2]
                         parentsDict[child2] += newDTL[vertex][n][3]
                     else: 
                         parentsDict[child2] = newDTL[vertex][n][3]
