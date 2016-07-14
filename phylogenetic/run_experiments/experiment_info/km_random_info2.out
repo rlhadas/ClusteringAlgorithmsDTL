@@ -116,3 +116,4 @@ Early exit after 2 iterations
 ===========================
 K means starting with k = 2, seed = 0
 Size of graph: 1640
+Early exit after 2 iterations
