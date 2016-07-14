@@ -15,6 +15,11 @@ import random
 
 recon_threshold = 100 
 
+# K medioids from random 
+# processing 136 files 
+# Start time:         2016-07-02:08:19:28
+# End time: Mon Jul   4 22:08:06 PDT 2016
+
 
 def run_test(fileName, max_k):
     cache_dir = './cache'

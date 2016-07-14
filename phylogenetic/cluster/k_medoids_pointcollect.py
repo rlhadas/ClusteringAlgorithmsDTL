@@ -17,6 +17,10 @@ import time
 
 recon_threshold = 100 
 
+# K medioids from point collect 
+# processing 136 files 
+# Start time:   2016-07-02:08:19:30
+# End time:     Wed Jul  6 04:11:09 PDT 2016
 
 
 gc.enable()

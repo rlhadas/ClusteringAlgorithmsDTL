@@ -11,9 +11,20 @@ import time
 recon_threshold = 100
 DATA_DIR = "../../TreeLifeData/"
 fileList = [DATA_DIR + str(x) for x in os.listdir(DATA_DIR)]
-# Cutting off previously processed 
-# Finite end game 
-fileList = fileList[555:800]
+
+## Empirical results for how long it takes to process files
+
+# Running 245 files, randomly selected (how the listdir sorts the files, which not sure what the order is)
+
+# START --            2016-07-13 10:25:20
+# Iteration  0 :      2016-07-13 10:25:20
+# Iteration  100 :    2016-07-13 19:35:18
+# Iteration  200 :    2016-07-13 19:54:21
+# END --              2016-07-13 20:05:19
+
+## Next run 
+# Start at 800 (what hasn't been processed yet)
+
 max_k = 4
 
 def run_test(fileName, max_k):

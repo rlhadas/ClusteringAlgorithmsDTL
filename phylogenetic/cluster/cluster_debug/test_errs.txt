@@ -1,0 +1,30 @@
+FILE:  ../TreeLifeData/COG1344.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  585792.0
+== Checking for likelihoods over 1 ==
+FILE:  ../TreeLifeData/COG1944.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  160.0
+== Checking for likelihoods over 1 ==
+FILE:  ../TreeLifeData/COG4965.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  384.0
+== Checking for likelihoods over 1 ==
+FILE:  ../TreeLifeData/COG1433.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  150.0
+== Checking for likelihoods over 1 ==
+FILE:  ../TreeLifeData/COG0630.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  2304.0
+== Checking for likelihoods over 1 ==
+../TreeLifeData/COG1344.newick
+NO ERR(s).
+../TreeLifeData/COG1944.newick
+NO ERR(s).
+../TreeLifeData/COG4965.newick
+NO ERR(s).
+../TreeLifeData/COG1433.newick
+NO ERR(s).
+../TreeLifeData/COG0630.newick
+NO ERR(s).

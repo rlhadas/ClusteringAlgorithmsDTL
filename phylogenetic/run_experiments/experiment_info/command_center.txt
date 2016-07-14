@@ -2,28 +2,33 @@
 Be in this directory
 /home/jsung/Documents/SummerResearch2016/phylogenetic/run_experiments
 
-## Run Commands 
-
+## Round 1
 [1] 41282
 nohup nice -n 1 bash test.sh ../cluster/k_centers.py ../run_experiments/experiment_info/kcenters_result.out >> experiment_info/kcenters_info.out &
 
 nohup nice -n 1 bash test.sh ../cluster/k_medoids_random.py ../run_experiments/experiment_info/km_random_result.out >> experiment_info/km_random_info.out &
 
-
 nohup nice -n 1 bash test.sh ../cluster/k_medoids_pointcollect.py ../run_experiments/experiment_info/km_pc_result.out >> experiment_info/km_pc_info.out &
 
-## Checking commands 
-cat experiment_info/kcenters_info.out
-cat experiment_info/kcenters_result.out
-
-cat experiment_info/km_random_info.out
-cat experiment_info/km_random_result.out
-
-cat experiment_info/km_pc_info.out
-cat experiment_info/km_pc_result.out
+## Round 2 
+[1] 6572
+nohup nice -n 1 bash test.sh ../cluster/k_medoids_random.py ../run_experiments/experiment_info/km_random_result2.out >> experiment_info/km_random_info2.out &
 
 
 ## Counting the recon
 nohup nice -n 1 python calc_recon.py >> record.txt &
 STOPPED AT COG0500, start again 
-See files_to_process for a full list 
+See batch1.txt for a full list 
+
+
+## Skipping COG0500
+
+## Counting the recon 2
+42 % nohup nice -n 1 python calc_recon.py >> batch2.txt &
+Stopped at 800
+See batch2.txt
+
+
+
+
+

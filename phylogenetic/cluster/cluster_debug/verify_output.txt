@@ -1,0 +1,158 @@
+START --  2016-06-29 21:17:00
+True --  ../TreeLifeData/COG2430.newick  |  #Recon:  3.0  |  Over 1?  False
+True --  ../TreeLifeData/COG4311.newick  |  #Recon:  1.0  |  Over 1?  False
+True --  ../TreeLifeData/COG5567.newick  |  #Recon:  2.0  |  Over 1?  False
+True --  ../TreeLifeData/COG2984.newick  |  #Recon:  72.0  |  Over 1?  False
+True --  ../TreeLifeData/COG0266.newick  |  #Recon:  1152.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3854.newick  |  #Recon:  2.0  |  Over 1?  False
+True --  ../TreeLifeData/COG2082.newick  |  #Recon:  216.0  |  Over 1?  False
+True --  ../TreeLifeData/COG4988.newick  |  #Recon:  90.0  |  Over 1?  False
+True --  ../TreeLifeData/COG0791.newick  |  #Recon:  8758886400.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3914.newick  |  #Recon:  80.0  |  Over 1?  False
+True --  ../TreeLifeData/COG5583.newick  |  #Recon:  2.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1966.newick  |  #Recon:  6.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1187.newick  |  #Recon:  12386304.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3879.newick  |  #Recon:  2.0  |  Over 1?  False
+True --  ../TreeLifeData/COG4691.newick  |  #Recon:  6.0  |  Over 1?  False
+True --  ../TreeLifeData/COG0265.newick  |  #Recon:  2.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1594.newick  |  #Recon:  192.0  |  Over 1?  False
+True --  ../TreeLifeData/COG5189.newick  |  #Recon:  3.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1122.newick  |  #Recon:  2985984.0  |  Over 1?  False
+True --  ../TreeLifeData/COG5414.newick  |  #Recon:  1.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1031.newick  |  #Recon:  1.0  |  Over 1?  False
+True --  ../TreeLifeData/COG2255.newick  |  #Recon:  288.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3955.newick  |  #Recon:  2.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3124.newick  |  #Recon:  2.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3710.newick  |  #Recon:  1800.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3359.newick  |  #Recon:  20.0  |  Over 1?  False
+True --  ../TreeLifeData/COG2201.newick  |  #Recon:  32.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3829.newick  |  #Recon:  72.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3306.newick  |  #Recon:  4.0  |  Over 1?  False
+True --  ../TreeLifeData/COG0524.newick  |  #Recon:  2.0  |  Over 1?  False
+True --  ../TreeLifeData/COG5579.newick  |  #Recon:  4.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1239.newick  |  #Recon:  8.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1751.newick  |  #Recon:  3.0  |  Over 1?  False
+True --  ../TreeLifeData/COG2318.newick  |  #Recon:  24.0  |  Over 1?  False
+True --  ../TreeLifeData/COG5078.newick  |  #Recon:  7.0  |  Over 1?  False
+True --  ../TreeLifeData/COG4247.newick  |  #Recon:  4.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3661.newick  |  #Recon:  7.0  |  Over 1?  False
+True --  ../TreeLifeData/COG2201.newick  |  #Recon:  32.0  |  Over 1?  False
+True --  ../TreeLifeData/COG0651.newick  |  #Recon:  11516160.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3151.newick  |  #Recon:  1.0  |  Over 1?  False
+True --  ../TreeLifeData/COG0455.newick  |  #Recon:  384.0  |  Over 1?  False
+True --  ../TreeLifeData/COG0208.newick  |  #Recon:  256.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1414.newick  |  #Recon:  3.315603456e+11  |  Over 1?  False
+True --  ../TreeLifeData/COG1417.newick  |  #Recon:  1.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1405.newick  |  #Recon:  16.0  |  Over 1?  False
+True --  ../TreeLifeData/COG2183.newick  |  #Recon:  84.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1601.newick  |  #Recon:  432.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1826.newick  |  #Recon:  700416.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1670.newick  |  #Recon:  9.44479734202e+18  |  Over 1?  False
+True --  ../TreeLifeData/COG0118.newick  |  #Recon:  8304.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3792.newick  |  #Recon:  2.0  |  Over 1?  False
+True --  ../TreeLifeData/COG5336.newick  |  #Recon:  2.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3797.newick  |  #Recon:  8.0  |  Over 1?  False
+True --  ../TreeLifeData/COG0717.newick  |  #Recon:  64.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1880.newick  |  #Recon:  3.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1920.newick  |  #Recon:  1.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3814.newick  |  #Recon:  2.0  |  Over 1?  False
+True --  ../TreeLifeData/COG4521.newick  |  #Recon:  6.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1424.newick  |  #Recon:  5.0  |  Over 1?  False
+True --  ../TreeLifeData/COG5265.newick  |  #Recon:  4.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3285.newick  |  #Recon:  12.0  |  Over 1?  False
+True --  ../TreeLifeData/COG5482.newick  |  #Recon:  1.0  |  Over 1?  False
+True --  ../TreeLifeData/COG2032.newick  |  #Recon:  16.0  |  Over 1?  False
+True --  ../TreeLifeData/COG2430.newick  |  #Recon:  3.0  |  Over 1?  False
+True --  ../TreeLifeData/COG4372.newick  |  #Recon:  2.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3746.newick  |  #Recon:  2.0  |  Over 1?  False
+True --  ../TreeLifeData/COG4139.newick  |  #Recon:  1.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3652.newick  |  #Recon:  4.0  |  Over 1?  False
+True --  ../TreeLifeData/COG5097.newick  |  #Recon:  1.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3504.newick  |  #Recon:  96.0  |  Over 1?  False
+True --  ../TreeLifeData/COG0011.newick  |  #Recon:  192.0  |  Over 1?  False
+True --  ../TreeLifeData/COG0850.newick  |  #Recon:  2.0  |  Over 1?  False
+True --  ../TreeLifeData/COG4868.newick  |  #Recon:  8.0  |  Over 1?  False
+True --  ../TreeLifeData/COG2259.newick  |  #Recon:  207360.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1734.newick  |  #Recon:  528.0  |  Over 1?  False
+True --  ../TreeLifeData/COG4630.newick  |  #Recon:  24.0  |  Over 1?  False
+True --  ../TreeLifeData/COG0214.newick  |  #Recon:  72.0  |  Over 1?  False
+True --  ../TreeLifeData/COG4786.newick  |  #Recon:  960.0  |  Over 1?  False
+True --  ../TreeLifeData/COG5151.newick  |  #Recon:  2.0  |  Over 1?  False
+True --  ../TreeLifeData/COG5138.newick  |  #Recon:  1.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3845.newick  |  #Recon:  200.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1171.newick  |  #Recon:  107495424.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1595.newick  |  #Recon:  5.0  |  Over 1?  False
+2016-06-29 23:03:54
+NO FILE --  ../TreeLifeData/COG0920.newick
+NO FILE --  ../TreeLifeData/COG2535.newick
+NO FILE --  ../TreeLifeData/COG2473.newick
+NO FILE --  ../TreeLifeData/COG0879.newick
+NO FILE --  ../TreeLifeData/COG4182.newick
+NO FILE --  ../TreeLifeData/COG5315.newick
+NO FILE --  ../TreeLifeData/COG5370.newick
+NO FILE --  ../TreeLifeData/COG2556.newick
+NO FILE --  ../TreeLifeData/COG3985.newick
+NO FILE --  ../TreeLifeData/COG2725.newick
+NO FILE --  ../TreeLifeData/COG2709.newick
+NO FILE --  ../TreeLifeData/COG2655.newick
+NO FILE --  ../TreeLifeData/COG2679.newick
+NO FILE --  ../TreeLifeData/COG4614.newick
+NO FILE --  ../TreeLifeData/COG2883.newick
+NO FILE --  ../TreeLifeData/COG2458.newick
+NO FILE --  ../TreeLifeData/COG2408.newick
+START --  2016-06-30 07:42:50
+True --  ../TreeLifeData/COG3915.newick  |  #Recon:  2.0  |  Over 1?  False
+True --  ../TreeLifeData/COG2153.newick  |  #Recon:  6.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1866.newick  |  #Recon:  74.0  |  Over 1?  False
+True --  ../TreeLifeData/COG0283.newick  |  #Recon:  16.0  |  Over 1?  False
+True --  ../TreeLifeData/COG5423.newick  |  #Recon:  1.0  |  Over 1?  False
+True --  ../TreeLifeData/COG4147.newick  |  #Recon:  120.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3354.newick  |  #Recon:  1.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3131.newick  |  #Recon:  8.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1060.newick  |  #Recon:  256.0  |  Over 1?  False
+True --  ../TreeLifeData/COG0182.newick  |  #Recon:  48.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3520.newick  |  #Recon:  200.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3478.newick  |  #Recon:  15.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1378.newick  |  #Recon:  48.0  |  Over 1?  False
+True --  ../TreeLifeData/COG0595.newick  |  #Recon:  18.0  |  Over 1?  False
+True --  ../TreeLifeData/COG2816.newick  |  #Recon:  8.0  |  Over 1?  False
+True --  ../TreeLifeData/COG0633.newick  |  #Recon:  454656.0  |  Over 1?  False
+True --  ../TreeLifeData/COG0337.newick  |  #Recon:  207360.0  |  Over 1?  False
+True --  ../TreeLifeData/COG2191.newick  |  #Recon:  8.0  |  Over 1?  False
+True --  ../TreeLifeData/COG5200.newick  |  #Recon:  8.0  |  Over 1?  False
+True --  ../TreeLifeData/COG4325.newick  |  #Recon:  3.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1473.newick  |  #Recon:  24970788864.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1431.newick  |  #Recon:  2.0  |  Over 1?  False
+True --  ../TreeLifeData/COG4832.newick  |  #Recon:  2.0  |  Over 1?  False
+True --  ../TreeLifeData/COG4654.newick  |  #Recon:  3.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1967.newick  |  #Recon:  2.0  |  Over 1?  False
+True --  ../TreeLifeData/COG0361.newick  |  #Recon:  2560.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1249.newick  |  #Recon:  1.30902811843e+15  |  Over 1?  False
+True --  ../TreeLifeData/COG0687.newick  |  #Recon:  1.0  |  Over 1?  False
+True --  ../TreeLifeData/COG0407.newick  |  #Recon:  864.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1014.newick  |  #Recon:  1.0  |  Over 1?  False
+True --  ../TreeLifeData/COG2164.newick  |  #Recon:  3.0  |  Over 1?  False
+True --  ../TreeLifeData/COG2992.newick  |  #Recon:  4.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1069.newick  |  #Recon:  6.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3153.newick  |  #Recon:  80.0  |  Over 1?  False
+True --  ../TreeLifeData/COG2033.newick  |  #Recon:  9.0  |  Over 1?  False
+True --  ../TreeLifeData/COG4656.newick  |  #Recon:  9.0  |  Over 1?  False
+True --  ../TreeLifeData/COG4911.newick  |  #Recon:  5.0  |  Over 1?  False
+True --  ../TreeLifeData/COG4235.newick  |  #Recon:  2.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3669.newick  |  #Recon:  30.0  |  Over 1?  False
+True --  ../TreeLifeData/COG2026.newick  |  #Recon:  36.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1675.newick  |  #Recon:  2.0  |  Over 1?  False
+True --  ../TreeLifeData/COG0322.newick  |  #Recon:  48.0  |  Over 1?  False
+True --  ../TreeLifeData/COG0521.newick  |  #Recon:  6144.0  |  Over 1?  False
+True --  ../TreeLifeData/COG2237.newick  |  #Recon:  1.0  |  Over 1?  False
+True --  ../TreeLifeData/COG5006.newick  |  #Recon:  162.0  |  Over 1?  False
+True --  ../TreeLifeData/COG4755.newick  |  #Recon:  1.0  |  Over 1?  False
+True --  ../TreeLifeData/COG4170.newick  |  #Recon:  1.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3641.newick  |  #Recon:  2.0  |  Over 1?  False
+True --  ../TreeLifeData/COG3452.newick  |  #Recon:  3.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1292.newick  |  #Recon:  59616.0  |  Over 1?  False
+True --  ../TreeLifeData/COG2026.newick  |  #Recon:  36.0  |  Over 1?  False
+True --  ../TreeLifeData/COG5447.newick  |  #Recon:  1.0  |  Over 1?  False
+True --  ../TreeLifeData/COG5384.newick  |  #Recon:  1.0  |  Over 1?  False
+True --  ../TreeLifeData/COG1559.newick  |  #Recon:  24.0  |  Over 1?  False
+True --  ../TreeLifeData/COG0059.newick  |  #Recon:  4608.0  |  Over 1?  False
