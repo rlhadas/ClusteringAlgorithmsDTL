@@ -4,8 +4,23 @@
 * remove pyc and temp files 
 * find the extra tools you made and document thne
 
-run_experiments 
 
+BEEP 
+run_experiments 
+This directory holds the testing scripts and extra data processing scripts. 
+
+* `test.sh` File that runs the batch test. See main README.md for more detail.
+* `select_files.py` Program to select some Tree of Life files for running, randomly. 
+* `experimental_info/` Place that the output files of the batch tests of the algorithms in `phylogenetic/cluster` are written to initially, also contains extra tools.
+
+
+
+experiment_info/error_checking
+experiment_info/processed_data
+
+experiment_info/command_center.txt
+experiment_info/process_order.txt
+results
 
 
 
@@ -122,20 +137,65 @@ Implemented a function `get_weighted_template()` that returns a randomly chosen 
 
 
 ### Removed 
-* TBD
+* `phylogenetic/alignlib.py`
+* `phylogenetic/app.py`
+* `phylogenetic/make.sh`
+* `phylogenetic/README`
+* `phylogenetic/README.md`
+* `phylogenetic/onlineFolder/`
+* `phylogenetic/static/`
+* `phylogenetic/svgFiles/`
+* `phylogenetic/templates/`
+* `phylogenetic/testy.svg`
+* `phylogenetic/testytesty.svg`
+* `phylogenetic/Vidua/`
+* `phylogenetic/xscape/`
+
+### Canidate for removal
+
+* `phylogenetic/calcCostscapeScore.py`
+* `phylogenetic/cgi.py`
+* `phylogenetic/commonAnalytic.py`
+* `phylogenetic/costscape`
+* `phylogenetic/costscapeNew`
+* `phylogenetic/costscapeScore.py`
+* `phylogenetic/cycleCheckingGraph.py`
+* `phylogenetic/detectCycles.py`
+* `phylogenetic/getInput.py`
+
+* `phylogenetic/newApp.py`
+* `phylogenetic/testFiles/`
+* `phylogenetic/rasmus/`
+
+* `phylogenetic/vistrans`
+* `phylogenetic/vistrans.py`
+
 
 ### Not Changed
-* `phylogenetic/*`
+* `phylogenetic/Greedy.py`
+* `phylogenetic/__init__.py`
+* `phylogenetic/newickFormatReader.py`
 * `phylogenetic/TreeLifeData/`
+
+
+### DIRECTORY 
 * `phylogenetic/newickData/`
-* `phylogenetic/rasmus/`
-* `phylogenetic/static/`
-* `phylogenetic/templates/`
 * `phylogenetic/updateFiles/`
-* `phylogenetic/xscape/`
-* `phylogenetic/Vidua/`
 * `phylogenetic/compbio/`
-* `phylogenetic/onlineFolder/`
-* `phylogenetic/svgFiles/`
-* `phylogenetic/testFiles/`
-* `phylogenetic/uploadFolder/`
+
+
+
+### FILES 
+* `phylogenetic/CostVector.py`
+* `phylogenetic/DPcostscape.py`
+* `phylogenetic/DrawDTL.py`
+* `phylogenetic/MasterReconciliation.py`
+* `phylogenetic/RandomGenerator.py`
+* `phylogenetic/ReconConversion.py`
+
+* `phylogenetic/newickToVis.py`
+* `phylogenetic/orderGraph.py`
+* `phylogenetic/plotRecon.py`
+* `phylogenetic/reconcile.py`
+* `phylogenetic/reconciliationGraph.py`
+* `phylogenetic/unitScore.py`
