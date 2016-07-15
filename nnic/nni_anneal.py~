@@ -1,4 +1,0 @@
-import simanneal
-from nni import *
-
-#uses simulated annealing to pick NNIs to reduce the overlap of a tree to 0.
