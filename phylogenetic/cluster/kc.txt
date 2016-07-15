@@ -1,0 +1,61 @@
+../TreeLifeData/COG1304.newick
+1 75 81.6
+2 62 70.2
+3 54 65.9
+4 52 60.3
+
+functions called:
+filename: ../DP.py, modulename: DP, funcname: <module>
+filename: ../DrawDTL.py, modulename: DrawDTL, funcname: <module>
+filename: ../Greedy.py, modulename: Greedy, funcname: <module>
+filename: ../Greedy.py, modulename: Greedy, funcname: Greedy
+filename: ../Greedy.py, modulename: Greedy, funcname: TraceChildren
+filename: ../Greedy.py, modulename: Greedy, funcname: bookkeeping
+filename: ../Greedy.py, modulename: Greedy, funcname: findRoot
+filename: ../Greedy.py, modulename: Greedy, funcname: greedyOnce
+filename: ../Greedy.py, modulename: Greedy, funcname: orderDTL
+filename: ../Greedy.py, modulename: Greedy, funcname: orderDTLRoots
+filename: ../Greedy.py, modulename: Greedy, funcname: postorderDTLsort
+filename: ../Greedy.py, modulename: Greedy, funcname: sortHelper
+filename: ../newickFormatReader.py, modulename: newickFormatReader, funcname: <module>
+filename: ../newickFormatReader.py, modulename: newickFormatReader, funcname: buildTree
+filename: ../newickFormatReader.py, modulename: newickFormatReader, funcname: buildTreeDictionary
+filename: ../newickFormatReader.py, modulename: newickFormatReader, funcname: getInput
+filename: ../newickFormatReader.py, modulename: newickFormatReader, funcname: newickFormatReader
+filename: ../newickFormatReader.py, modulename: newickFormatReader, funcname: parseNewick
+filename: ../newickFormatReader.py, modulename: newickFormatReader, funcname: parsePhi
+filename: Convolve.py, modulename: Convolve, funcname: <module>
+filename: DistanceFunction.py, modulename: DistanceFunction, funcname: <module>
+filename: DistanceFunction.py, modulename: DistanceFunction, funcname: DistanceFunction
+filename: DistanceFunction.py, modulename: DistanceFunction, funcname: NDistanceFunction
+filename: DistanceFunction.py, modulename: DistanceFunction, funcname: SparseNDistanceFunction
+filename: KMeans.py, modulename: KMeans, funcname: <module>
+filename: KMeans.py, modulename: KMeans, funcname: get_weighted_template
+filename: ReconGraph.py, modulename: ReconGraph, funcname: <genexpr>
+filename: ReconGraph.py, modulename: ReconGraph, funcname: <lambda>
+filename: ReconGraph.py, modulename: ReconGraph, funcname: <module>
+filename: ReconGraph.py, modulename: ReconGraph, funcname: Node
+filename: ReconGraph.py, modulename: ReconGraph, funcname: Node.__init__
+filename: ReconGraph.py, modulename: ReconGraph, funcname: Node.isLeaf
+filename: ReconGraph.py, modulename: ReconGraph, funcname: Node.isMap
+filename: ReconGraph.py, modulename: ReconGraph, funcname: ReconGraph
+filename: ReconGraph.py, modulename: ReconGraph, funcname: ReconGraph.__init__
+filename: ReconGraph.py, modulename: ReconGraph, funcname: ReconGraph.get_root_mappings
+filename: ReconGraph.py, modulename: ReconGraph, funcname: ReconGraph.postorder
+filename: ReconGraph.py, modulename: ReconGraph, funcname: ReconGraphPostorder
+filename: ReconGraph.py, modulename: ReconGraph, funcname: ReconGraphPostorder.__init__
+filename: ReconGraph.py, modulename: ReconGraph, funcname: ReconGraphPostorder.__iter__
+filename: ReconGraph.py, modulename: ReconGraph, funcname: ReconGraphPostorder.next
+filename: ReconGraph.py, modulename: ReconGraph, funcname: dictRecToSetRec
+filename: ReconGraph.py, modulename: ReconGraph, funcname: get_or_make_map_node
+filename: StratifiedCounts.py, modulename: StratifiedCounts, funcname: <module>
+filename: k_centers.py, modulename: k_centers, funcname: <genexpr>
+filename: k_centers.py, modulename: k_centers, funcname: <lambda>
+filename: k_centers.py, modulename: k_centers, funcname: <module>
+filename: k_centers.py, modulename: k_centers, funcname: add_valuelists
+filename: k_centers.py, modulename: k_centers, funcname: maximize
+filename: k_centers.py, modulename: k_centers, funcname: min_d
+filename: k_centers.py, modulename: k_centers, funcname: pareto_front
+filename: k_centers.py, modulename: k_centers, funcname: run_test
+filename: k_centers.py, modulename: k_centers, funcname: value
+filename: testgen.py, modulename: testgen, funcname: <module>

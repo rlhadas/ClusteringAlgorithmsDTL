@@ -1,3 +1,17 @@
+# TODOs
+
+* remove extraneous files from the github repository
+* remove pyc and temp files 
+* find the extra tools you made and document thne
+
+run_experiments 
+
+
+
+
+
+
+
 # SummerResearch2016
 
 This repository contains code to test the Nearest Neighbor Interchange (NNI) conjecture in `nnic` and to experiment the K Medoids and K Centers algorithms with real data from the Tree of Life Data set in `phylogenetic`. This work is supported by the NSF Grant IIS-1419739.  Summer 2016 Researchers: Dani Bork, Ricson Cheng, Jean Sung and Jincheng Wang (aka South Pawns!!). Advisor: Prof Ran Libeskind-Hadas. 
@@ -44,6 +58,10 @@ nohup nice -n 1 bash test.sh ../cluster/k_medoids_pointcollect.py ../run_experim
 ```
 
 More information about testing batch files, including what you can do once you have the output (i.e. error checking and processing the data) can be found in `phylogenetic/run_experiments.`
+
+
+### Extra tools 
+There are tools to find the reconciliation count and graphs of various Tree of Life files, to verify the validity of the graphs generated, and to plot the file size against the recocniliation count. These are found in `phylogenetic/cluster/README.md.`
 
 
 ## For the next researcher 
