@@ -18,7 +18,7 @@ Finished k centers algorithm ...
 
 
 
-#### K centers results 
+### K centers results 
 The results output contains the file name for the file that was run, and for `n` rows for each value of `k` including the value given for `max_k`. For each row, the first number is k value, the second number is ending average cluster radius, and the third number is the starting average radius. The second number should be smaller than/equal to the third number (with exception as noted in the Known Issues section in the main README). 
 
 ```
@@ -30,7 +30,7 @@ The results output contains the file name for the file that was run, and for `n`
 ```
 
 
-### K Medoids from Point Collect, K Medoids rom random debugging 
+### K Medoids from Point Collect, K Medoids from random debugging 
 The debugging output is very similar to the k centers debugging output. Here, additional informaiton is printed about each iterattion, and an early exit after `n` iterations indicates that the point collecting algorithm converged. The only difference is that the k medoids from point collect has one run per `k` value, whereas the 
 
 ```
@@ -107,4 +107,4 @@ Too few reconciliations:  6.0
 This means that the newick file found that the number of optimal reconciliations was below the threshold as set in the python file. This usually means that there is not a meaningful number of optimal options to choose from. It's default is 100, that was the threshold as used in the paper. 
 
 
-* If you do not get a full output in the results (i.e. if you set `max_k=4` and there are only 3 lines), check the debug output -- there was likely a memory error or crash. 
+* If you do not get a full output for the results (i.e. if you set `max_k=4` and there are only 3 lines), check the debug output -- there was likely a memory error or crash. 
