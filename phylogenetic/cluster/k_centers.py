@@ -11,8 +11,6 @@ import KMeans
 import newickFormatReader
 import copy
 import ReconGraph
-from StratifiedCounts import sparse_counts_n, counts
-import testgen
 import random
 import operator
 from collections import defaultdict

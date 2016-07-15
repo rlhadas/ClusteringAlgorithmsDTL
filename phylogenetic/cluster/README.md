@@ -1,61 +1,110 @@
-# Reconcilliation Clustering
+There are 2 types of output: debugging/informational and results. 
 
-This directory holds code which computes "stratified reconciliation counts" as
-described in the write-up, and uses these counts to
-   * Cluster reconciliations using the KMeans and InvSq heuristics (the latter
-       of our own design)
-   * Evaluate the quality of clusterings - agnostic of how they were produced.
 
-For more details on this, read the write up (Prof. Ran should have it)
 
-## Running the Tests
-
-We've hooked up the KMeans clustering tools to be run on newick files. One can
-use this like so:
+### K centers debugging 
+The debugging output contains information about which file was run, whether the DictGraph and the reconCount had to be generated or was loaded from the cache, and results from checking whether the likelihood in the DictGraph structure was more than 1 (it shouldn't be) -- the check rounds the value to account for float errors.
 
 ```
-python2 FromNewick.py [?.newick,??.newick,...] [number of clusters to produce]
+FILE:  ../TreeLifeData/COG1304.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  98496.0
+== Checking for likelihoods over 1 ==
+NO ERR(s)
+== End of over 1 checks. ==
+Starting K-centers algorithm ...
+Finished k centers algorithm ...
 ```
 
-For example,
+
+
+#### K centers results 
+The results output contains the file name for the file that was run, and for `n` rows for each value of `k` including the value given for `max_k`. For each row, the first number is k value, the second number is ending average cluster radius, and the third number is the starting average radius. The second number should be smaller than/equal to the third number (with exception as noted in the Known Issues section in the main README). 
 
 ```
-python2 FromNewick.py ../TreeLifeData/COG0001.newick 2
+../TreeLifeData/COG1304.newick
+1 75 80.0
+2 62 70.5
+3 54 63.9
+4 52 61.5
 ```
 
-Note that the first stage in the computation is generating the reconciliation
-graph. Because this takes a while and wasn't what we were working on, the
-`FromNewick` tool caches these reconciliation graphs in `cache`
 
-## Structure of the Project
+### K Medoids from Point Collect, K Medoids rom random debugging 
+The debugging output is very similar to the k centers debugging output. Here, additional informaiton is printed about each iterattion, and an early exit after `n` iterations indicates that the point collecting algorithm converged. The only difference is that the k medoids from point collect has one run per `k` value, whereas the 
 
-### Underlying Data-Structures
+```
+FILE:  ../TreeLifeData/COG0292.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  15552.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 445
+Early exit after 1 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 445
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 445
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 445
+Early exit after 1 iterations
+```
 
-`DistanceFunction.py` and `Convolve.py` both hold code which provides functions
-from Z^n -> Z which
-   * Are non-zero for only a finite set of inputs
-   * Support poinwise addition, construction of kronicker functions, and
-       convolution.
+### K Medoids from Point Collect results 
+The results output contains the file name for the file that was run, and for `n` rows for each value of `k` including the value given for `max_k`. For each row, the first number is k value, the second number is ending average cluster radius, and the third number is the starting average radius. The fourth number is the result from taking the best from random. This allows for comparison from end/start (normalized) and end/random which gives you an idea of how good point collecting is over random. The second number should be larger than/equal to the third number (with exception as noted in the Known Issues section in the main README). 
 
-`ReconGraph.py` holds the Reconciliation Graph data-structure, along with a
-constructor which takes in the output from `DP.py:DP` (I don't recall what the
-format of this output is right now).
+```
+../TreeLifeData/COG1304.newick
+1 41.245614 41.245614 46.5175438596
+2 35.960648 35.411550 39.1472567414
+3 33.028955 32.407306 35.255734243
+4 31.796174 31.375315 32.6874086257
+```
 
-### Stratified Counts
+### K Medoids from random results 
+The results output contains the file name for the file that was run, and for `n` rows for each value of `k` including the value given for `max_k`. For each row, the first number is k value, the second number is ending average cluster radius, and the third number is the starting average radius. The second number should be smaller than/equal to the third number (with exception as noted in the Known Issues section in the main README). There should be `x` rows of sets of `max_k` rows, as `x` is set in `for seed in xrange(x):` in the k medoids python file. The default is 5. 
 
-`StratifiedCounts.py` contains function which compute stratified counts with
-respect to one of more template reconciliations. While the definition of
-stratified counts (see the write-up) seems weird at first, it is key in
-implementing clutering heuristics and evaluating cluster quality.
+```
+../TreeLifeData/COG0373.newick
+1 18.133333 17.333333
+2 14.244444 13.822222
+3 13.388889 12.477778
+4 12.200000 11.438889
+1 19.333333 17.333333
+2 14.500000 13.633333
+3 13.488889 12.522222
+4 12.711111 11.688889
+1 19.866667 17.333333
+2 15.933333 14.333333
+3 13.105556 12.383333
+4 12.211111 11.933333
+1 19.866667 17.333333
+2 18.266667 16.133333
+3 18.266667 15.022222
+4 14.644444 12.888889
+1 19.866667 17.333333
+2 16.333333 14.600000
+3 13.933333 12.500000
+4 12.566667 11.183333
+```
 
-### Clustering Algorithms
+### All algorithms
 
-`KMeans.py` contains the value maximization code (chooses the reconciliation in
-the graph which maximizes the sum of some value function on nodes of the graph
-across the nodes in the reconciliation), and uses this maximization procedure
-to implement the KMeans clustering algorithm, along with a novel (but nt very
-good) custering algorithm, InvSq, as described in the file. This file also
-includes a function which evaluates cluster quality.
+* If instead for debugging, you get:
 
-`FromNewick.py` hooks up all the parts so you can run KMeans on newick files,
-in bulk (for performance testing). There is a flag in the file for parallelism.
+```
+Too few reconciliations:  6.0
+```
+
+This means that the newick file found that the number of optimal reconciliations was below the threshold as set in the python file. This usually means that there is not a meaningful number of optimal options to choose from. It's default is 100, that was the threshold as used in the paper. 
+
+
+* If you do not get a full output in the results (i.e. if you set `max_k=4` and there are only 3 lines), check the debug output -- there was likely a memory error or crash. 
