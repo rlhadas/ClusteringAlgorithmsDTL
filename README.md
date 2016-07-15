@@ -1,12 +1,49 @@
 # SummerResearch2016
 
 This repository contains code to test the Nearest Neighbor Interchange (NNI) conjecture in `nnic` and to experiment the K Medioids and K Centers algorithms with real data from the Tree of Life Data set in `phylogenetic`. This work is supported by the NSF Grant IIS-1419739.  Summer 2016 Researchers: Dani Bork, Ricson Cheng, Jean Sung and Jincheng Wang (aka South Pawns!!). Advisor: Prof Ran Libeskind-Hadas. 
+
 ## For the causal user
+
+### Testing individual Tree of Life files
+The main algorithms, k centers, and k medioids as described in the paper, are in `phylogenetic/cluster`. For k medioids, you can run the algorithm with random intial points or points as generated from a [point collection algorithm](https://en.wikipedia.org/wiki/Lloyd%27s_algorithm).
+
+Run as:
+```
+python {TEST_FILE} {TREE_LIFE_FILE} {MAX_K}
+```
+
+```
+nohup nice -n 1 bash test.sh ../cluster/k_centers.py ../run_experiments/experiment_info/kcenters_result.out >> experiment_info/kcenters_info.out &
+```
+
+For example:
+
+The output can be separated into 2 fold. 
+
+Talk abot the different output for each
+
+Known issues
+k medoids from random
+Also the dict graph doesn't change from the 1 
+
+
+
+
+
+More information about testing individual files can be found at `phylogenetic/cluster/README.md`
+
+Testing 1 or testing multiple
+
+
+cluster
+
+once you run a batch file and you want to checks tuff 
+
 
 
 ## For the next researcher 
 
-This document details the major changes that were made to the resposistory as cloned from:
+This details the major changes that were made to the resposistory as cloned from:
 https://github.com/alex-ozdemir/phylogenetic-reconciliation
 
 
