@@ -117,3 +117,3407 @@ Early exit after 2 iterations
 K means starting with k = 2, seed = 0
 Size of graph: 1640
 Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0373.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  360.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 319
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 319
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 319
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 319
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 319
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 319
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 319
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 319
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 319
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 319
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 319
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 319
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 319
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 319
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 319
+Early exit after 4 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 319
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 319
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 319
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 319
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 319
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG2151.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  432.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 277
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 277
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 277
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 277
+Early exit after 1 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 277
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0610.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  181248.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 329
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 329
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 329
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 329
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 329
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 329
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 329
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 329
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 329
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 329
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 329
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 329
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 329
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 329
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 329
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 329
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 329
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 329
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 329
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 329
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG1052.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  7815168.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 731
+Reconciliation count by constant: 7815168
+Reconciliation count by roots   : 2064384
+Should be equal
+FILE:  ../TreeLifeData/COG1708.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  25920.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 399
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 399
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 399
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 399
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 399
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 399
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 399
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 399
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 399
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 399
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 399
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 399
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 399
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 399
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 399
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 399
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 399
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 399
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 399
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 399
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG1142.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  144.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 205
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 205
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 205
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 205
+Early exit after 1 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 205
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 205
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 205
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 205
+Early exit after 1 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 205
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 205
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 205
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 205
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 205
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 205
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 205
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 205
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 205
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 205
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 205
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 205
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0187.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  1152.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 661
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 661
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 661
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 661
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 661
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 661
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 661
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 661
+Early exit after 1 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 661
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 661
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 661
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 661
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 661
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 661
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 661
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 661
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 661
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 661
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 661
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 661
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0008.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  516096.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 846
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 846
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 846
+Early exit after 3 iterations
+FILE:  ../TreeLifeData/COG0163.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  144.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 316
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 316
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 316
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 316
+Early exit after 1 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 316
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 316
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 316
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 316
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 316
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 316
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 316
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 316
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 316
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 316
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 316
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 316
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 316
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 316
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 316
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 316
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0782.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  6144.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 522
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 522
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 522
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 522
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 522
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 522
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 522
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 522
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 522
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 522
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 522
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 522
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 522
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 522
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 522
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 522
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 522
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 522
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 522
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 522
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG2453.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  331776000.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 894
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 894
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0066.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  1024.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 273
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 273
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 273
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 273
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 273
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 273
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 273
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 273
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 273
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 273
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 273
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 273
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 273
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 273
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 273
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 273
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 273
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 273
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 273
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 273
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG1858.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  3456.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 257
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 257
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 257
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 257
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 257
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 257
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 257
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 257
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 257
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 257
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 257
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 257
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 257
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 257
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 257
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 257
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 257
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 257
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 257
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 257
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0713.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  16560.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 414
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 414
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 414
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 414
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 414
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 414
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 414
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 414
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 414
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 414
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 414
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 414
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 414
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 414
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 414
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 414
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 414
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 414
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 414
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 414
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG5040.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  480.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 318
+Early exit after 1 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 318
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 318
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 318
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG5273.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  42624.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 642
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 642
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 642
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 642
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 642
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 642
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 642
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 642
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 642
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 642
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 642
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 642
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 642
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 642
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 642
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 642
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 642
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 642
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 642
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 642
+Early exit after 3 iterations
+FILE:  ../TreeLifeData/COG2022.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  20736.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 305
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 305
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 305
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 305
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 305
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 305
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 305
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 305
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 305
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 305
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 305
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 305
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 305
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 305
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 305
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 305
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 305
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 305
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 305
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 305
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG4799.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  7464960.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 636
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 636
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 636
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG1974.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  512.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 263
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 263
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 263
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 263
+Early exit after 1 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 263
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 263
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 263
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 263
+Early exit after 1 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 263
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 263
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 263
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 263
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 263
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 263
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 263
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 263
+Early exit after 1 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 263
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 263
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 263
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 263
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG2223.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  360.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 268
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 268
+Early exit after 5 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 268
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 268
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 268
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 268
+Early exit after 4 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 268
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 268
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 268
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 268
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 268
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 268
+Early exit after 4 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 268
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 268
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 268
+Early exit after 4 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 268
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 268
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 268
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 268
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 268
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0136.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  192000.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 524
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 524
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 524
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 524
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 524
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 524
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 524
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 524
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 524
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 524
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 524
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0675.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  41472.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 657
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 657
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 657
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 657
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 657
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 657
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 657
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 657
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 657
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 657
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 657
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 657
+Early exit after 4 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 657
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 657
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 657
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 657
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 657
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 657
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 657
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 657
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0149.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  339738624.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 630
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 630
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0072.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  55296.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 478
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 478
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 478
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 478
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 478
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 478
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 478
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 478
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 478
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 478
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 478
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 478
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 478
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 478
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 478
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 478
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 478
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 478
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 478
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 478
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG2897.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  720.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 269
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 269
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 269
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 269
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 269
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 269
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 269
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 269
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 269
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 269
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 269
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 269
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 269
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 269
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 269
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 269
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 269
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 269
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 269
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 269
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0456.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  18289152.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 739
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 739
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG1757.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  94080.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 406
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 406
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 406
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 406
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 406
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 406
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 406
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 406
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 406
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 406
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 406
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 406
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 406
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 406
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 406
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 406
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 406
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 406
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 406
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 406
+Early exit after 3 iterations
+FILE:  ../TreeLifeData/COG1187.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  12386304.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 700
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 700
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG1185.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  384.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 379
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 379
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 379
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 379
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 379
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 379
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 379
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 379
+Early exit after 1 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 379
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 379
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 379
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 379
+Early exit after 1 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 379
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 379
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 379
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 379
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 379
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 379
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 379
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 379
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG1160.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  4104.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 488
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 488
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 488
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 488
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 488
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 488
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 488
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 488
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 488
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 488
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 488
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 488
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 488
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 488
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 488
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 488
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 488
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 488
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 488
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 488
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0432.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  3456.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 318
+Early exit after 4 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 318
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 318
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 318
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 318
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG0109.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  512.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 347
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 347
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 347
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 347
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 347
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 347
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 347
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 347
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 347
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 347
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 347
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 347
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 347
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 347
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 347
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 347
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 347
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 347
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 347
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 347
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG1983.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  144.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 143
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 143
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 143
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 143
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 143
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 143
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 143
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 143
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 143
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 143
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 143
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 143
+Early exit after 1 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 143
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 143
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 143
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 143
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 143
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 143
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 143
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 143
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0335.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  19008.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 451
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 451
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 451
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 451
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 451
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 451
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 451
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 451
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 451
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 451
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 451
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 451
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 451
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 451
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 451
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 451
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 451
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 451
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 451
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 451
+Early exit after 3 iterations
+FILE:  ../TreeLifeData/COG1080.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  50400.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 378
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 378
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 378
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 378
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 378
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 378
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 378
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 378
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 378
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 378
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 378
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 378
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 378
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 378
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 378
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 378
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 378
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 378
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 378
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 378
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0767.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  192.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 364
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 364
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 364
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 364
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 364
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 364
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 364
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 364
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 364
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 364
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 364
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 364
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 364
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 364
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 364
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 364
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 364
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 364
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 364
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 364
+Early exit after 3 iterations
+FILE:  ../TreeLifeData/COG1408.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  864.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 289
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 289
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 289
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 289
+Early exit after 1 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 289
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 289
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 289
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 289
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 289
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 289
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 289
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 289
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 289
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 289
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 289
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 289
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 289
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 289
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 289
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 289
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0107.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  648.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 393
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 393
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 393
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 393
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 393
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 393
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 393
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 393
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 393
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 393
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 393
+Early exit after 4 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 393
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 393
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 393
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 393
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 393
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 393
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 393
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 393
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 393
+Early exit after 3 iterations
+FILE:  ../TreeLifeData/COG1360.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  512.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 337
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 337
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 337
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 337
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 337
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 337
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 337
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 337
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 337
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 337
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 337
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 337
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 337
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 337
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 337
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 337
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 337
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 337
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 337
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 337
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0855.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  4752.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 277
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 277
+Early exit after 1 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 277
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 277
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 277
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 277
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0769.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  1536.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 402
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 402
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 402
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 402
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 402
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 402
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 402
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 402
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 402
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 402
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 402
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 402
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 402
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 402
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 402
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 402
+Early exit after 1 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 402
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 402
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 402
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 402
+Early exit after 1 iterations
+FILE:  ../TreeLifeData/COG0040.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  12384.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 465
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 465
+Early exit after 4 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 465
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 465
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 465
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 465
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 465
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 465
+Early exit after 5 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 465
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 465
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 465
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 465
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 465
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 465
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 465
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 465
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 465
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 465
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 465
+Early exit after 5 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 465
+Early exit after 4 iterations
+FILE:  ../TreeLifeData/COG2513.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  1152.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 315
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 315
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 315
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 315
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 315
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 315
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 315
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 315
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 315
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 315
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 315
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 315
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 315
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 315
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 315
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 315
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 315
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 315
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 315
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 315
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0120.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  324.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 328
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 328
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 328
+Early exit after 1 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 328
+Early exit after 1 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 328
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 328
+Early exit after 1 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 328
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 328
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 328
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 328
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 328
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 328
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 328
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 328
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 328
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 328
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 328
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 328
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 328
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 328
+Early exit after 2 iterations
+FILE:  ../TreeLifeData/COG0597.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  6912.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 390
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 390
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 390
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 390
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 390
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 390
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 390
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 390
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 390
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 390
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 390
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 2
+Size of graph: 390
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 3
+Size of graph: 390
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 3
+Size of graph: 390
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 3
+Size of graph: 390
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 3
+Size of graph: 390
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 4
+Size of graph: 390
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 4
+Size of graph: 390
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 4
+Size of graph: 390
+Early exit after 3 iterations
+===========================
+K means starting with k = 4, seed = 4
+Size of graph: 390
+Early exit after 3 iterations
+FILE:  ../TreeLifeData/COG2186.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  2930688.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 745
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 745
+Early exit after 3 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 745
+Early exit after 5 iterations
+FILE:  ../TreeLifeData/COG0498.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  28800.0
+Found cluster representatives using point-collecting
+Starting K Means algorithm ... 
+Printing Average and Maximum cluster radius at each step
+===========================
+K means starting with k = 1, seed = 0
+Size of graph: 535
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 0
+Size of graph: 535
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 0
+Size of graph: 535
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 0
+Size of graph: 535
+Early exit after 2 iterations
+===========================
+K means starting with k = 1, seed = 1
+Size of graph: 535
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 1
+Size of graph: 535
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 1
+Size of graph: 535
+Early exit after 2 iterations
+===========================
+K means starting with k = 4, seed = 1
+Size of graph: 535
+Early exit after 3 iterations
+===========================
+K means starting with k = 1, seed = 2
+Size of graph: 535
+Early exit after 2 iterations
+===========================
+K means starting with k = 2, seed = 2
+Size of graph: 535
+Early exit after 2 iterations
+===========================
+K means starting with k = 3, seed = 2
+Size of graph: 535
+Early exit after 2 iterations
