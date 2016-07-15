@@ -707,3 +707,12 @@ FILE:  ../TreeLifeData/COG0657.newick
 Loading reonciliation graph from cache
 Reconciliation Count:  1.8560876544e+11
 Starting K-centers algorithm ... 
+test.sh: line 26: 22109 Terminated              python $PYTHON_FILE $fileName $MAX_K >> $OUTPUT_FILE
+FILE:  ../TreeLifeData/COG1764.newick
+Loading reonciliation graph from cache
+Reconciliation Count:  5832.0
+== Checking for likelihoods over 1 ==
+NO ERR(s)
+== End of over 1 checks. ==
+Starting K-centers algorithm ... 
+Finished k centers algorithm ...

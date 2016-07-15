@@ -122,6 +122,7 @@ def reconciliations_at_each_distance_from_representatives(graph, reps):
     return distances
 
 def node_value_maps_symmetric(graph, reps):
+
     ''' Given a
         graph - reconcilliation graph
         reps  - a list of reconciliations in event-set form
