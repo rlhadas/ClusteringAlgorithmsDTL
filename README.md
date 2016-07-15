@@ -1,10 +1,16 @@
 # SummerResearch2016
 
+This repository contains code to test the Nearest Neighbor Interchange (NNI) conjecture in `nnic` and to experiment the K Medioids and K Centers algorithms with real data from the Tree of Life Data set in `phylogenetic`. This work is supported by the NSF Grant IIS-1419739.  Summer 2016 Researchers: Dani Bork, Ricson Cheng, Jean Sung and Jincheng Wang (aka South Pawns!!). Advisor: Prof Ran Libeskind-Hadas. 
+## For the causal user
+
+
+## For the next researcher 
+
 This document details the major changes that were made to the resposistory as cloned from:
 https://github.com/alex-ozdemir/phylogenetic-reconciliation
 
 
-##  Added
+###  Added
 
 * `nnic` 
 A directory that contains code to test the NNI Conjecture.
@@ -29,7 +35,7 @@ Create cache files for graphs and reconciliation counts for the files in `TreeLi
 
 
 
-## Changed
+### Changed
 
 * `phylogenetic/DP.py`
 The way that the preorder check was done is updated to check for same map nodes across different depth levels -- preorderCheck(preOrderList). Minor formatting (naming) and readability refactoring in addScores(treeMin, DTLDict, ScoreDict), no functional changes.
@@ -38,7 +44,7 @@ The way that the preorder check was done is updated to check for same map nodes 
 More reconciliation graphs constructed during experiment running. Also, added a corresponding set of `.count` files that hold the associated number of reconciliations. 
 
 
-## Not Changed
+### Not Changed
 * `phylogenetic/*`
 * `phylogenetic/TreeLifeData/`
 * `phylogenetic/newickData/`
