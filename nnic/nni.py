@@ -1,6 +1,8 @@
 import random
 from collections import defaultdict
 from pprint import pprint
+import sys
+import math
 
 random.seed(0)
 
@@ -104,6 +106,22 @@ def nni_swap(T, (u, v, uswap, vswap)):
     T[uswap].append(v)
     T[vswap].remove(v)
     T[vswap].append(u)
+
+def nni_swap2(T, (u, v, uswap, vswap)):
+    """
+    performs an NNI centered along edge (u,v) where 
+    branch rooted at uswap will be swapped with branch centered at vswap
+    """
+    T = copy_tree(T)
+    T[u].remove(uswap)
+    T[v].remove(vswap)
+    T[u].append(vswap)
+    T[v].append(uswap)
+    T[uswap].remove(u)
+    T[uswap].append(v)
+    T[vswap].remove(v)
+    T[vswap].append(u)
+    return T
     
 def iedgelist(T):
     """
@@ -141,6 +159,7 @@ def list_NNIs(T):
 
 def testNNI(T):
     """
+    ***this function is destructive***
     tests a tree to see if it satisfies the NNI conjecture
     """
     cost = overlap(T)
@@ -155,13 +174,88 @@ def testNNI(T):
     assert cost == 0
     return True
 
-def test_conjecture(size, number, seed = 0):
+def testNNI3(T):
+    """
+    ***this function is destructive***
+    tests a tree to see if it satisfies the NNI conjecture
+    """
+    cost = overlap(T)
+    while cost > 0:
+        isize = isize_factory(T)
+        NNIs = {nni : nni_cost(T, isize, nni)-random.random()*0.1 for nni in list_NNIs(T)}
+        (best_nni, best_cost) = min(NNIs.items(), key = lambda (k,v) : v)
+        if best_cost > 0:
+            print "all NNIS positive"
+            return T
+        if best_cost > -1:
+            print "0",
+            sys.stdout.flush()
+        nni_swap(T,best_nni)
+        cost += math.ceil(best_cost)
+    assert cost == 0
+    return True
+    
+def testNNI2(T):
+    """
+    ***this function is destructive***
+    tests a tree to see if it satisfies the second NNI conjecture
+    """
+    cost = overlap(T)
+    print "testing NNI2",
+    while cost > 0:
+        print cost,
+        sys.stdout.flush()
+        isize = isize_factory(T)
+        NNIs = [(nni,nni_cost(T, isize, nni)) for nni in list_NNIs(T)]
+        NNIs.sort(key = lambda (k,v) : -v)
+        best_nni, best_cost = NNIs[-1]
+        if best_cost > 0:
+            print "fail 1"
+            return T #failed
+        elif best_cost < 0:
+            nni_swap(T,best_nni)
+            cost += best_cost
+        else: #best_cost is 0
+            zero_cost_nnis = [nni for (nni,c) in NNIs if c == 0]
+            for first_nni in zero_cost_nnis:
+                T2 = nni_swap2(T, first_nni)
+                isize2 = isize_factory(T2)
+                NNIs2 = {nni : nni_cost(T2, isize2, nni) for nni in list_NNIs(T2)}
+                (best_nni2, best_cost2) = min(NNIs2.items(), key = lambda (k,v) : v)
+                if best_cost2 >= 0:
+                    continue
+                else:
+                    nni_swap(T, first_nni)
+                    nni_swap(T, best_nni2)
+                    cost += best_cost2
+                    break
+            else:
+                print "fail 2"
+                return T #failed
+    print "finished"
+    assert cost == 0
+    return True
+
+def test_conjecture_gen(conjecture, size, number, seed = 0, verbose = True):
     random.seed(seed)
     for n in xrange(number):
+        if verbose:
+            print n
         rt = random_tree(size)
-        rtp = testNNI(rt)
+        rtp = conjecture(rt)
         if rtp is not True:
             return rtp
+
+def test_conjecture(size, number, seed = 0):
+    return test_conjecture_gen(testNNI,size,number,seed)
+
+def test_conjecture2(size, number, seed = 0):
+    return test_conjecture_gen(testNNI2,size,number,seed)
+    
+def test_conjecture3(size, number, seed = 0):
+    return test_conjecture_gen(testNNI3,size,number,seed)
+
+
 
 def beam_search(T, n = 20):
     """
@@ -204,5 +298,74 @@ def test_beam(size, number, seed = 0, n = 5):
         if rtp is not True:
             return rtp
 
+def almost_leaf(T):
+    """returns the set of internal nodes in T which are neighbors to a leaf"""
+    almost_leaves = []
+    for k in T:
+        numleaves = len([v for v in T[k] if v[1] is not None])
+        if numleaves > 0:
+            almost_leaves.append(k)
+    return almost_leaves
+
+def almost_leaf_edge(T):
+    """returns the set of edges in T with both ends are almsot leaves"""
+    aleaf = almost_leaf(T)
+    return [e for e in iedgelist(T) if e in aleaf]
+
+def leaves_at_aleaf(v,T):
+    """returns leaf neighbors of an almost-leaf"""
+    return [n for n in T[v] if n[1] is not None]
+
+def leaves_at_aleafedge((v,w),T):
+    """returns leaf neighbors of an almost-leaf edge"""
+    return (leaves_at_aleaf(v,T), leaves_at_aleaf(w,T))
+
+def contract(T):
+    """
+    ***this function is destructive***
+    contracts solved pairs in T
+    """
+    size = len(T)
+    for u in almost_leaf(T):
+        uleaves = leaves_at_aleaf(u,T)
+        if len(uleaves) == 2 and uleaves[0][0] == uleaves[1][0]:
+            del T[uleaves[0]]
+            del T[uleaves[1]]
+            internal = [leaf for leaf in T[u] if leaf not in uleaves][0]
+            del T[u]
+            T[internal].remove(u)
+            i1, i2 = T[internal]
+            del T[internal]
+            T[i1].remove(internal)
+            T[i2].remove(internal)
+            T[i1].append(i2)
+            T[i2].append(i1)
+            print "vertex contraction", uleaves[0][0]
+            break
+    else:
+        for (v,w) in almost_leaf_edge(T):
+            vls, wls = leaves_at_aleafedge((v,w),T)
+            sameleaves = [(vl,wl) for vl in vls for wl in wls if vl[0] == wl[0]]
+            if len(sameleaves) > 0:
+                vl,wl = sameleaves[0]
+                del T[vl]
+                del T[wl]
+                T[v].remove(vl)
+                T[w].remove(wl)
+                T[v].remove(w)
+                T[w].remove(v)
+                iv = T[v][0]
+                iw = T[w][0]
+                T[iv].remove(v)
+                T[iw].remove(w)
+                T[iv].append(iw)
+                T[iw].append(iv)
+                del T[v]
+                del T[w]
+                print "edge contraction", (vl[0], wl[0])
+                break
+    if len(T) < size:
+        contract(T)
+            
 execfile('test.py')
         
