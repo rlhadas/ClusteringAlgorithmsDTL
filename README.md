@@ -1,32 +1,3 @@
-# TODOs
-
-* remove extraneous files from the github repository
-* remove pyc and temp files 
-* find the extra tools you made and document thne
-
-
-BEEP 
-run_experiments 
-This directory holds the testing scripts and extra data processing scripts. 
-
-* `test.sh` File that runs the batch test. See main README.md for more detail.
-* `select_files.py` Program to select some Tree of Life files for running, randomly. 
-* `experimental_info/` Place that the output files of the batch tests of the algorithms in `phylogenetic/cluster` are written to initially, also contains extra tools.
-
-
-
-experiment_info/error_checking
-experiment_info/processed_data
-
-experiment_info/command_center.txt
-experiment_info/process_order.txt
-results
-
-
-
-
-
-
 # SummerResearch2016
 
 This repository contains code to test the Nearest Neighbor Interchange (NNI) conjecture in `nnic` and to experiment the K Medoids and K Centers algorithms with real data from the Tree of Life Data set in `phylogenetic`. This work is supported by the NSF Grant IIS-1419739.  Summer 2016 Researchers: Dani Bork, Ricson Cheng, Jean Sung and Jincheng Wang (aka South Pawns!!). Advisor: Prof Ran Libeskind-Hadas. 
@@ -50,8 +21,6 @@ python k_medoids_pc.py ../TreeLifeData/COG1304.newick 4
 
 * More information about testing individual files, including what the run outputs (debugging, results) are can be found at `phylogenetic/cluster/README.md` and `phylogenetic/cluster/README_old.md.`
 
-* Information about gathering information about the DictGraphs and the number of reconciliations per Tree of Life data file can be found in `phylogenetic/cluster/cluster_debug/.`
-
 
 ### Testing batch Tree of Life files
 To run the experiment on mutiple files, be in directory `phylogenetic/run_experiments.` Add the list of files you want to run the programs in a space seperated list in `test.sh.`
@@ -72,7 +41,7 @@ nohup nice -n 1 bash test.sh ../cluster/k_medoids_random.py ../run_experiments/e
 nohup nice -n 1 bash test.sh ../cluster/k_medoids_pointcollect.py ../run_experiments/experiment_info/km_pc_result.out >> experiment_info/km_pc_info.out &
 ```
 
-More information about testing batch files, including what you can do once you have the output (i.e. error checking and processing the data) can be found in `phylogenetic/run_experiments.`
+More information about testing batch files, including what you can do once you have the output (i.e. error checking and processing the data) can be found at `phylogenetic/run_experiments/README.md.`
 
 
 ### Extra tools 
@@ -99,6 +68,7 @@ https://github.com/alex-ozdemir/phylogenetic-reconciliation
 * `TreeLifeData/COG500.newick` is a file that is an order of magnitude larger than any other file -- skip it for a typical test case
 * Some of the naming in the debugging output and the files is really outdated, for example when running k medoids, the output refers to running the k means algorithm which is not what is happening
 * There is code that is repeated between k centers, k medoids from point collect and k medoids from random. If rewritten, inputs should be piped through one file, then split into the relevant functions. 
+* `TreeLifeData/COG1296.newick` Has a number of reconciliations that are not consistent between the roots and counting through the graph, which should not have been changed with the modifications of this repository. 
 
 
 ###  Added
@@ -127,7 +97,7 @@ Create cache files for graphs and reconciliation counts for the files in `TreeLi
 ### Changed
 
 * `phylogenetic/DP.py`
-The way that the preorder check was done is updated to check for same map nodes across different depth levels -- preorderCheck(preOrderList). Minor formatting (naming) and readability refactoring in addScores(treeMin, DTLDict, ScoreDict), no functional changes.
+The way that the preorder check was done is updated to check for same map nodes across different depth levels -- preorderCheck(preOrderList). Minor formatting (naming) and readability refactoring in addScores(treeMin, DTLDict, ScoreDict), no functional changes. Removed `import DrawDTL` as it is never used.
 
 * `phylogenetic/cluster/cache` 
 More reconciliation graphs constructed during experiment running. Also, added a corresponding set of `.count` files that hold the associated number of reconciliations. 
@@ -139,56 +109,41 @@ Implemented a function `get_weighted_template()` that returns a randomly chosen 
 ### Removed 
 * `phylogenetic/alignlib.py`
 * `phylogenetic/app.py`
-* `phylogenetic/make.sh`
-* `phylogenetic/README`
-* `phylogenetic/README.md`
-* `phylogenetic/onlineFolder/`
-* `phylogenetic/static/`
-* `phylogenetic/svgFiles/`
-* `phylogenetic/templates/`
-* `phylogenetic/testy.svg`
-* `phylogenetic/testytesty.svg`
-* `phylogenetic/Vidua/`
-* `phylogenetic/xscape/`
-
-### Canidate for removal
-
 * `phylogenetic/calcCostscapeScore.py`
 * `phylogenetic/cgi.py`
 * `phylogenetic/commonAnalytic.py`
+* `phylogenetic/compbio/`
+* `phylogenetic/CostVector.py`
 * `phylogenetic/costscape`
 * `phylogenetic/costscapeNew`
 * `phylogenetic/costscapeScore.py`
 * `phylogenetic/cycleCheckingGraph.py`
 * `phylogenetic/detectCycles.py`
-* `phylogenetic/getInput.py`
-
-* `phylogenetic/newApp.py`
-* `phylogenetic/testFiles/`
-* `phylogenetic/rasmus/`
-
-* `phylogenetic/vistrans`
-* `phylogenetic/vistrans.py`
-
-
-### Not Changed
-* `phylogenetic/Greedy.py`
-* `phylogenetic/__init__.py`
-* `phylogenetic/newickFormatReader.py`
-* `phylogenetic/TreeLifeData/`
-
-
-### DIRECTORY 
-* `phylogenetic/newickData/`
-* `phylogenetic/updateFiles/`
-* `phylogenetic/compbio/`
-
-
-
-### FILES 
-* `phylogenetic/CostVector.py`
 * `phylogenetic/DPcostscape.py`
 * `phylogenetic/DrawDTL.py`
+* `phylogenetic/getInput.py`
+* `phylogenetic/make.sh`
+* `phylogenetic/newApp.py`
+* `phylogenetic/newickData/`
+* `phylogenetic/rasmus/`
+* `phylogenetic/README`
+* `phylogenetic/onlineFolder/`
+* `phylogenetic/static/`
+* `phylogenetic/svgFiles/`
+* `phylogenetic/templates/`
+* `phylogenetic/testFiles/`
+* `phylogenetic/testy.svg`
+* `phylogenetic/testytesty.svg`
+* `phylogenetic/updateFiles/`
+* `phylogenetic/Vidua/`
+* `phylogenetic/vistrans`
+* `phylogenetic/vistrans.py`
+* `phylogenetic/xscape/`
+
+### FILES 
+
+
+
 * `phylogenetic/MasterReconciliation.py`
 * `phylogenetic/RandomGenerator.py`
 * `phylogenetic/ReconConversion.py`
@@ -199,3 +154,24 @@ Implemented a function `get_weighted_template()` that returns a randomly chosen 
 * `phylogenetic/reconcile.py`
 * `phylogenetic/reconciliationGraph.py`
 * `phylogenetic/unitScore.py`
+
+
+
+
+
+
+
+### Not Changed
+* `phylogenetic/Greedy.py`
+* `phylogenetic/__init__.py`
+* `phylogenetic/newickFormatReader.py`
+* `phylogenetic/TreeLifeData/`
+
+
+
+
+
+
+
+
+

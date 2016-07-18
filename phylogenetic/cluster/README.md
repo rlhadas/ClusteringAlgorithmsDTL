@@ -113,10 +113,22 @@ This means that the newick file found that the number of optimal reconciliations
 ## Extra tools 
 This is about the contents of `cluster_debug/.`
 
-* `calc_recon.py` Tests tree of life files and generates T/F output for each file based on the reconciliation count. Can set threshold (default = 100) and specify how many of the Tree of Life files to use. Empirircal run time data included in file. Creates and caches count if not already there.  
- * `verify_graphs.py` *Archive.* Used to run k centers to verify that the DictGraph data structure did not have any likelihoods that were greater than 1. Tree of Life files provided as a list of numbers, run as `python verify_graphs.py`.
- * `verify_graphs_output.txt` Sample output from a run of `verify_graphs.py` on random files that demonstrates pathology of incorrect DictGraph (very rare if any).
-* `plot_file_size.py` Must specify destination file for output, can specify how many of the Tree of Life files you want processed. Produces a csv that tracks file name, file size (bytes), reconciliation count (as pulled from cache, will not generate).
-* `file_sizes_all.csv` A file that contains a csv of file and file size of all the files in Tree of Life.
-* `file_sizes.csv` A file that contains a csv of the second half of batch.txt files, their reconciliation counts, and the file size. Used to verify random selection of files for reporting in paper was a valid cross section of the Tree of Life files. =
+* `calc_recon.py` 
+Tests tree of life files and generates T/F output for each file based on the reconciliation count. Can set threshold (default = 100) and specify how many of the Tree of Life files to use. Empirircal run time data included in file. Creates and caches count if not already there.  
+
+* `verify_graphs.py` 
+*Archive.* Used to run k centers to verify that the DictGraph data structure did not have any likelihoods that were greater than 1. Tree of Life files provided as a list of numbers, run as `python verify_graphs.py`.
+
+* `verify_graphs_output.txt` 
+Sample output from a run of `verify_graphs.py` on random files that demonstrates pathology of incorrect DictGraph (very rare if any).
+
+* `plot_file_size.py`
+Must specify destination file for output, can specify how many of the Tree of Life files you want processed. Produces a csv that tracks file name, file size (bytes), reconciliation count (as pulled from cache, will not generate).
+
+* `file_sizes_all.csv` 
+A file that contains a csv of file and file size of all the files in Tree of Life.
+
+* `file_sizes.csv` 
+A file that contains a csv of the second half of batch.txt files, their reconciliation counts, and the file size. Used to verify random selection of files for reporting in paper was a valid cross section of the Tree of Life files. =
+
 * `batch.txt` Contains a list of the files used to run with k centers, and k medoids (both kinds), all files have reconciliation counts over 100.
