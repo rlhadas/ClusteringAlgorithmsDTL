@@ -123,42 +123,31 @@ Implemented a function `get_weighted_template()` that returns a randomly chosen 
 * `phylogenetic/DrawDTL.py`
 * `phylogenetic/getInput.py`
 * `phylogenetic/make.sh`
+* `phylogenetic/MasterReconciliation.py`
 * `phylogenetic/newApp.py`
 * `phylogenetic/newickData/`
-* `phylogenetic/rasmus/`
+* `phylogenetic/newickToVis.py`
+* `phylogenetic/RandomGenerator.py`
 * `phylogenetic/README`
+* `phylogenetic/rasmus/`
+* `phylogenetic/ReconConversion.py`
 * `phylogenetic/onlineFolder/`
+* `phylogenetic/orderGraph.py`
+* `phylogenetic/plotRecon.py`
+* `phylogenetic/reconcile.py`
+* `phylogenetic/reconciliationGraph.py`
 * `phylogenetic/static/`
 * `phylogenetic/svgFiles/`
 * `phylogenetic/templates/`
 * `phylogenetic/testFiles/`
 * `phylogenetic/testy.svg`
 * `phylogenetic/testytesty.svg`
+* `phylogenetic/unitScore.py`
 * `phylogenetic/updateFiles/`
 * `phylogenetic/Vidua/`
 * `phylogenetic/vistrans`
 * `phylogenetic/vistrans.py`
 * `phylogenetic/xscape/`
-
-### FILES 
-
-
-
-* `phylogenetic/MasterReconciliation.py`
-* `phylogenetic/RandomGenerator.py`
-* `phylogenetic/ReconConversion.py`
-
-* `phylogenetic/newickToVis.py`
-* `phylogenetic/orderGraph.py`
-* `phylogenetic/plotRecon.py`
-* `phylogenetic/reconcile.py`
-* `phylogenetic/reconciliationGraph.py`
-* `phylogenetic/unitScore.py`
-
-
-
-
-
 
 
 ### Not Changed
@@ -166,12 +155,3 @@ Implemented a function `get_weighted_template()` that returns a randomly chosen 
 * `phylogenetic/__init__.py`
 * `phylogenetic/newickFormatReader.py`
 * `phylogenetic/TreeLifeData/`
-
-
-
-
-
-
-
-
-
