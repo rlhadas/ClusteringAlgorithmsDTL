@@ -157,3 +157,5 @@ Implemented a function `get_weighted_template()` that returns a randomly chosen 
 * `phylogenetic/__init__.py`
 * `phylogenetic/newickFormatReader.py`
 * `phylogenetic/TreeLifeData/`
+
+Documentation written by Jean!
