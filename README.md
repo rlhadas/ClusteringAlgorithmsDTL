@@ -2,6 +2,8 @@
 
 This repository contains code to test the Nearest Neighbor Interchange (NNI) conjecture in `nnic` and to experiment the K Medoids and K Centers algorithms with real data from the Tree of Life Data set in `phylogenetic`. This work is supported by the NSF Grant IIS-1419739.  Summer 2016 Researchers: Dani Bork, Ricson Cheng, Jean Sung and Jincheng Wang (aka South Pawns!!). Advisor: Prof Ran Libeskind-Hadas. 
 
+* Email `jsung@g.hmc.edu` to get access to past [experimental results](https://drive.google.com/drive/u/0/folders/0B9z84Or5GzOnX21VcjhlbXdYS0E).  
+
 ## For the causal user
 
 ### Testing individual Tree of Life files
