@@ -1,4 +1,4 @@
-# SummerResearch2016
+# ClusteringAlgorithmsDTL
 
 This repository contains code to experiment the K Medoids and K Centers algorithms with real data from the Tree of Life Data set. This work accompanies *Clustering Algorithms for Maximum Parsimony DTL Reconciliations*, a paper submitted to **Algorithms for Molecular Biology** in July 2016. 
 
