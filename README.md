@@ -12,7 +12,7 @@ This repository contains code to experiment the K Medoids and K Centers algorith
 ## For the causal user
 
 ### Testing individual Tree of Life files
-The main algorithms, k centers, and k medioids as described in the paper, are in `phylogenetic/cluster`. For k medoids, you can run the algorithm with random intial points or points as generated from a [point collection algorithm](https://en.wikipedia.org/wiki/Lloyd%27s_algorithm).
+The main algorithms, k centers, and k medioids as described in the paper, are in `cluster/`. For k medoids, you can run the algorithm with random intial points or points as generated from a [point collection algorithm](https://en.wikipedia.org/wiki/Lloyd%27s_algorithm).
 
 Run as:
 ```
@@ -26,11 +26,11 @@ python k_medoids_random.py ../TreeLifeData/COG1304.newick 4
 python k_medoids_pc.py ../TreeLifeData/COG1304.newick 4 
 ```
 
-* More information about testing individual files, including what the run outputs (debugging, results) are can be found at `phylogenetic/cluster/README.md` and `phylogenetic/cluster/README_old.md.`
+* More information about testing individual files, including what the run outputs (debugging, results) are can be found at `cluster/README.md` and `cluster/README_old.md.`
 
 
 ### Testing batch Tree of Life files
-To run the experiment on mutiple files, be in directory `phylogenetic/run_experiments.` Add the list of files you want to run the programs in a space seperated list in `test.sh.`
+To run the experiment on mutiple files, be in directory `run_experiments/.` Add the list of files you want to run the programs in a space seperated list in `test.sh.`
 
 Run as:
 ```
@@ -48,11 +48,11 @@ nohup nice -n 1 bash test.sh ../cluster/k_medoids_random.py ../run_experiments/e
 nohup nice -n 1 bash test.sh ../cluster/k_medoids_pointcollect.py ../run_experiments/experiment_info/km_pc_result.out >> experiment_info/km_pc_info.out &
 ```
 
-More information about testing batch files, including what you can do once you have the output (i.e. error checking and processing the data) can be found at `phylogenetic/run_experiments/README.md.`
+More information about testing batch files, including what you can do once you have the output (i.e. error checking and processing the data) can be found at `run_experiments/README.md.`
 
 
 ### Extra tools 
-There are tools to find the reconciliation count and graphs of various Tree of Life files, to verify the validity of the graphs generated, and to plot the file size against the recocniliation count. These are found in `phylogenetic/cluster/README.md.`
+There are tools to find the reconciliation count and graphs of various Tree of Life files, to verify the validity of the graphs generated, and to plot the file size against the recocniliation count. These are found in `cluster/README.md.`
 
 
 ## For the next researcher 
@@ -83,84 +83,84 @@ https://github.com/alex-ozdemir/phylogenetic-reconciliation
 * `nnic` 
 A directory that contains code to test the NNI Conjecture.
 
-* `phylogenetic/run_experiments/`
+* `run_experiments/`
 This directory contains bash scripts to run the k centers, k medoids (from random, from point collect), data from the run, and output (including crash data). 
 
-* `phylogenetic/run_experiments/processed_data`
+* `run_experiments/processed_data`
 This directory contains scripts to format the data that comes back from running the experiments into CSV for google sheets to plot histograms. 
 
-* `phylogenetic/cluster/cluster_debug`
+* `cluster/cluster_debug`
 This directory contains scripts and result files that are used to calculated the number of reconciliations for files in the TreeLifeData/ and verify that the new version of KMeans.py the DP.py work (produce frequencies that are less than 1). Use `verify_graphs.py` to check for the frequency likelihood that is more than 1.  
 
-* `phylogenetic/cluster/k_centers.py`, `phylogenetic/cluster/k_medoids_pointcollect.py`, `phylogenetic/cluster/k_medoids_random.py`
+* `cluster/k_centers.py`, `cluster/k_medoids_pointcollect.py`, `cluster/k_medoids_random.py`
 These files replace the original `FromNewick.py` file that was here, which created reconciliation graphs and calculcated reconciliation counts. The k centers algorithm as described in the paper (Summer 2016 in Share LaTex). Run as `python pythonFile newickFile maxK`. 
 
 
-* `phylogenetic/cluster/calc_recon.py`
+* `cluster/calc_recon.py`
 Create cache files for graphs and reconciliation counts for the files in `TreeLifeData/` directory. 
 
 
 
 ### Changed
 
-* `phylogenetic/DP.py`
+* `DP.py`
 The way that the preorder check was done is updated to check for same map nodes across different depth levels -- preorderCheck(preOrderList). Minor formatting (naming) and readability refactoring in addScores(treeMin, DTLDict, ScoreDict), no functional changes. Removed `import DrawDTL` as it is never used.
 
-* `phylogenetic/cluster/cache` 
+* `cluster/cache` 
 More reconciliation graphs constructed during experiment running. Also, added a corresponding set of `.count` files that hold the associated number of reconciliations. 
 
-* `phylogenetic/cluster/KMeans.py`
-Implemented a function `get_weighted_template()` that returns a randomly chosen node that is weighted by frequency as opposed to true random choice. Used in `phylogenetic/cluster/k_centers.py`, `phylogenetic/cluster/k_medoids_pointcollect.py`, `phylogenetic/cluster/k_medoids_random.py`
+* `cluster/KMeans.py`
+Implemented a function `get_weighted_template()` that returns a randomly chosen node that is weighted by frequency as opposed to true random choice. Used in `cluster/k_centers.py`, `cluster/k_medoids_pointcollect.py`, `cluster/k_medoids_random.py`
 
 
 ### Removed 
-* `phylogenetic/alignlib.py`
-* `phylogenetic/app.py`
-* `phylogenetic/calcCostscapeScore.py`
-* `phylogenetic/cgi.py`
-* `phylogenetic/commonAnalytic.py`
-* `phylogenetic/compbio/`
-* `phylogenetic/CostVector.py`
-* `phylogenetic/costscape`
-* `phylogenetic/costscapeNew`
-* `phylogenetic/costscapeScore.py`
-* `phylogenetic/cycleCheckingGraph.py`
-* `phylogenetic/detectCycles.py`
-* `phylogenetic/DPcostscape.py`
-* `phylogenetic/DrawDTL.py`
-* `phylogenetic/getInput.py`
-* `phylogenetic/make.sh`
-* `phylogenetic/MasterReconciliation.py`
-* `phylogenetic/newApp.py`
-* `phylogenetic/newickData/`
-* `phylogenetic/newickToVis.py`
-* `phylogenetic/RandomGenerator.py`
-* `phylogenetic/README`
-* `phylogenetic/rasmus/`
-* `phylogenetic/ReconConversion.py`
-* `phylogenetic/onlineFolder/`
-* `phylogenetic/orderGraph.py`
-* `phylogenetic/plotRecon.py`
-* `phylogenetic/reconcile.py`
-* `phylogenetic/reconciliationGraph.py`
-* `phylogenetic/static/`
-* `phylogenetic/svgFiles/`
-* `phylogenetic/templates/`
-* `phylogenetic/testFiles/`
-* `phylogenetic/testy.svg`
-* `phylogenetic/testytesty.svg`
-* `phylogenetic/unitScore.py`
-* `phylogenetic/updateFiles/`
-* `phylogenetic/Vidua/`
-* `phylogenetic/vistrans`
-* `phylogenetic/vistrans.py`
-* `phylogenetic/xscape/`
+* `alignlib.py`
+* `app.py`
+* `calcCostscapeScore.py`
+* `cgi.py`
+* `commonAnalytic.py`
+* `compbio/`
+* `CostVector.py`
+* `costscape`
+* `costscapeNew`
+* `costscapeScore.py`
+* `cycleCheckingGraph.py`
+* `detectCycles.py`
+* `DPcostscape.py`
+* `DrawDTL.py`
+* `getInput.py`
+* `make.sh`
+* `MasterReconciliation.py`
+* `newApp.py`
+* `newickData/`
+* `newickToVis.py`
+* `RandomGenerator.py`
+* `README`
+* `rasmus/`
+* `ReconConversion.py`
+* `onlineFolder/`
+* `orderGraph.py`
+* `plotRecon.py`
+* `reconcile.py`
+* `reconciliationGraph.py`
+* `static/`
+* `svgFiles/`
+* `templates/`
+* `testFiles/`
+* `testy.svg`
+* `testytesty.svg`
+* `unitScore.py`
+* `updateFiles/`
+* `Vidua/`
+* `vistrans`
+* `vistrans.py`
+* `xscape/`
 
 
 ### Not Changed
-* `phylogenetic/Greedy.py`
-* `phylogenetic/__init__.py`
-* `phylogenetic/newickFormatReader.py`
-* `phylogenetic/TreeLifeData/`
+* `Greedy.py`
+* `__init__.py`
+* `newickFormatReader.py`
+* `TreeLifeData/`
 
 Documentation written by Jean!
