@@ -7,7 +7,7 @@ File that runs the batch test. See main README.md for more detail.
 Program to select some Tree of Life files for running, randomly. 
 
 * `experimental_info/` 
-Place that the output files of the batch tests of the algorithms in `phylogenetic/cluster` are written to initially, also contains extra tools as described below.
+Place that the output files of the batch tests of the algorithms in `cluster/` are written to initially, also contains extra tools as described below.
 
 * `experiment_info/error_checking` 
 Contains scripts that take the result files from runnng k centers or k medoids (either) and creates a CSV that documents which files finished running and which files crashed (by counting result output rows).
