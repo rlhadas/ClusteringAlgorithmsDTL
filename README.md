@@ -9,7 +9,7 @@ This repository contains code to experiment the K Medoids and K Centers algorith
 * Email `jsung@g.hmc.edu` to get access to past [experimental results](https://drive.google.com/drive/u/0/folders/0B9z84Or5GzOnX21VcjhlbXdYS0E).
 
 
-## For the causal user
+## For the casual user
 
 ### Testing individual Tree of Life files
 The main algorithms, k centers, and k medioids as described in the paper, are in `cluster/`. For k medoids, you can run the algorithm with random intial points or points as generated from a [point collection algorithm](https://en.wikipedia.org/wiki/Lloyd%27s_algorithm).
