@@ -65,7 +65,7 @@ https://github.com/alex-ozdemir/phylogenetic-reconciliation
 * When the likelihood is more than 1 by a round error, the dictgraph is not fixed and the error can be propagated such that the ratios for end/start are not exactly correct. This has been documented in rare cases for k centers, when `k=1`. This is not mission critical as it is most likely due to a float error compounding, and `k=1` is not a meaningful results. These are the cases that were found:
 
 ```
-								End	Start	End/Start Normalized
+				End	Start	End/Start Normalized
 TreeLifeData/COG1344.newick	81	80.6	1.004962779
 TreeLifeData/COG1944.newick	29	28.8	1.006944444
 TreeLifeData/COG4965.newick	49	48.2	1.01659751
