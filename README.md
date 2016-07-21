@@ -21,9 +21,9 @@ python {TEST_FILE} {TREE_LIFE_FILE} {MAX_K}
 
 For example:
 ```
-python k_centers.py ../TreeLifeData/COG1304.newick 4 
-python k_medoids_random.py ../TreeLifeData/COG1304.newick 4 
-python k_medoids_pc.py ../TreeLifeData/COG1304.newick 4 
+python k_centers.py TreeLifeData/COG1304.newick 4 
+python k_medoids_random.py TreeLifeData/COG1304.newick 4 
+python k_medoids_pc.py TreeLifeData/COG1304.newick 4 
 ```
 
 * More information about testing individual files, including what the run outputs (debugging, results) are can be found at `cluster/README.md` and `cluster/README_old.md.`
@@ -43,9 +43,9 @@ For example:
 # nice -n 1 puts the program on lower priority 
 # & puts the process in the background
 # >> to append, > to write to 
-nohup nice -n 1 bash test.sh ../cluster/k_centers.py ../run_experiments/experiment_info/kcenters_result.out >> experiment_info/kcenters_info.out &
-nohup nice -n 1 bash test.sh ../cluster/k_medoids_random.py ../run_experiments/experiment_info/km_random_result.out >> experiment_info/km_random_info.out &
-nohup nice -n 1 bash test.sh ../cluster/k_medoids_pointcollect.py ../run_experiments/experiment_info/km_pc_result.out >> experiment_info/km_pc_info.out &
+nohup nice -n 1 bash test.sh cluster/k_centers.py run_experiments/experiment_info/kcenters_result.out >> run_experiments/experiment_info/kcenters_info.out &
+nohup nice -n 1 bash test.sh cluster/k_medoids_random.py run_experiments/experiment_info/km_random_result.out >> run_experiments/experiment_info/km_random_info.out &
+nohup nice -n 1 bash test.sh cluster/k_medoids_pointcollect.py run_experiments/experiment_info/km_pc_result.out >> run_experiments/experiment_info/km_pc_info.out &
 ```
 
 More information about testing batch files, including what you can do once you have the output (i.e. error checking and processing the data) can be found at `run_experiments/README.md.`
@@ -66,11 +66,11 @@ https://github.com/alex-ozdemir/phylogenetic-reconciliation
 
 ```
 								End	Start	End/Start Normalized
-../TreeLifeData/COG1344.newick	81	80.6	1.004962779
-../TreeLifeData/COG1944.newick	29	28.8	1.006944444
-../TreeLifeData/COG4965.newick	49	48.2	1.01659751
-../TreeLifeData/COG1433.newick	39	37.6	1.037234043
-../TreeLifeData/COG0630.newick	44	42.2	1.042654028
+TreeLifeData/COG1344.newick	81	80.6	1.004962779
+TreeLifeData/COG1944.newick	29	28.8	1.006944444
+TreeLifeData/COG4965.newick	49	48.2	1.01659751
+TreeLifeData/COG1433.newick	39	37.6	1.037234043
+TreeLifeData/COG0630.newick	44	42.2	1.042654028
 ```
 * `TreeLifeData/COG500.newick` is a file that is an order of magnitude larger than any other file -- skip it for a typical test case
 * Some of the naming in the debugging output and the files is really outdated, for example when running k medoids, the output refers to running the k means algorithm which is not what is happening
